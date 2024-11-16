@@ -1,0 +1,4 @@
+Django==4.2.5          # Core web framework
+djangorestframework==3.14.0  # For building REST APIs
+pillow==10.0.1         # For handling images
+django-crispy-forms==2.0  # optional
