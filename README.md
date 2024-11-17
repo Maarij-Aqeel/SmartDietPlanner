@@ -17,8 +17,8 @@ A dynamic and user-friendly website built with Django and Python that assists us
 
 1. Clone the repository  
 ```
-git clone https://github.com/Maarij-Aqeel/diet-planner.git  
-cd diet-planner  
+git clone https://github.com/Maarij-Aqeel/SmartDietPlanner.git  
+cd SmartDietPlanner  
 ```
 2. Set up a virtual environment and activate it  
 ```
