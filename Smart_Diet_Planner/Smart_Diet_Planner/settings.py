@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Including app to root project
+    'Diet_planner_app.apps.DietPlannerAppConfig'
 ]
 
 MIDDLEWARE = [
