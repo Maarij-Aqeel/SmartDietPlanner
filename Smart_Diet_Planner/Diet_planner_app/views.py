@@ -8,3 +8,6 @@ def login(request):
 
 def about(request):
     return render(request, 'Diet_planner_app/About.html')
+
+def contact(request):
+    return render(request, 'Diet_planner_app/Contact.html')

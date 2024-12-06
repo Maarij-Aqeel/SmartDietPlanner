@@ -14,7 +14,7 @@
     <div class="login_page">
         <div class="container" id="container">
             <div class="form-container sign-up-container">
-                <form action="#">
+                <form action="{% url 'home' %}">
                     <h1>Create Account</h1>
                     <div class="social-container">
                         <a href="#" class="social"><img src="{% static 'media/icons/apple.svg' %}" alt="Apple"></a>
@@ -31,7 +31,7 @@
                 </form>
             </div>
             <div class="form-container sign-in-container">
-                <form action="#">
+                <form action="{% url 'home' %}">
                     <h1>Sign in</h1>
                     <div class="social-container">
                         <a href="#" class="social"><img src="{% static 'media/icons/apple.svg' %}"
