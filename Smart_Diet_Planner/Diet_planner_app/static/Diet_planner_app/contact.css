@@ -60,7 +60,7 @@
   background: white;
   padding: 40px 30px;
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: all 0.3s ease;
   min-height: 300px;
@@ -68,7 +68,7 @@
 
 .contact-card:hover {
   transform: translateY(-15px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 .icon-wrapper {
@@ -116,7 +116,7 @@
   background: white;
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .form-row {
@@ -185,15 +185,15 @@
 
 @media (max-width: 768px) {
   .contact-cards {
-      grid-template-columns: 1fr;
-      margin-top: -50px;
+    grid-template-columns: 1fr;
+    margin-top: -50px;
   }
 
   .form-row {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 
   .hero-content h1 {
-      font-size: 2.5em;
+    font-size: 2.5em;
   }
 }

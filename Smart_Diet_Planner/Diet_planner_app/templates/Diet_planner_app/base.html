@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,127 +16,129 @@
     css didn't load properly
     {% endblock %}
 </head>
+
 <body>
-<header>
-    <navbar class='navbar poppins-medium' id="navbar">
-        <div class="Navbar-bg">
-            <div class="navbar-left">
-                <img src="{% static 'media/Diet_logo.png' %}" alt="logo" style="height: 55px;">
-                <p style="color: black; margin-left: 10px;">Diet <span style="color: green;">Planner</span></p>
-            </div>
-            <div class="navbar-right">
-                <!-- Hamburger icon for mobile -->
-                <div class="hamburger" id="hamburger">
-                    &#9776; <!-- Unicode for a hamburger icon -->
+    <header>
+        <navbar class='navbar poppins-medium' id="navbar">
+            <div class="Navbar-bg">
+                <div class="navbar-left">
+                    <img src="{% static 'media/Diet_logo.png' %}" alt="logo" style="height: 55px;">
+                    <p style="color: black; margin-left: 10px;">Diet <span style="color: green;">Planner</span></p>
                 </div>
-                <div class="navbar-right-menu">
-                    <ul class="menu-list" style="margin-bottom: 0;">
-                        <li><a href="{% url 'home' %}">Home</a></li>
-                        <li><a href="recipes2.html">Meal Planner</a></li>
-                        <li><a href="recipes.html">Recipes</a></li>
-                        <li><a href="{% url 'contact' %}">Contact</a></li>
-                    </ul>
-                    <div class="vertical-line"></div>
-                </div>
-                <div class="login-signup">
-                    <button type="button" class="btn-login login" style="margin-left: 18px; margin-right: 10px">
-                        <a href="{% url 'login' %}" style="text-decoration: none; color: inherit;">Login</a>
-                    </button>
+                <div class="navbar-right">
+                    <!-- Hamburger icon for mobile -->
+                    <div class="hamburger" id="hamburger">
+                        &#9776; <!-- Unicode for a hamburger icon -->
+                    </div>
+                    <div class="navbar-right-menu">
+                        <ul class="menu-list" style="margin-bottom: 0;">
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="recipes2.html">Meal Planner</a></li>
+                            <li><a href="recipes.html">Recipes</a></li>
+                            <li><a href="{% url 'contact' %}">Contact</a></li>
+                        </ul>
+                        <div class="vertical-line"></div>
+                    </div>
+                    <div class="login-signup">
+                        <button type="button" class="btn-login login" style="margin-left: 18px; margin-right: 10px">
+                            <a href="{% url 'login' %}" style="text-decoration: none; color: inherit;">Login</a>
+                        </button>
 
-                    <button type="button" class="nav-get-demo">Get Demo</button>
+                        <button type="button" class="nav-get-demo">Get Demo</button>
+                    </div>
                 </div>
+            </div>
+            <!-- Responsive menu for mobile -->
+            <div class="mobile-menu" id="mobileMenu">
+                <ul class="mobile-menu-list">
+                    <li>Home</li>
+                    <li>Meal Planner</li>
+                    <li>Recipes</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </navbar>
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- This is where child template content will be inserted -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo Section -->
+                <div class="footer-logo">
+                    <div class="logo-container">
+                        <img src="{% static 'media/Diet_logo.png' %}" alt="Logo">
+                        <div class="logo-text">
+                            <p>Diet <span>Planner</span></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <span class="tagline">Towards your better self.</span>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <div class="quick-links">
+                        <div class="quick-links-content">
+                            <h5>Quick Links</h5>
+                            <div class="links-columns">
+                                <div class="links-column">
+                                    <ul>
+                                        <li><a href="{% url 'home' %}">Home</a></li>
+                                        <li><a href="#">Meal Plans</a></li>
+                                        <li><a href="#">Recipes</a></li>
+                                        <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="links-column">
+                                    <ul>
+                                        <li><a href="#">Roadmaps</a></li>
+                                        <li><a href="{% url 'about' %}">About</a></li>
+                                        <li><a href="#">Terms of Use</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="footer-social">
+                    <h5>Follow us on:</h5>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <div class="social-icon">
+                                <img src="{% static 'media/icons/instagramwhite.svg' %}" alt="instagram" width="100%">
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <div class="social-icon">
+                                <img src="{% static 'media/icons/facebookwhite.svg' %}" alt="facebook" width="100%">
+                            </div>
+                        </a>
+                        <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                            <div class="social-icon">
+                                <img src="{% static 'media/icons/googlewhite.svg' %}" alt="google" width="100%">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <!-- Responsive menu for mobile -->
-        <div class="mobile-menu" id="mobileMenu">
-            <ul class="mobile-menu-list">
-                <li>Home</li>
-                <li>Meal Planner</li>
-                <li>Recipes</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-    </navbar>
-</header>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    {% block js %}
 
-<main>
-    {% block content %}
-    <!-- This is where child template content will be inserted -->
     {% endblock %}
-</main>
-
-<footer>
-    <div class="container">
-        <div class="footer-content">
-            <!-- Logo Section -->
-            <div class="footer-logo">
-                <div class="logo-container">
-                    <img src="{% static 'media/Diet_logo.png' %}" alt="Logo">
-                    <div class="logo-text">
-                        <p>Diet <span>Planner</span></p>
-                    </div>
-                </div>
-                <hr>
-                <span class="tagline">Towards your better self.</span>
-            </div>
-
-            <!-- Quick Links -->
-            <div class="footer-links">
-                <div class="quick-links">
-                    <div class="quick-links-content">
-                        <h5>Quick Links</h5>
-                        <div class="links-columns">
-                            <div class="links-column">
-                                <ul>
-                                    <li><a href="{% url 'home' %}">Home</a></li>
-                                    <li><a href="#">Meal Plans</a></li>
-                                    <li><a href="#">Recipes</a></li>
-                                    <li><a href="{% url 'contact' %}">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <div class="links-column">
-                                <ul>
-                                    <li><a href="#">Roadmaps</a></li>
-                                    <li><a href="{% url 'about' %}">About</a></li>
-                                    <li><a href="#">Terms of Use</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Social Media Links -->
-            <div class="footer-social">
-                <h5>Follow us on:</h5>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                        <div class="social-icon">
-                            <img src="{% static 'media/facebook.png' %}" alt="facebook" width="100%">
-                        </div>
-                    </a>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                        <div class="social-icon">
-                            <img src="{% static 'media/google.png' %}" alt="google" width="100%">
-                        </div>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                        <div class="social-icon">
-                            <img src="{% static 'media/instagram.png' %}" alt="instagram" width="100%">
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</footer>
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
-{% block js %}
-
-{% endblock %}
 </body>
+
 </html>

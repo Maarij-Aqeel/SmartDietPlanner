@@ -1,13 +1,13 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request,'Diet_planner_app/Home.html')
+    return render(request, 'Diet_planner_app/home.html')
 
 def login(request):
-    return render(request, 'Diet_planner_app/Login.html')
+    return render(request, 'Diet_planner_app/login.html')
 
 def about(request):
-    return render(request, 'Diet_planner_app/About.html')
+    return render(request, 'Diet_planner_app/about.html')
 
 def contact(request):
-    return render(request, 'Diet_planner_app/Contact.html')
+    return render(request, 'Diet_planner_app/contact.html')

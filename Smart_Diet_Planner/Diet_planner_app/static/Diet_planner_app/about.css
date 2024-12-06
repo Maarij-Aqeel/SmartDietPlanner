@@ -86,9 +86,17 @@ body {
 }
 
 @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0px); }
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .team-member:nth-child(even) {
@@ -214,7 +222,9 @@ body {
         font-size: 2rem;
     }
 
-    .goals-grid, .testimonial-grid, .approach-grid {
+    .goals-grid,
+    .testimonial-grid,
+    .approach-grid {
         grid-template-columns: 1fr;
     }
 
