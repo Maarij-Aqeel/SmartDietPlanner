@@ -5,3 +5,6 @@ def home(request):
 
 def login(request):
     return render(request, 'Diet_planner_app/Login.html')
+
+def about(request):
+    return render(request, 'Diet_planner_app/About.html')
