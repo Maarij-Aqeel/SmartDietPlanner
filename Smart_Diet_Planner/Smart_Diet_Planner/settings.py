@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Diet_planner_app.apps.DietPlannerAppConfig'
+    'Diet_planner_app.apps.DietPlannerAppConfig',
+    'social_django'
 ]
 
 MIDDLEWARE = [

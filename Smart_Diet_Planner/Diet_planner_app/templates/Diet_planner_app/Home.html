@@ -4,11 +4,249 @@
 Home
 {% endblock %}
 
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'Diet_planner_app/home_page.css' %}">
+{% endblock %}
+
 {% block content %}
-<br>
-<h1>Home Page</h1>
-<p>
-    Use the syntax in Home.html to create new pages by wrapping them around the Header and footer in base.html.
-</p>
-<br>
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Your Personalized Roadmap to Healthy Living - Guided by <span>AI</span></h1>
+            <p class="hero-description">Personalized diets and AI-driven guidance to help you achieve your health goals
+                effortlessly.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-sign-up">Sign Up</button>
+                <button class="btn btn-demo">Get Demo</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="{% static 'media/hero-img.png' %}" alt="Healthy meal" class="plate">
+        </div>
+    </section>
+
+    <!-- How its works  -->
+    <section class="sec-howitworks">
+        <div class="how-it-works-container">
+            <h1>How It Works</h1>
+            <div class="how-it-works-cards-grid">
+                <div class="how-it-works-card">
+                    <div class="how-it-works-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="12" y1="8" x2="12" y2="12" />
+                            <line x1="12" y1="16" x2="12" y2="16" />
+                        </svg>
+                    </div>
+                    <h2>Set your goals</h2>
+                    <p>Choose your health targets, whether it's weight loss, muscle gain, or simply adopting a healthier
+                        lifestyle.</p>
+                </div>
+
+                <div class="how-it-works-card">
+                    <div class="how-it-works-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                        </svg>
+                    </div>
+                    <h2>Get Your Personalized Plan</h2>
+                    <p>Our AI coach analyzes your goals and needs to create a custom diet plan that's tailored just for
+                        you.</p>
+                </div>
+
+                <div class="how-it-works-card">
+                    <div class="how-it-works-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                        </svg>
+                    </div>
+                    <h2>Stay on Track with Daily Support</h2>
+                    <p>Enjoy daily reminders and recipe guides that make it easy to stick to your plan.</p>
+                </div>
+
+                <div class="how-it-works-card">
+                    <div class="how-it-works-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                        </svg>
+                    </div>
+                    <h2>See Results Over Time</h2>
+                    <p>Track your progress with our easy-to-use dashboard. Watch as your personalized plan helps you
+                        meet your health goals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Personalized Features -->
+    <section class="sec-personsalized">
+        <div class="features-container">
+            <h1 class="title">Personalised Features</h1>
+
+            <div class="feature-card">
+                <div class="feature-image-container">
+                    <img src="{% static 'media/unsplash_6AUHONBTYjI.png' %}" alt="Custom Diet Plans" class="feature-image">
+                </div>
+                <div class="feature-content">
+                    <h2 class="feature-title">Custom Diet Plans for Your Goals</h2>
+                    <p class="feature-description">Whether you're aiming to lose weight, gain muscle, or simply eat
+                        healthier, we create a plan that aligns with your specific fitness goals.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-image-container">
+                    <img src="{% static 'media/unsplash_a9rxefN9vgY.png' %}" alt="Preferences" class="feature-image">
+                </div>
+                <div class="feature-content ">
+                    <h2 class="feature-title">Your Preferences, Your Plan</h2>
+                    <p class="feature-description">We take your dietary preferences and restrictions into account—from
+                        vegan and keto diets to allergies or food intolerances</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-image-container">
+                    <img src="{% static 'media/unsplash_TN09yTRftZ8.png' %}" alt="Roadmap" class="feature-image">
+                </div>
+                <div class="feature-content">
+                    <h2 class="feature-title">Tailored Roadmap for Success</h2>
+                    <p class="feature-description">Each week is mapped out, providing you with meals, snacks, and
+                        shopping lists that fit your lifestyle, helping you stay consistent and see progress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ai chat bot description -->
+    <section class="smart-planner-container">
+        <div class="smart-section">
+            <h1 class="smart-title">AI Diet Planner & Coach</h1>
+        </div>
+
+        <div class="smart-feature-block">
+            <div class="smart-container">
+                <div class="smart-feature-image">
+                    <img src="{% static 'media/smart-recs.png' %}" alt="Smart Recipe Interface">
+                </div>
+                <div class="smart-feature-content">
+                    <h2 class="smart-feature-title">Smart Recipe Recommendations</h2>
+                    <p class="smart-feature-description">Based on your dietary preferences, goals, and the foods you
+                        enjoy,
+                        the AI coach suggests new recipes each week, keeping your meals exciting, varied, and aligned
+                        with your nutrition plan</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="smart-feature-block">
+            <div class="smart-container">
+                <div class="smart-feature-content">
+                    <h2 class="smart-feature-title">Real-Time Adjustments</h2>
+                    <p class="smart-feature-description">As you progress, your AI coach learns and adapts. If your goals
+                        shift
+                        or your preferences change, your diet plan is updated in real-time</p>
+                </div>
+                <div class="smart-feature-image">
+                    <img src="{% static 'media/real-time.png' %}" alt="Real-time Dashboard">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Frequently asked question -->
+    <section class="FAQ">
+        <div class="faq-container">
+            <h1>Frequently Asked Questions</h1>
+            <div class="faq-container-second">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How does the AI coach create my personalized diet plan?
+                        <span class="faq-icon"></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            The AI coach analyzes your goals, preferences, dietary restrictions, and activity level to
+                            create a custom plan tailored to your needs. It continuously adapts based on your progress
+                            and feedback to ensure you're always on track to meet your health objectives.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I track my progress?
+                        <span class="faq-icon"></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            You can track your progress through our intuitive dashboard that shows your weight trends,
+                            measurements, daily food logs, and workout completion rates. The app also provides weekly
+                            progress reports and milestone celebrations to keep you motivated.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I follow specific diet plans, like Keto or Vegan, with the AI coach?
+                        <span class="faq-icon"></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes! Our AI coach can adapt to various dietary preferences and restrictions, including Keto,
+                            Vegan, Vegetarian, Paleo, and more. Simply specify your preferred diet type during the
+                            initial setup, and the AI will create a plan that aligns with those guidelines while meeting
+                            your nutritional needs.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What happens if I miss a meal or fall off track?
+                        <span class="faq-icon"></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Don't worry! The AI coach understands that setbacks happen. It will help you adjust your
+                            plan accordingly and provide alternative solutions to get back on track. The focus is on
+                            progress, not perfection, and the AI will offer encouraging support rather than criticism.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How often should I update my measurements?
+                        <span class="faq-icon"></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We recommend updating your measurements weekly for the most accurate tracking and plan
+                            adjustments. This helps the AI coach optimize your plan based on your progress and ensure
+                            you're moving towards your goals effectively.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I customize my meal plans?
+                        <span class="faq-icon"></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Absolutely! You can customize your meal plans by setting food preferences, allergies, and
+                            dietary restrictions. The AI coach will take these into account while ensuring your
+                            nutritional needs are met and your goals are supported.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'Diet_planner_app/home.js' %}"></script>
 {% endblock %}
