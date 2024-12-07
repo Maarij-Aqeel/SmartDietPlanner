@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('Diet_planner_app.urls')),
     path('accounts/', include('allauth.urls')),
+    path('social/', include('social_django.urls', namespace='social')),
 
 ]

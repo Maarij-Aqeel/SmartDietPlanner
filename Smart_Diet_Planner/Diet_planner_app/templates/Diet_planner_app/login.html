@@ -18,7 +18,7 @@
                     <h1>Create Account</h1>
                     <div class="social-container">
                         <a href="#" class="social"><img src="{% static 'media/icons/apple.svg' %}" alt="Apple"></a>
-                        <a href="#" class="social"><img src="{% static 'media/icons/facebook.svg' %}"
+                        <a href="{% url 'social:begin' 'facebook' %}" class="social"><img src="{% static 'media/icons/facebook.svg' %}"
                                 alt="Facebook"></a>
                         <a href="{% provider_login_url 'google' %}?next=/" class="social"><img src="{% static 'media/icons/google.svg' %}" alt="Google"></a>
                     </div>
@@ -34,7 +34,7 @@
                     <h1>Sign in</h1>
                     <div class="social-container">
                         <a href="#" class="social"><img src="{% static 'media/icons/apple.svg' %}" alt="Apple"></a>
-                        <a href="#" class="social"><img src="{% static 'media/icons/facebook.svg' %}"
+                        <a href="{% url 'social:begin' 'facebook' %}"class="social"><img src="{% static 'media/icons/facebook.svg' %}"
                                 alt="Facebook"></a>
                         <a href="{% provider_login_url 'google' %}?next=/" class="social"><img src="{% static 'media/icons/google.svg' %}" alt="Google"></a>
                         
