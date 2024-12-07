@@ -9,6 +9,6 @@
 * **dataset-expanded:** \
      Contains the augmented datasets, all of them containing only the 'query' and 'response' columns: \
       \
-  						&rarr; diet_conversations.csv: Contains the augmented diets data. \
-  						&rarr; recipe_conversations.csv: Contains the augmented recipes data. \
-  						&rarr; finetuning_data_v2.csv: Contains the augmented dataset with around 22000 rows used for model finetuning
+	&rarr; diet_conversations.csv: Contains the augmented diets data. \
+	&rarr; recipe_conversations.csv: Contains the augmented recipes data. \
+	&rarr; finetuning_data_v2.csv: Contains the augmented dataset with around 22000 rows used for model finetuning

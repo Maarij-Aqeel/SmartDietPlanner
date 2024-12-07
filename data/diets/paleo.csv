@@ -1,0 +1,1275 @@
+Diet_type,Recipe_name,Cuisine_type,Protein(g),Carbs(g),Fat(g),Extraction_day,Extraction_time
+paleo,Bone Broth From 'Nom Nom Paleo',american,5.22,1.29,3.2,2022-10-16,17:20:09
+paleo,"Paleo Effect Asian-Glazed Pork Sides, A Sweet & Crispy Appetizer",south east asian,181.55,28.62,146.14,2022-10-16,17:20:09
+paleo,Paleo Pumpkin Pie,american,30.91,302.59,96.76,2022-10-16,17:20:09
+paleo,Strawberry Guacamole recipes,mexican,9.62,75.78,59.89,2022-10-16,17:20:09
+paleo,"Asian Cauliflower Fried ""Rice"" From 'Nom Nom Paleo'",chinese,39.84,54.08,71.55,2022-10-16,17:20:09
+paleo,Paleo Shrimp-Stuffed Mushrooms recipes,mediterranean,68.62,34.15,42.44,2022-10-16,17:20:09
+paleo,Paleo Pumpkin Pie recipes,american,30.03,275.88,97.68,2022-10-16,17:20:09
+paleo,Autoimmune Paleo Pesto,italian,4.25,14.15,72.9,2022-10-16,17:20:09
+paleo,Baked Banana Chip Encrusted French Toast,french,152.88,1874.52,385.8,2022-10-16,17:20:09
+paleo,Vietnamese Pho Pressure Cooker (Noodle Soup),south east asian,602.91,274.87,400.01,2022-10-16,17:20:09
+paleo,Paleo Collard Burrito,mexican,44.62,28.66,78.46,2022-10-16,17:20:09
+paleo,Paleo Chawanmushi (Savory Egg Custard) recipes,american,61.43,13.29,24.6,2022-10-16,17:20:09
+paleo,‘paleo' banana bread,american,46.69,192.54,156.48,2022-10-16,17:20:09
+paleo,Leftover Turkey Sandwich recipes,american,54.09,34.97,14.1,2022-10-16,17:20:16
+paleo,Paleo Pumpkin Waffles,american,51.24,89.63,78.38,2022-10-16,17:20:16
+paleo,Fudgy Paleo Brownies,french,64.29,263.65,176.36,2022-10-16,17:20:16
+paleo,Magic Wings recipes,american,320.76,28.36,252.82,2022-10-16,17:20:16
+paleo,Turkey Club Sandwich,american,46.92,39.94,19.6,2022-10-16,17:20:16
+paleo,Easy Paleo Meatloaf,american,185.99,47.82,260.64,2022-10-16,17:20:16
+paleo,Paleo Crepes,french,15.73,15.91,49.16,2022-10-16,17:20:16
+paleo,Chocolate Pecan Pie recipes,american,59.86,567.39,320.76,2022-10-16,17:20:16
+paleo,Simple Crab Salad recipes,american,82.1,4.75,20.24,2022-10-16,17:20:16
+paleo,Chocolate Pecan Pie,american,54.7,503.39,320.12,2022-10-16,17:20:16
+paleo,Asian Meatballs recipes,indian,167.07,55.11,210.14,2022-10-16,17:20:16
+paleo,Blueberry French Toast Casserole,french,78.59,290.1,84.95,2022-10-16,17:20:16
+paleo,Paleo Spanish Rice,mediterranean,28.67,64.13,37.71,2022-10-16,17:20:23
+paleo,Whole30® Sriracha,south east asian,12.16,85.78,2.91,2022-10-16,17:20:23
+paleo,Banana Cream Pie,american,17.85,215.69,304.25,2022-10-16,17:20:23
+paleo,Spicy Salmon Cucumber Bites recipes,nordic,49.84,17.2,75.62,2022-10-16,17:20:23
+paleo,Blueberry French Toast Casserole recipes,french,78.59,290.1,84.95,2022-10-16,17:20:23
+paleo,Paleo Honey Cake,eastern europe,87.32,258.25,259.21,2022-10-16,17:20:23
+paleo,Chocolate Pumpkin Pie recipes,central europe,44.05,429.69,162.78,2022-10-16,17:20:23
+paleo,Paleo Creamy Alfredo,american,16.48,32.46,91.36,2022-10-16,17:20:23
+paleo,Paleo Blini recipes,eastern europe,15.5,12.78,23.29,2022-10-16,17:20:23
+paleo,Paleo Tzimmes,kosher,16.11,236.88,3.86,2022-10-16,17:20:23
+paleo,Paleo Pumpkin Bars,american,39.73,169.01,117.95,2022-10-16,17:20:23
+paleo,Paleo Fruitcake,american,82.45,271.48,204.91,2022-10-16,17:20:23
+paleo,Paleo Chocolate Frosting,american,14.19,85.18,150.26,2022-10-16,17:20:23
+paleo,Paleo Crepes recipes,french,27.38,9.57,61.87,2022-10-16,17:20:29
+paleo,Paleo Peach Crisp,french,39.58,126.88,97.83,2022-10-16,17:20:29
+paleo,Paleo Pumpkin Bars,american,36.27,182.51,105.1,2022-10-16,17:20:29
+paleo,Paleo Honey Cake,american,87.32,258.25,259.24,2022-10-16,17:20:29
+paleo,Paleo Carrot Soup,american,27.17,116.73,125.14,2022-10-16,17:20:29
+paleo,Paleo Fruitcake recipes,american,85.97,271.68,207.57,2022-10-16,17:20:29
+paleo,Best Paleo Chili,american,193.11,83.93,227.24,2022-10-16,17:20:36
+paleo,Perfect Paleo Pizza,italian,123.47,75.65,235.87,2022-10-16,17:20:36
+paleo,Grain-Free Cauliflower Fried Rice recipes,chinese,37.54,56.92,53.88,2022-10-16,17:20:36
+paleo,Paleo Chocolate Frosting recipes,american,7.27,112.19,269.91,2022-10-16,17:20:36
+paleo,Paleo Eggplant Lasagna,italian,172.17,186.26,467.17,2022-10-16,17:20:36
+paleo,Paleo Pecan Tart Crust,american,20.15,24.96,111.99,2022-10-16,17:20:36
+paleo,Paleo Shepherd’s Pie,american,189.35,143.25,300.66,2022-10-16,17:20:36
+paleo,Paleo Pie Crust recipes,american,56.39,43.01,143.87,2022-10-16,17:20:36
+paleo,Paleo Mug Cake recipes,british,10.48,19.56,12.5,2022-10-16,17:20:36
+paleo,Paleo Flourless Chocolate Cake,american,83.82,384.27,324.34,2022-10-16,17:20:36
+paleo,Mini Paleo Egg Bites,american,118.36,6.54,61.57,2022-10-16,17:20:36
+paleo,Egg-Free Paleo Macaroons,french,9.91,99.09,110.51,2022-10-16,17:20:36
+paleo,Paleo Raw Chocolate Bites,american,46.07,261.6,147.5,2022-10-16,17:20:36
+paleo,Paleo Mushroom Soup recipes,french,60.19,112.58,52.61,2022-10-16,17:20:43
+paleo,Paleo Birthday Cake recipes,american,68.21,199.96,161.13,2022-10-16,17:20:43
+paleo,Paleo Avocado Tuna Salad,mexican,32.45,24.27,31.05,2022-10-16,17:20:43
+paleo,Paleo Honey Cake recipes,eastern europe,90.83,258.46,261.91,2022-10-16,17:20:43
+paleo,Paleo Pumpkin Bars recipes,american,49.0,412.09,116.03,2022-10-16,17:20:43
+paleo,Perfect Paleo Baked Salmon,nordic,161.95,1.17,160.83,2022-10-16,17:20:43
+paleo,Chocolate Mousse (Paleo! Keto!),french,20.23,126.01,153.36,2022-10-16,17:20:43
+paleo,Crab + Avocado Temaki recipes,caribbean,88.79,32.66,55.58,2022-10-16,17:20:50
+paleo,Red Cabbage Slaw with Tangy Carrot Ginger Dressing recipes,american,9.65,42.63,83.92,2022-10-16,17:20:50
+paleo,Paleo Prosciutto Egg Cups,italian,80.95,6.34,113.98,2022-10-16,17:20:50
+paleo,Paleo Chicken Adobo recipes,mediterranean,123.17,61.52,107.7,2022-10-16,17:20:50
+paleo,Cranberry Apple Stuffing,american,47.89,285.93,93.75,2022-10-16,17:20:50
+paleo,Paleo Dirty Rice recipes,caribbean,26.68,80.75,35.37,2022-10-16,17:20:50
+paleo,Slow-Cooker Paleo Meatballs,eastern europe,145.6,102.25,144.33,2022-10-16,17:20:50
+paleo,Delicata Squash Stuffed with Spiced Meat and Tomatoes (serves 2) and a side of Sauteed Chard recipes,italian,100.74,92.07,360.57,2022-10-16,17:20:50
+paleo,Paleo Pork Chili Verde,american,107.7,68.02,28.69,2022-10-16,17:20:50
+paleo,Paleo Steak and Egg Salad,american,65.19,17.09,69.97,2022-10-16,17:20:50
+paleo,Easy Paleo Beef with Broccoli,mediterranean,102.5,38.41,98.85,2022-10-16,17:20:50
+paleo,Paleo Party Pork Carnitas,mexican,268.92,128.88,334.28,2022-10-16,17:20:50
+paleo,Paleo Pecan Tart Crust recipes,american,21.03,25.01,112.66,2022-10-16,17:20:50
+paleo,Paleo Shepherd's Pie recipes,american,189.35,143.25,300.66,2022-10-16,17:20:50
+paleo,Paleo Vanilla Birthday Cake recipes,french,71.11,159.31,147.25,2022-10-16,17:20:56
+paleo,Egg-Free Paleo Macaroons recipes,french,10.16,105.7,110.51,2022-10-16,17:20:56
+paleo,Paleo Raw Chocolate Bites recipes,american,46.07,261.6,147.5,2022-10-16,17:20:56
+paleo,Perfect Paleo Pie Crust recipes,american,43.97,104.37,160.83,2022-10-16,17:20:56
+paleo,Practical Paleo: Mint Chip Truffles,american,3.76,23.94,80.65,2022-10-16,17:20:56
+paleo,Cindy's Paleo Harvest Chili,american,210.45,139.56,272.52,2022-10-16,17:20:56
+paleo,Instant Pot Paleo Pork Tenderloin,french,362.76,16.83,64.04,2022-10-16,17:20:56
+paleo,Paleo Pecan-Crusted Chicken | everydaypaleo.com,american,258.66,55.59,103.91,2022-10-16,17:20:56
+paleo,Entertain Meatloaf Style,american,197.94,70.1,110.07,2022-10-16,17:20:56
+paleo,Semi-Homemade Paleo Spaghetti And Meatballs,italian,128.54,366.81,166.72,2022-10-16,17:20:56
+paleo,Easy Paleo Herb Gravy recipes,french,23.56,39.05,42.25,2022-10-16,17:21:04
+paleo,Homemade Mayo (Paleo and Whole30 Friendly!),italian,2.81,1.11,112.61,2022-10-16,17:21:04
+paleo,Paleo and Vegan Pesto stuffed mushrooms,american,10.73,15.5,49.29,2022-10-16,17:21:04
+paleo,Paleo Un-Stuffed Cabbage Soup,italian,141.27,55.82,198.73,2022-10-16,17:21:04
+paleo,Sweet Potato Chili (Paleo-Friendly!),american,98.56,191.3,176.93,2022-10-16,17:21:04
+paleo,Paleo Dirty Cauliflower ‘Rice’ Recipe,mediterranean,26.68,80.75,35.37,2022-10-16,17:21:04
+paleo,Spicy Paleo Pumpkin Muffins recipes,british,121.84,413.93,317.39,2022-10-16,17:21:04
+paleo,Paleo Cauliflower Bacon Fried Rice Recipe,chinese,28.76,50.01,48.09,2022-10-16,17:21:04
+paleo,Paleo Beef and Sweet Potato Stew,american,200.82,153.82,102.62,2022-10-16,17:21:04
+paleo,Paleo Comfort Foods’ Poached Pears recipes,french,9.82,214.27,3.04,2022-10-16,17:21:04
+paleo,Madras Chicken Salad recipes,mediterranean,150.18,41.36,123.75,2022-10-16,17:21:04
+paleo,Slow Cooker Cheater Pork Stew recipes,french,244.29,69.44,249.9,2022-10-16,17:21:04
+paleo,Strawberry Rhubarb Crisp - and it's paleo. recipes,american,32.24,250.87,139.25,2022-10-16,17:21:04
+paleo,Paleo Pasta Salad with Avocado Oil Vinaigrette,french,31.23,74.97,116.67,2022-10-16,17:21:04
+paleo,The Paleo Diet’s Salmon Caesar Salad Recipe,nordic,155.95,49.31,150.25,2022-10-16,17:21:04
+paleo,"Eggplant ""Ricotta"" Stacks From 'Nom Nom Paleo'",italian,32.32,157.39,194.11,2022-10-16,17:21:11
+paleo,Southwest Cowboy Chili From 'Nom Nom Paleo',american,430.2,138.37,178.17,2022-10-16,17:21:11
+paleo,Swiss Paleo’s Homemade Italian & Chorizo Sausage,italian,1273.61,83.34,1608.54,2022-10-16,17:21:11
+paleo,Paleo Doritos Toast Will Scratch Your Snack Itch,american,32.75,22.67,2.45,2022-10-16,17:21:11
+paleo,"Paleo Pumpkin, Coconut, & Maple Custard Cups recipes",american,36.0,142.79,107.74,2022-10-16,17:21:11
+paleo,Paleo Spaghetti Squash and Amped Up Meatballs,italian,128.33,154.22,125.77,2022-10-16,17:21:11
+paleo,Swiss Paleo’s Bugs Bunny Hasenpfeffer Stew recipes,nordic,65.78,96.23,130.86,2022-10-16,17:21:11
+paleo,The Paleo Kitchen’s Honey Mustard Chicken Thighs recipes,french,152.56,53.59,205.36,2022-10-16,17:21:11
+paleo,Stupid Easy Paleo’s Kickin’ BBQ Shredded Chicken recipes,american,283.7,78.55,252.1,2022-10-16,17:21:11
+paleo,Paleo-Friendly Roasted Butternut Squash with Crispy Sage Leaves,nordic,6.45,66.8,42.58,2022-10-16,17:21:11
+paleo,Orange Sriracha Chicken recipes,south east asian,104.17,82.97,64.82,2022-10-16,17:21:11
+paleo,Overnight Cherry Chia Seed Pudding – Paleo/Gluten Free/Vegan,american,12.77,112.92,56.84,2022-10-16,17:21:11
+paleo,Paleo Pumpkin Gingerbread Cake with Maple-Vanilla Frosting recipes,american,73.83,185.59,307.46,2022-10-16,17:21:11
+paleo,"Sweet Potato & Pork Thanksgiving Stuffing (Paleo, Gluten-Free) recipes",american,197.91,312.15,371.5,2022-10-16,17:21:11
+paleo,Paleo Comfort Food? Here’s A Creamy Shrimp Fra Diavolo recipes,italian,102.47,51.64,54.82,2022-10-16,17:21:11
+paleo,"Instant Pot Buffalo Sweet Potato Soup {Vegan, Whole30, Paleo, Gluten-Free}",american,14.26,79.07,109.53,2022-10-16,17:21:11
+paleo,Dill Butternut Squash Fries,american,7.68,89.2,14.38,2022-10-16,17:21:11
+paleo,Crispy Sweet Potato Fries,south american,4.4,56.19,28.84,2022-10-16,17:21:18
+paleo,Rosemary and Garlic Parsnip Mash,american,3.34,48.53,13.6,2022-10-16,17:21:18
+paleo,Four Layer Beef and Bacon Casserole,american,213.63,149.66,298.56,2022-10-16,17:21:18
+paleo,Boston Baked Beef,american,135.99,193.85,232.95,2022-10-16,17:21:18
+paleo,Nutella Brownie Truffles,french,12.21,151.95,98.75,2022-10-16,17:21:18
+paleo,Best Ever Bars,american,62.76,194.9,266.67,2022-10-16,17:21:18
+paleo,Salmon Cakes,nordic,86.31,11.17,66.45,2022-10-16,17:21:18
+paleo,Crockpot Italian Chicken and Peppers,italian,86.07,84.94,43.04,2022-10-16,17:21:18
+paleo,Herbed Rack of Lamb,middle eastern,35.36,6.76,133.82,2022-10-16,17:21:18
+paleo,Moroccan Braised Chicken and Kale,middle eastern,283.65,89.99,306.29,2022-10-16,17:21:18
+paleo,Roasted Tomato Soup,italian,39.32,88.7,50.97,2022-10-16,17:21:18
+paleo,Sweet Plantain Guacamole,south american,19.18,134.0,138.71,2022-10-16,17:21:18
+paleo,Turkey Spaghetti Zoodles,american,122.69,96.81,51.15,2022-10-16,17:21:18
+paleo,Celery Leaf & Fennel Poached Salmon,nordic,32.41,17.25,24.49,2022-10-16,17:21:18
+paleo,Turkey Veggie Meatballs With Spaghetti Squash,american,122.78,147.94,51.84,2022-10-16,17:21:24
+paleo,Asian Sesame Chicken & Broccoli,chinese,107.67,31.95,70.25,2022-10-16,17:21:24
+paleo,Cauliflower Fried Rice,chinese,46.62,82.76,53.47,2022-10-16,17:21:24
+paleo,Khoresht Lubia Sabz (Persian Green Bean Stew),american,121.29,69.51,49.55,2022-10-16,17:21:24
+paleo,Cinnamon Chocolate Swirl Banana Bread,american,68.73,266.84,183.04,2022-10-16,17:21:24
+paleo,Easy Pan Gravy,british,0.32,6.54,11.65,2022-10-16,17:21:24
+paleo,Salsa Fresca estilo Siete,mexican,4.94,33.55,1.11,2022-10-16,17:21:24
+paleo,Ginger Snap Pumpkin Butter Cookie Sandwiches,american,97.78,239.78,356.65,2022-10-16,17:21:24
+paleo,Cauliflower Soup Drizzled with White Truffle Oil,french,41.9,64.07,37.95,2022-10-16,17:21:24
+paleo,Apple Pumpkin Soup,american,9.95,64.53,19.56,2022-10-16,17:21:24
+paleo,Easy Vegan Pad Thai Supreme,american,97.94,217.78,168.32,2022-10-16,17:21:24
+paleo,Beef Chorizo con Huevo estilo Siete,mediterranean,133.92,12.88,92.88,2022-10-16,17:21:24
+paleo,Angel Food Cake,american,55.09,283.94,5.02,2022-10-16,17:21:24
+paleo,Asian Chicken Salad,asian,69.61,44.66,128.44,2022-10-16,17:21:24
+paleo,Roasted Beef Tenderloin,american,349.89,10.57,130.34,2022-10-16,17:21:24
+paleo,"Kale, Artichoke and Pecorino Salad",mediterranean,36.98,40.42,58.68,2022-10-16,17:21:24
+paleo,Spicy Thai Peanut Kelp Noodle Pad Thai,south east asian,92.67,357.52,68.86,2022-10-16,17:21:24
+paleo,Almond Meal Encrusted Chicken Nuggets - REAL FOOD Healing Recipe from Mee Tracy McCormick,american,191.06,25.06,137.85,2022-10-16,17:21:24
+paleo,Artichoke Francaise,mediterranean,35.81,127.03,62.87,2022-10-16,17:21:31
+paleo,Braised Short Rib Bolognese,italian,242.69,59.62,607.18,2022-10-16,17:21:31
+paleo,Maialino's Olive Oil Cake (Adapted by Becca Fox),american,72.45,479.49,468.3,2022-10-16,17:21:31
+paleo,Homemade Ravioli with Ricotta Cheese and Spinach Filling,italian,118.65,300.0,107.45,2022-10-16,17:21:31
+paleo,Boneless Short Ribs on the BGE,french,392.64,12.51,472.92,2022-10-16,17:21:31
+paleo,Ribollita,italian,66.67,180.22,111.67,2022-10-16,17:21:31
+paleo,Pear and Apple Coffeecake with Walnut Topping,british,68.86,309.13,384.74,2022-10-16,17:21:31
+paleo,Artichoke and Perfect Asparagus Salad with Lemony Herbed Vinaigrette,mediterranean,22.61,68.6,103.89,2022-10-16,17:21:31
+paleo,Indian Spiced Broccoli and Potato Hash,nordic,9.39,47.36,10.47,2022-10-16,17:21:31
+paleo,Vegan Dark Chocolate Coconut Tart,american,32.24,221.1,103.54,2022-10-16,17:21:31
+paleo,Pork and Charred Brussels Sprouts with Chile Lime Sauce,south american,145.56,240.17,89.14,2022-10-16,17:21:31
+paleo,Apple Fennel Casserole with a Coconut-Turmeric Twist,italian,5.6,46.5,18.34,2022-10-16,17:21:31
+paleo,Slow-Cooker 'Osso Buco' Stew,italian,211.11,94.79,61.46,2022-10-16,17:21:31
+paleo,Vegan Coconut Cream Tart with White Peaches and Blueberries,american,39.45,285.88,109.49,2022-10-16,17:21:31
+paleo,Spiced Harvest Cake,british,65.92,455.58,158.29,2022-10-16,17:21:31
+paleo,Paleo MeeNut™ Butter Sandwich on Paleo Bread™,american,0.93,3.08,24.31,2022-10-16,17:21:38
+paleo,Low Carb Paleo Egg Wrap Recipe,american,16.71,28.5,15.85,2022-10-16,17:21:38
+paleo,Paleo Nutella Banana Ice Cream,american,7.86,186.18,30.1,2022-10-16,17:21:38
+paleo,Paleo Whole30 Pesto Chicken Salad,american,176.97,10.7,206.48,2022-10-16,17:21:38
+paleo,The Elvis Paleo Sandwich Recipe,american,18.72,68.14,54.08,2022-10-16,17:21:38
+paleo,Simple Paleo Reese’s Cups,american,69.56,157.94,257.36,2022-10-16,17:21:38
+paleo,Paleo Meatloaf recipes,american,216.95,203.73,178.18,2022-10-16,17:21:38
+paleo,Paleo Nacho Casserole,mexican,156.83,88.03,167.6,2022-10-16,17:21:38
+paleo,Simple Paleo Coleslaw Dressing,mediterranean,6.76,17.01,89.82,2022-10-16,17:21:38
+paleo,Paleo Bread Stuffing recipes,american,54.96,208.13,49.2,2022-10-16,17:21:44
+paleo,Paleo deviled egg recipe,french,32.74,3.08,69.22,2022-10-16,17:21:44
+paleo,Paleo Peppermint Bark,american,30.23,191.35,235.63,2022-10-16,17:21:44
+paleo,Paleo Chipotle Dipping Sauce,mexican,2.14,15.79,116.27,2022-10-16,17:21:44
+paleo,Paleo Wrap Carne Asada Recipe,mexican,159.24,75.82,62.53,2022-10-16,17:21:44
+paleo,Homemade Paleo Protein Bars,american,368.04,500.49,210.84,2022-10-16,17:21:44
+paleo,Paleo Tzatziki,mediterranean,2.82,17.07,13.93,2022-10-16,17:21:44
+paleo,Paleo Pecan Pie Bars recipes,american,105.25,594.23,700.42,2022-10-16,17:21:44
+paleo,Loaded Paleo Cauliflower Nachos recipes,mexican,52.93,75.7,131.7,2022-10-16,17:21:44
+paleo,Gluten-Free Paleo Meatloaf recipes,eastern europe,170.21,136.35,196.93,2022-10-16,17:21:44
+paleo,Paleo Broccoli Salad recipes,american,22.75,124.99,146.91,2022-10-16,17:21:44
+paleo,Healthy Paleo Marble Cake recipes,american,42.18,245.32,90.32,2022-10-16,17:21:44
+paleo,Paleo Deviled Eggs recipes,french,87.75,10.06,163.03,2022-10-16,17:21:51
+paleo,Paleo Meatball Sub,american,57.04,62.66,77.65,2022-10-16,17:21:51
+paleo,Paleo Egg Salad recipes,american,35.77,30.22,88.57,2022-10-16,17:21:51
+paleo,"Caramel Caffe Latte (paleo, GF, dairy-free) recipes",american,3.28,32.7,15.37,2022-10-16,17:21:51
+paleo,Smoky Paleo Deviled Eggs recipes,french,34.1,8.47,69.53,2022-10-16,17:21:51
+paleo,Paleo Barbecue Beef and Bacon recipes,american,114.04,148.84,128.75,2022-10-16,17:21:51
+paleo,Paleo Pad Thai with Zucchini Noodles,south east asian,3.5,40.81,0.36,2022-10-16,17:21:51
+paleo,Paleo Sunbutter Cups recipes,french,0.1,32.29,27.63,2022-10-16,17:21:51
+paleo,Paleo Quiche Cups,french,59.38,43.71,82.41,2022-10-16,17:21:51
+paleo,Paleo Pecan Pie,american,41.28,497.12,285.89,2022-10-16,17:21:51
+paleo,Paleo Smoked Tuna Salad recipes,american,24.83,19.77,90.32,2022-10-16,17:21:51
+paleo,Paleo Lemon Mousse,french,17.82,77.84,84.12,2022-10-16,17:21:58
+paleo,Paleo Aioli Salad Dressing,mediterranean,0.53,2.32,44.57,2022-10-16,17:21:58
+paleo,Paleo Flourless Chocolate Cake recipes,american,80.48,404.46,410.21,2022-10-16,17:21:58
+paleo,Paleo Flourless Chocolate Cake,american,55.16,123.66,244.31,2022-10-16,17:21:58
+paleo,Paleo Chicken Salad with Dates & Walnuts {Whole30} recipes,mediterranean,97.63,88.59,98.0,2022-10-16,17:21:58
+paleo,Paleo Blackberry Muffins recipes,american,43.48,81.37,88.44,2022-10-16,17:21:58
+paleo,Paleo Crockpot Cashew Chicken recipes,italian,165.31,78.63,220.89,2022-10-16,17:21:58
+paleo,Paleo Blackberry Instant Pot Cobbler,french,33.01,287.56,114.66,2022-10-16,17:21:58
+paleo,Paleo Banana Bread French Toast,french,21.23,203.11,42.55,2022-10-16,17:21:58
+paleo,Three-Ingredient Paleo Chocolate Truffles,french,23.43,183.78,200.78,2022-10-16,17:21:58
+paleo,Toasted Egg Fiesta Paleo Wrap (Ketogenic),american,13.92,32.74,26.53,2022-10-16,17:21:58
+paleo,Paleo Beef Stroganoff,eastern europe,215.13,36.63,68.05,2022-10-16,17:21:58
+paleo,Paleo Whole30 Classic Egg Salad recipes,american,61.5,8.58,184.92,2022-10-16,17:21:58
+paleo,Easy Paleo Meatloaf with Bacon,american,203.61,23.57,166.41,2022-10-16,17:21:58
+paleo,"Gluten Free Beef and Tomato {Chinese Style, Paleo Option} recipes",chinese,107.83,56.13,81.39,2022-10-16,17:21:58
+paleo,"Buffalo Ranch Chicken Salad Recipe {Paleo, Whole30 Compliant} recipes",american,145.57,27.22,152.88,2022-10-16,17:22:05
+paleo,Paleo Crock Pot Pulled Pork recipes,american,255.11,99.29,170.32,2022-10-16,17:22:05
+paleo,Papaya Chicken Paleo Wrap,british,40.75,33.63,35.28,2022-10-16,17:22:05
+paleo,Paleo Vegan Enchilada Casserole,american,96.62,331.56,21.46,2022-10-16,17:22:05
+paleo,"Blueberry Almond Mug Cake (Paleo, Gluten Free)",american,14.22,33.55,34.47,2022-10-16,17:22:05
+paleo,Paleo Bang Bang Shrimp recipes,japanese,91.88,3.34,163.16,2022-10-16,17:22:05
+paleo,"Creamy Roasted Sesame Dressing (Paleo, Whole30, Keto)",mediterranean,3.3,13.24,57.69,2022-10-16,17:22:05
+paleo,Paleo Ranch Dressing and Dip recipes,american,1.77,5.8,190.1,2022-10-16,17:22:05
+paleo,Smoked Salmon Paleo Wrap Bites,nordic,34.01,82.25,27.63,2022-10-16,17:22:05
+paleo,Paleo Meatloaf,american,283.04,85.83,108.96,2022-10-16,17:22:05
+paleo,Dairy-free Paleo Ranch Dressing,american,5.63,10.85,226.21,2022-10-16,17:22:05
+paleo,Paleo Banana Chip Muffins recipes,american,95.83,139.93,188.95,2022-10-16,17:22:05
+paleo,Creamy (yet Paleo) Cucumber Salad recipes,american,3.23,17.66,45.05,2022-10-16,17:22:12
+paleo,Bunless Paleo Chicken BLTs recipes,american,97.48,19.3,119.43,2022-10-16,17:22:12
+paleo,"Frittata with Sweet Potato, Sausage and Caramelized Onions (Paleo, Grain-Free) recipes",italian,126.61,109.21,188.1,2022-10-16,17:22:12
+paleo,Paleo Tangy BBQ Pulled Pork,american,244.91,263.45,61.97,2022-10-16,17:22:12
+paleo,Paleo Crab Cakes recipes,french,97.65,19.1,76.38,2022-10-16,17:22:12
+paleo,Simple Paleo Coleslaw recipes,mediterranean,14.52,80.91,90.39,2022-10-16,17:22:12
+paleo,"3 Ingredient Chocolate Walnut Fudge (Paleo, Vegan, Gluten Free, Dairy-Free)",american,48.8,126.11,160.21,2022-10-16,17:22:12
+paleo,Paleo Whole30 Chicken Salad recipes,american,171.35,54.47,285.53,2022-10-16,17:22:12
+paleo,Flourless Chocolate Peppermint Cake (Paleo and Low Carb) recipes,american,45.19,255.14,114.31,2022-10-16,17:22:12
+paleo,Easy Paleo Fried Fish Sticks,french,106.13,43.27,214.62,2022-10-16,17:22:12
+paleo,Paleo Cheese-Stuffed Meatballs,american,103.97,82.66,131.02,2022-10-16,17:22:12
+paleo,"Paleo Shrimp, Bacon and Tomato Pasta Recip",italian,72.33,48.97,74.65,2022-10-16,17:22:12
+paleo,Primal Organic Chicken Recipe In A Paleo Wrap,american,37.07,50.05,35.2,2022-10-16,17:22:12
+paleo,Paleo Vegan Cherry Garcia Ice Cream,american,16.51,257.72,52.79,2022-10-16,17:22:12
+paleo,Paleo Peach-Blueberry Cobbler recipes,american,42.38,245.47,161.24,2022-10-16,17:22:12
+paleo,Paleo Sweet Potato Casserole,italian,38.03,1061.56,199.18,2022-10-16,17:22:18
+paleo,Paleo Crab Cakes,american,32.3,14.14,106.85,2022-10-16,17:22:18
+paleo,Cinnamon Raisin Paleo Bread Pudding recipes,british,74.2,336.36,139.83,2022-10-16,17:22:18
+paleo,Paleo Chicken Piccata,french,38.49,111.57,127.66,2022-10-16,17:22:18
+paleo,Paleo Barbecue Chicken Casserole recipes,italian,271.64,258.95,282.4,2022-10-16,17:22:18
+paleo,Baked Ranch Chicken Tenders (Paleo + Whole30),american,105.57,129.65,146.59,2022-10-16,17:22:18
+paleo,Chocolate Almond Buttercream Cups | PALEO,american,27.72,280.99,138.5,2022-10-16,17:22:18
+paleo,Paleo Broccoli Salad,american,33.1,59.46,126.68,2022-10-16,17:22:18
+paleo,Paleo Whole 30 Berry Chicken Salad,american,228.65,25.01,238.62,2022-10-16,17:22:18
+paleo,"Cauliflower Fried ""Rice"" (Paleo)",chinese,26.48,44.85,16.65,2022-10-16,17:22:18
+paleo,Paleo Pumpkin Bolognese,italian,83.7,41.66,96.89,2022-10-16,17:22:18
+paleo,Paleo Egg Nog Cake recipes,british,62.83,159.42,66.35,2022-10-16,17:22:18
+paleo,Easy Paleo Reese's™ Cups,french,61.73,259.06,224.92,2022-10-16,17:22:25
+paleo,Paleo Cornbread Stuffing recipes,american,129.28,693.44,243.17,2022-10-16,17:22:25
+paleo,Sloppy Joe's - Paleo & Whole30 recipes,french,94.68,90.81,85.8,2022-10-16,17:22:25
+paleo,No-Bake Paleo Chocolate Chip Coconut Bars,american,74.81,272.62,518.78,2022-10-16,17:22:25
+paleo,Portobello Mushroom Paleo Taco,italian,81.07,46.84,114.72,2022-10-16,17:22:25
+paleo,Paleo BBQ Ranch Meatloaf,american,173.86,79.71,130.88,2022-10-16,17:22:25
+paleo,Keto Paleo Tuna Taquitos Recipe,mexican,46.45,79.45,75.1,2022-10-16,17:22:25
+paleo,Paleo Chocolate Coconut Milk Panna Cotta,italian,23.39,101.95,147.65,2022-10-16,17:22:25
+paleo,"Slow Cooker Honey Peach Chipotle Meatballs (Gluten Free, Paleo) recipes",eastern europe,23.44,256.29,25.75,2022-10-16,17:22:25
+paleo,Paleo Roasted Cabbage with Mustard Seed Dressing recipes,mediterranean,4.18,14.45,50.79,2022-10-16,17:22:25
+paleo,Paleo Tuna Spinach Casserole recipes,italian,84.76,50.54,92.11,2022-10-16,17:22:25
+paleo,Paleo Beef Stroganoff,eastern europe,130.93,70.55,203.75,2022-10-16,17:22:25
+paleo,Slammin Wild Salmon Paleo Wrap Tumeric,nordic,95.18,45.51,55.22,2022-10-16,17:22:25
+paleo,Vietnamese Spring Rolls (Paleo) recipes,south east asian,38.7,122.93,71.13,2022-10-16,17:22:25
+paleo,Paleo Banana Muffins recipes,american,52.77,99.46,150.99,2022-10-16,17:22:25
+paleo,Paleo Chicken Shawarma recipes,middle eastern,114.46,52.87,92.38,2022-10-16,17:22:25
+paleo,Paleo Spinach Donuts recipes,american,43.22,247.39,124.45,2022-10-16,17:22:25
+paleo,Paleo Strawberry Pie recipes,american,60.38,223.26,160.19,2022-10-16,17:22:32
+paleo,Quick and Easy Paleo Salads,french,44.68,28.95,73.11,2022-10-16,17:22:32
+paleo,Chocolate Custard (Paleo or Low Carb) recipes,french,36.84,126.43,159.07,2022-10-16,17:22:32
+paleo,"Pumpkin Milkshake (Dairy-free, Paleo, AIP) recipes",american,21.77,88.19,168.04,2022-10-16,17:22:32
+paleo,"Pistachio Crumbed Mushrooms (Paleo, Low Carb) recipes",british,47.75,59.33,157.69,2022-10-16,17:22:32
+paleo,"Paleo Chocolate Mousse Cake (dairy Free, Raw Dessert, Keto, Paleo, Gluten Free) recipes",american,48.81,278.15,264.65,2022-10-16,17:22:32
+paleo,Paleo Ground Beef Spaghetti Squash Skillet,italian,96.21,128.43,115.48,2022-10-16,17:22:32
+paleo,Paleo Fried Green Tomatoes recipes,french,49.16,59.39,182.49,2022-10-16,17:22:32
+paleo,Dulce de Leche Ice Cream (Paleo) recipes,italian,14.38,177.86,141.1,2022-10-16,17:22:32
+paleo,"Easy BBQ Jackfruit Saute Recipe [Paleo, Vegan]",american,2.02,108.4,14.76,2022-10-16,17:22:32
+paleo,"Easy 10 Minute Asian Zucchini Noodles (low-carb, Paleo) recipes",asian,13.86,37.92,7.02,2022-10-16,17:22:32
+paleo,Paleo Maple Pecan Latte Mug Cake,american,12.5,36.44,32.19,2022-10-16,17:22:32
+paleo,Paleo Beef Stew,american,208.63,137.91,54.39,2022-10-16,17:22:32
+paleo,A No Bake Paleo Chocolate Cashew Coconut Dessert That’s Healthy,american,27.93,87.43,751.19,2022-10-16,17:22:32
+paleo,"Easy Chicken Herb Salad (Paleo, Low Carb) recipes",american,81.02,9.13,109.01,2022-10-16,17:22:32
+paleo,Frozen Chocolate Custard (Low Carb and Paleo Friendly),american,40.47,56.32,184.95,2022-10-16,17:22:38
+paleo,Paleo Ground Beef Spaghetti Squash Skillet recipes,italian,96.21,128.43,115.48,2022-10-16,17:22:38
+paleo,Salted Caramel Bliss Balls- Aka Paleo Style Truffles,french,58.09,221.62,168.29,2022-10-16,17:22:38
+paleo,20-Minute Paleo Cashew Chicken,american,189.22,139.79,190.27,2022-10-16,17:22:38
+paleo,"Healthy Buffalo Turkey Meatballs (paleo, GF) recipes",american,107.96,14.59,67.22,2022-10-16,17:22:38
+paleo,"Shepherd’s Pie with Cauliflower Topping (GAPS, Paleo, Grain-Free) recipes",american,110.14,57.66,168.1,2022-10-16,17:22:38
+paleo,Paleo Chocolate and Candied Orange Peel Freezer Fudge (GF) recipes,american,60.59,289.03,220.89,2022-10-16,17:22:38
+paleo,Paleo Crockpot BBQ Pulled Pork,american,403.14,254.68,412.96,2022-10-16,17:22:38
+paleo,Primal Roast Beast Wrap Recipe,british,65.76,53.13,62.59,2022-10-16,17:22:38
+paleo,Paleo Chili Over Zero Carb Paleo Miracle Rice™,american,184.44,249.2,24.04,2022-10-16,17:22:38
+paleo,Saucy Grilled Paleo Pork Chops Recipe,eastern europe,77.12,79.94,29.49,2022-10-16,17:22:38
+paleo,"Orange and Five-Spice Roasted Chicken Legs | Keto, Paleo",mediterranean,677.22,41.71,686.9,2022-10-16,17:22:38
+paleo,The Best Paleo Beef Enchiladas recipes,mexican,116.96,182.48,163.36,2022-10-16,17:22:38
+paleo,Paleo Chicken Taco Meatballs (GF) recipes,mexican,90.61,10.48,51.89,2022-10-16,17:22:38
+paleo,Smoky BBQ Paleo Chili recipes,american,97.93,107.81,116.11,2022-10-16,17:22:38
+paleo,Collard Green Paleo Slaw (Super Slaw) recipes,mediterranean,5.4,28.18,31.71,2022-10-16,17:22:45
+paleo,"Blueberry Chia Seed Coleslaw (Paleo, GF) recipes",american,12.01,80.23,53.09,2022-10-16,17:22:45
+paleo,"Orange Chicken Recipe (Paleo, Grain-Free) recipes",french,191.91,161.86,143.79,2022-10-16,17:22:45
+paleo,Sneaky Chocolate Veggie Cake (Paleo option) recipes,american,96.82,335.74,291.09,2022-10-16,17:22:45
+paleo,Paleo Cauliflower Fried Rice,chinese,56.99,97.39,56.34,2022-10-16,17:22:45
+paleo,Caramel Chocolate Mousse (Paleo & Vegan) recipes,american,38.1,270.02,232.58,2022-10-16,17:22:45
+paleo,"Healthy Fudge Bites {Paleo, Gluten Free, Sugar Free, Dairy Free} recipes",american,8.38,178.34,297.71,2022-10-16,17:22:45
+paleo,"Easy Crab Cakes (Paleo, Low Carb) recipes",french,94.1,15.58,63.84,2022-10-16,17:22:45
+paleo,Keto Paleo Meatloaf recipes,american,143.36,37.65,172.61,2022-10-16,17:22:45
+paleo,Paleo Ginger Cake with Lemon and Coconut,french,59.12,86.59,200.92,2022-10-16,17:22:45
+paleo,Paleo Whole30 Classic Potato Salad,mediterranean,32.03,272.41,57.65,2022-10-16,17:22:45
+paleo,Paleo Chocolate Pistachio Biscotti recipes,italian,53.41,214.31,129.8,2022-10-16,17:22:45
+paleo,Paleo Sloppy Joes with Sweet Potatoes recipes,american,90.72,202.74,106.32,2022-10-16,17:22:45
+paleo,Gluten Free “Carrot Cake” Vegan Cheesecake {Paleo} recipes,american,74.18,426.76,307.56,2022-10-16,17:22:45
+paleo,Paleo Chocolate Chunk Banana Bread recipes,american,81.41,257.6,233.5,2022-10-16,17:22:45
+paleo,Paleo Sweet and Sour Pork,mediterranean,97.79,167.44,112.53,2022-10-16,17:22:45
+paleo,"Egg Salad Lettuce Wraps (Paleo, GF) recipes",american,31.06,10.09,50.9,2022-10-16,17:22:52
+paleo,"Spaghetti Squash Soup with Pumpkin and Fall Flavors {GF, Vegan, Paleo}",american,42.79,175.5,44.84,2022-10-16,17:22:52
+paleo,"BBQ Beef Pizza (AIP, Paleo)",italian,111.23,259.49,110.34,2022-10-16,17:22:52
+paleo,Paleo-Approved Classic Chicken Salad,american,37.0,58.18,212.82,2022-10-16,17:22:52
+paleo,Primal Curried Egg Salad Coconut Wraps,american,22.37,38.14,42.75,2022-10-16,17:22:52
+paleo,Baked Salmon with Pesto and Pecans,nordic,329.12,8.78,251.78,2022-10-16,17:22:52
+paleo,Paleo Banana Chocolate Chip Muffins,american,105.65,526.6,219.56,2022-10-16,17:22:52
+paleo,"Almond Flour Crust for Tarts or Pies - Gluten Free, Low Carb, Sugar Free, Paleo recipes",american,62.5,84.87,199.1,2022-10-16,17:22:52
+paleo,"Spatchcock Herbed Chicken (Paleo, Whole30 option)",french,226.67,21.54,221.69,2022-10-16,17:22:52
+paleo,Paleo Chocolate Sweet Potato Bread (gluten and dairy free),american,77.32,1801.16,887.91,2022-10-16,17:22:52
+paleo,Easy Paleo Lemon Chia Seed Muffins,american,74.35,542.66,211.44,2022-10-16,17:22:52
+paleo,Paleo Chocolate Honey Bars recipes,american,77.32,349.38,266.18,2022-10-16,17:22:52
+paleo,DIY Chicken Burrito Bowl (Paleo),mexican,86.59,165.25,101.45,2022-10-16,17:22:52
+paleo,"Healthy Buffalo Turkey Meatloaf (Paleo, Whole30) recipes",american,217.07,34.17,134.74,2022-10-16,17:22:58
+paleo,Paleo Slow Cooker Beef Stew recipes,american,179.32,120.49,36.68,2022-10-16,17:22:58
+paleo,"Teriyaki Salmon Recipe (Grain-Free, Paleo) recipes",nordic,102.48,104.16,59.07,2022-10-16,17:22:58
+paleo,Banana Cocoa Snack Cake (Paleo) recipes,american,68.94,227.74,168.98,2022-10-16,17:22:58
+paleo,Paleo Creole Meatballs,american,134.14,55.22,177.0,2022-10-16,17:22:58
+paleo,Easy Paleo Shepherd's Pie recipes,american,107.14,93.45,137.29,2022-10-16,17:22:58
+paleo,"Buffalo Chicken Cobb Salad {paleo, whole30",american,3.26,7.35,89.83,2022-10-16,17:22:58
+paleo,Paleo Carrot & Apple Juicer Pulp Muffi,british,56.05,119.56,118.16,2022-10-16,17:22:58
+paleo,Sesame Ginger Paleo Turkey Meatballs recipes,american,104.28,42.67,56.99,2022-10-16,17:22:58
+paleo,"Coconut Chocolate Chip Healthy Vegan Ice Cream Recipe (Paleo, Homemade, Dairy-Free)",american,16.29,154.99,89.99,2022-10-16,17:22:58
+paleo,Zero Carb Beef Stew w/Paleo Rice By Paleo Nate,american,459.83,289.66,200.26,2022-10-16,17:22:58
+paleo,Creamy Paleo Chicken Enchiladas Verdes recipes,mexican,168.06,206.21,137.17,2022-10-16,17:22:58
+paleo,"Paleo Vegetarian Tacos with Zucchini, Squash & Eggplant recipes",mexican,33.3,254.57,86.36,2022-10-16,17:22:58
+paleo,Paleo Chocolate Pecan Tart,american,52.41,149.85,387.32,2022-10-16,17:22:58
+paleo,"Paleo Pepperoni Pizza with Veggies {GF, DF}",italian,39.65,112.8,58.12,2022-10-16,17:22:58
+paleo,Chicken Shawarma on Pita recipes,middle eastern,237.66,213.88,158.28,2022-10-16,17:23:05
+paleo,Almond Crusted Tilapia,mediterranean,135.57,96.94,107.04,2022-10-16,17:23:05
+paleo,Paleo Creole Meatballs recipes,american,134.58,57.97,177.14,2022-10-16,17:23:05
+paleo,"Mini Zucchini Avocado Burgers Recipe [Paleo, Keto, AIP]",american,44.44,15.24,93.04,2022-10-16,17:23:05
+paleo,Paleo Thai Chicken Pizza recipes,south east asian,69.42,349.98,61.24,2022-10-16,17:23:05
+paleo,"The BEST Strawberry Banana Bread {Paleo, Vegan, Gluten Free}",american,52.44,304.22,97.85,2022-10-16,17:23:05
+paleo,Paleo Albino Mole Cake – Maulwurftorte with a Twist,italian,56.57,247.41,327.06,2022-10-16,17:23:05
+paleo,"Salted Caramel Paleo Bark (GF, dairy-free) recipes",american,29.64,509.13,144.51,2022-10-16,17:23:05
+paleo,Lemony Brussels Sprouts Salad {vegan+glutenfree+paleo},american,41.86,80.89,59.56,2022-10-16,17:23:05
+paleo,Paleo Clam Chowder with Cauliflower recipes,american,189.77,141.35,74.16,2022-10-16,17:23:05
+paleo,Paleo Asian Cauliflower Fried ‘Rice’ recipes,chinese,39.84,54.08,71.55,2022-10-16,17:23:05
+paleo,"Easy Apricot-Mustard Chicken Bake (paleo, GF) recipes",french,113.18,183.36,125.59,2022-10-16,17:23:05
+paleo,Paleo Mississippi Roast with Lotus Root recipes,british,163.04,58.41,164.26,2022-10-16,17:23:05
+paleo,New England Paleo Clam Chowder,american,334.83,207.38,333.75,2022-10-16,17:23:05
+paleo,Paleo Chicken Cauliflower Fried Rice,chinese,116.43,52.09,87.92,2022-10-16,17:23:12
+paleo,"My signature dish – Mediterranean Chicken, Paleo-ized",mediterranean,121.64,74.55,135.13,2022-10-16,17:23:12
+paleo,Red Robin Recreation – Perfectly Crispy Paleo French Fries recipes,french,18.84,183.47,311.62,2022-10-16,17:23:12
+paleo,Chorizo Breakfast Tacos recipes,mexican,68.47,66.7,85.65,2022-10-16,17:23:12
+paleo,Paleo Cashew Chocolate Chip Blondies recipes,american,63.76,267.66,229.85,2022-10-16,17:23:12
+paleo,Chocolate Chip Cookie Ice Cream Sandwiches ~ The Paleo Mom,american,23.05,281.18,165.66,2022-10-16,17:23:12
+paleo,Paleo Shepards Pie recipes,american,114.59,106.71,89.4,2022-10-16,17:23:12
+paleo,"Angel Food Cake (Grain-Free, Paleo) recipes",american,58.83,330.85,126.65,2022-10-16,17:23:12
+paleo,Paleo Chicken and Dumplings,italian,377.65,125.61,194.55,2022-10-16,17:23:12
+paleo,Grain Free Ice Cream Sandwiches (Paleo and Low Carb) recipes,american,58.81,194.28,185.23,2022-10-16,17:23:12
+paleo,"Chocolate Berry Tart (Grain-Free, Paleo)",french,97.49,280.14,228.11,2022-10-16,17:23:12
+paleo,Paleo Chocolate Chunk Strawberry Banana Bread,american,38.2,228.92,94.83,2022-10-16,17:23:12
+paleo,Instant Pot Purple Paleo Potato Salad Recipe,mediterranean,49.16,188.97,182.14,2022-10-16,17:23:19
+paleo,Primal Guacamole Burger Recipe,mexican,99.33,50.03,102.87,2022-10-16,17:23:19
+paleo,"Paleo Kimchi Beef Stir-Fry (Whole30, Keto)",american,66.68,45.64,31.42,2022-10-16,17:23:19
+paleo,Baked FrenchFries with Chipotle Ranch Dip {Paleo & Whole30} recipes,mexican,17.83,143.96,192.82,2022-10-16,17:23:19
+paleo,"Vegan Paleo Blueberry Muffins {Grain Free, Gluten Free}",american,24.39,145.01,97.33,2022-10-16,17:23:19
+paleo,Guinness Stew recipes,french,173.53,188.85,75.26,2022-10-16,17:23:19
+paleo,"4 Ingredient Chocolate Peanut Butter Homemade Frosty Recipe (Vegan, Dairy-Free, Gluten-Free, Refined Sugar-Free)",american,25.63,137.31,38.5,2022-10-16,17:23:19
+paleo,Asian Healthy Broccoli Salad,chinese,61.72,116.82,136.47,2022-10-16,17:23:19
+paleo,Cilantro Base recipes,american,3.5,19.57,13.98,2022-10-16,17:23:19
+paleo,Paleo Slow Cooker Honey Garlic Chicken and Vegetables recipes,mediterranean,501.65,312.39,58.06,2022-10-16,17:23:19
+paleo,Paleo Italian Meatballs & Spaghetti Squash recipes,italian,148.98,115.06,187.38,2022-10-16,17:23:19
+paleo,"30 Minute Beef Stroganoff Recipe (Paleo, Gluten Free, Dairy Free) recipes",eastern europe,110.57,36.4,308.95,2022-10-16,17:23:19
+paleo,"Squash Au Gratin (Paleo, GF) recipes",french,25.32,148.79,102.31,2022-10-16,17:23:19
+paleo,"Cream ""Cheesy"" Italian Stuffed Mushrooms {Paleo, Dairy Free, Whole 30}",italian,175.1,129.3,475.09,2022-10-16,17:23:19
+paleo,Nightshade-free Pizza (from Make It Paleo 2) recipes,italian,164.08,310.6,220.29,2022-10-16,17:23:26
+paleo,Paleo Turkey or Beef Meatloaf recipes,american,396.66,91.97,209.04,2022-10-16,17:23:26
+paleo,Slow Cooker Paleo Sweet Potato Casserole recipes,italian,46.14,368.64,187.19,2022-10-16,17:23:26
+paleo,"French Swiss Chard Tart (Gluten-Free, Grain-Free, Vegetarian, Paleo Option) recipes",french,96.67,110.45,253.55,2022-10-16,17:23:26
+paleo,Paleo Brussels Sprout and Bacon Coleslaw recipes,central europe,44.13,80.3,340.69,2022-10-16,17:23:26
+paleo,Ranch Roasted Cashews recipes,american,51.65,88.86,137.28,2022-10-16,17:23:26
+paleo,Simple Egg Drop Soup recipes,chinese,88.59,102.88,60.78,2022-10-16,17:23:26
+paleo,Paleo Thanksgiving Stuffing with Pumpkin Bread recipes,american,33.75,350.04,119.19,2022-10-16,17:23:26
+paleo,Garlic Parmesan Zucchini Bread,italian,47.68,72.73,92.86,2022-10-16,17:23:26
+paleo,Crock Pot Korean Gochujang Pork,french,409.4,101.9,415.15,2022-10-16,17:23:26
+paleo,"20 Minute Cashew Chicken Recipe {Paleo, Gluten-Free, Clean Eating, Dairy-Free} recipes",italian,165.49,354.68,259.89,2022-10-16,17:23:26
+paleo,Paleo Kale Orange Beef Stir Fry with Spiralized Sweet Potato Noodles,asian,53.5,90.16,45.21,2022-10-16,17:23:26
+paleo,"Bang Bang Shrimp (Paleo, Whole30, AIP)",japanese,94.91,24.03,95.1,2022-10-16,17:23:26
+paleo,"French Tomato, Tuna, & Mustard Quiche (paleo, GF) recipes",french,63.83,61.93,58.2,2022-10-16,17:23:26
+paleo,Bacon Wrapped Chili Dogs,american,73.79,27.35,199.7,2022-10-16,17:23:33
+paleo,"Coconut Custard Pie {Paleo, Dairy Free} recipes",american,80.9,762.78,525.09,2022-10-16,17:23:33
+paleo,"Lemony Spring Cobb Salad (paleo, GF) recipes",american,123.97,173.48,208.48,2022-10-16,17:23:33
+paleo,Mango Turkey Sloppy Joe Salad Bowls {Paleo} recipes,american,106.07,148.46,94.71,2022-10-16,17:23:33
+paleo,Zucchini-Bacon Egg Muffins (Gluten-Free),british,91.77,24.63,144.03,2022-10-16,17:23:33
+paleo,Easy Keto Low Carb Taco Soup Recipe,mexican,88.18,55.1,173.29,2022-10-16,17:23:33
+paleo,"Coffee Cake (Grain Free, Gaps, Paleo, Primal) recipes",american,109.97,342.18,267.62,2022-10-16,17:23:33
+paleo,Paleo Shrimp Cakes with Tangy Lemon Aioli recipes,mediterranean,76.25,59.59,119.56,2022-10-16,17:23:33
+paleo,Coronation Chicken Salad,american,106.52,38.99,136.13,2022-10-16,17:23:33
+paleo,Healthy Chocolate Potato Whiskey Cake with Chocolate Whiskey Ganache recipes,french,39.51,390.78,125.83,2022-10-16,17:23:33
+paleo,Seafood Pumpkin Spaghetti Squash Pasta {Paleo} recipes,italian,37.87,78.72,76.18,2022-10-16,17:23:33
+paleo,"Sweet Potato Salad Niçoise (paleo, GF) recipes",french,119.06,196.4,78.45,2022-10-16,17:23:33
+paleo,"Sausage Tomato Basil Paleo Pizza {GF, DF} recipes",italian,76.95,440.95,38.48,2022-10-16,17:23:33
+paleo,Crock Pot Barbecue Turkey Thighs recipes,american,401.69,121.06,139.12,2022-10-16,17:23:33
+paleo,"Red Coconut Curry Pulled Chicken (Paleo, GF) recipes",south east asian,269.34,125.64,294.69,2022-10-16,17:23:33
+paleo,"Mixed Baby Greens with Strawberries, Gorgonzola and Poppy Seed Dressing recipes",mediterranean,18.06,64.11,53.22,2022-10-16,17:23:39
+paleo,Chocolate Dipped Chocolate Meringue Cookies recipes,french,21.57,53.33,61.7,2022-10-16,17:23:39
+paleo,Paleo German Chocolate Cake recipes,central europe,69.49,539.28,261.39,2022-10-16,17:23:39
+paleo,Paleo Pumpkin Chili {Nightshade-Free} recipes,american,160.42,229.01,71.05,2022-10-16,17:23:39
+paleo,Paleo Fajita Salad with Chicken Taco Meatballs (GF) recipes,mexican,96.02,119.74,160.31,2022-10-16,17:23:39
+paleo,"Kung Pao Cauliflower Chicken - Low Carb, Keto, Paleo and Gluten-Free! recipes",eastern europe,264.42,103.62,53.3,2022-10-16,17:23:39
+paleo,Paleo Orange Chicken with Cauliflower Rice recipes,mediterranean,213.27,102.46,223.15,2022-10-16,17:23:39
+paleo,Perfect Peanut Butter Blossoms recipes,american,68.1,167.94,194.8,2022-10-16,17:23:39
+paleo,Paleo Buffalo Chicken Nuggets recipes,american,138.21,63.62,412.64,2022-10-16,17:23:39
+paleo,GO-LO Sugar Free Hazelnut Spread Review,american,14.52,183.36,14.79,2022-10-16,17:23:39
+paleo,Carrot Spice Cake Ice Cream,american,7.28,129.89,17.14,2022-10-16,17:23:39
+paleo,Moroccan Saffron Chicken recipes,middle eastern,228.34,43.52,254.6,2022-10-16,17:23:39
+paleo,Lemongrass Vietnamese Meatballs recipes,south east asian,83.95,55.81,106.65,2022-10-16,17:23:39
+paleo,Fudgy Flourless Brownies recipes,french,62.8,401.12,322.08,2022-10-16,17:23:39
+paleo,Paleo Chicken Fingers and Garlic Honey Dijon Dipping Sauce,french,134.16,102.85,229.66,2022-10-16,17:23:39
+paleo,Chocolate Almond Butter Cups,american,43.68,202.08,326.55,2022-10-16,17:23:39
+paleo,"Paleo & Vegan Peach Cobbler {Gluten-free, Dairy-free} recipes",american,27.51,196.21,99.15,2022-10-16,17:23:39
+paleo,Paleo Chicken Pot Pie Casserole recipes,italian,170.51,373.02,129.07,2022-10-16,17:23:39
+paleo,Gai Satay (Chicken Satay with Peanut Sauce and Cucumber Salad),south east asian,99.35,18.37,59.84,2022-10-16,17:23:46
+paleo,"Bacon, Caramelized Onion, and Veggie Quiche {Paleo, GF, DF}",french,93.25,154.98,219.75,2022-10-16,17:23:46
+paleo,Slow Cooker Paleo Pot Roast with Mashed Sweet Potatoes recipes,american,331.51,114.76,148.97,2022-10-16,17:23:46
+paleo,"Cauliflower and Bacon Au Gratin (paleo, GF, dairy-free) recipes",french,60.6,81.73,167.05,2022-10-16,17:23:46
+paleo,Cinnamon and Honey Roasted Walnuts recipes,american,0.9,54.56,2.64,2022-10-16,17:23:46
+paleo,Best Easy Salsa Chicken Recipe to Prepare Ahead of Time recipes,mexican,169.37,36.63,87.69,2022-10-16,17:23:46
+paleo,Paleo Honey Orange Beef Stir Fry with Sweet Potato Noodles and Kale recipes,asian,55.86,114.48,45.35,2022-10-16,17:23:46
+paleo,Chipotle Ranch Chicken Burgers {Paleo & Whole30} recipes,american,85.89,119.62,200.22,2022-10-16,17:23:46
+paleo,Coconut Mocha Loco Coffee Cake,american,6.57,43.3,50.35,2022-10-16,17:23:46
+paleo,Keto Taco Stuffed Mini Peppers,american,64.53,66.96,87.66,2022-10-16,17:23:46
+paleo,Cauliflower Sweet Potato Burgers with Avocado and Sriracha Aioli (Vegetarian Paleo) recipes,american,45.65,218.51,201.1,2022-10-16,17:23:46
+paleo,Kofta Kari recipes,indian,145.17,73.29,215.96,2022-10-16,17:23:46
+paleo,5 Minute Grape Sorbet recipes,mediterranean,3.28,107.24,0.73,2022-10-16,17:23:46
+paleo,"Baked Low Carb Zucchini Fries (Paleo, AIP, Keto, Dairy Free)",french,25.33,57.48,97.11,2022-10-16,17:23:46
+paleo,"Chicken Alfredo Bake Recipe {Paleo, Clean Eating, Gluten-Free, Dairy-Free, Whole30} recipes",italian,134.66,68.36,106.66,2022-10-16,17:23:53
+paleo,Sweet and Spicy Sriracha Paleo Meatballs {easy} recipes,american,91.33,107.34,96.42,2022-10-16,17:23:53
+paleo,Sweet Potato Nachos,mexican,81.13,112.58,113.68,2022-10-16,17:23:53
+paleo,Sausage Broccoli Egg Muffins,british,94.02,11.86,99.36,2022-10-16,17:23:53
+paleo,Whole30 Crispy Coconut Chicken Nuggets,american,109.75,71.12,269.2,2022-10-16,17:23:53
+paleo,Two-Ingredient Chocolate Banana Ice Cream {Vegan} recipes,american,7.84,117.07,3.42,2022-10-16,17:23:53
+paleo,Classic Deviled Eggs,french,76.19,8.31,153.07,2022-10-16,17:23:53
+paleo,"4 Creative, Crustless Pizza Recipes recipes",italian,188.18,157.29,267.62,2022-10-16,17:23:53
+paleo,Five Ingredient Friday: Chocolate and Toasted Coconut Butter Swirl Cups,american,43.32,176.95,400.96,2022-10-16,17:23:53
+paleo,Lemon Creme Cups,french,8.34,67.08,85.75,2022-10-16,17:23:53
+paleo,"Fresh Garden Egg Salad with Turmeric Dijon Dressing {Paleo, Whole30} recipes",american,35.46,39.47,97.69,2022-10-16,17:23:53
+paleo,Paleo Buffalo Chicken Strips with Goat Cheese Dipping Sauce recipes,american,153.16,142.11,192.3,2022-10-16,17:23:53
+paleo,Chicken and “Rice” Casserole (Grain-Free) recipes,south american,248.4,78.44,162.33,2022-10-16,17:23:53
+paleo,Ranch Roasted Cashews,american,51.65,88.86,137.28,2022-10-16,17:23:53
+paleo,Sausage Stuffed Sweet Potatoes,american,11.33,29.24,15.9,2022-10-16,17:23:53
+paleo,Baked Spicy BBQ Adobo Chicken Wings recipes,american,322.74,131.92,284.0,2022-10-16,17:23:53
+paleo,Smoked Salmon Salad Cake recipes,nordic,79.44,94.82,134.03,2022-10-16,17:23:53
+paleo,BBQ Loaded Sweet Potatoes - in the crockpot,american,189.59,221.23,116.19,2022-10-16,17:24:00
+paleo,"Chicken Parmesan With Zucchini Noodles (Grain Free, Paleo, Primal, Gaps, Gluten Free)",asian,326.04,104.56,155.59,2022-10-16,17:24:00
+paleo,Paleo Ground Lamb Shepherd's Pie recipes,american,129.5,391.87,152.99,2022-10-16,17:24:00
+paleo,Carb Free Cloud Bread,american,23.34,4.53,17.99,2022-10-16,17:24:00
+paleo,"Creamy Buffalo Chicken Spaghetti Squash Casserole (paleo, GF) recipes",italian,215.7,128.63,216.47,2022-10-16,17:24:00
+paleo,"Pad Thai Recipe (Grain-Free, Paleo, Gluten Free)",south east asian,496.2,2023.05,211.1,2022-10-16,17:24:00
+paleo,Sausage Stuffed Sweet Potatoes,central europe,11.33,29.24,15.9,2022-10-16,17:24:00
+paleo,"Mini Applesauce Carrot Cake Muffins (Gluten-Free, Paleo) recipes",british,37.99,118.13,102.82,2022-10-16,17:24:00
+paleo,Grilled Gochujang Pork Chops with Watermelon Mint Salad recipes,american,171.73,52.28,107.51,2022-10-16,17:24:00
+paleo,"Asian Southwest Fusion EASY Kimchi Recipe (Paleo, Vegan Friendly) recipes",american,18.18,90.26,1.62,2022-10-16,17:24:00
+paleo,Blueberry French Toast Casserole,french,74.19,289.85,81.62,2022-10-16,17:24:00
+paleo,Tortilla Soup Recipe,mexican,274.38,240.62,219.7,2022-10-16,17:24:00
+paleo,Basil and Sun-Dried Tomato Compound Butter,american,2.41,5.63,92.42,2022-10-16,17:24:00
+paleo,Green Beans with Scrambled Eggs and Sausages recipes,american,46.37,12.17,56.94,2022-10-16,17:24:00
+paleo,Balsamic mustard salad dressing,american,1.67,38.66,82.05,2022-10-16,17:24:00
+paleo,Curry-Infused Deviled Duck Eggs,mexican,161.98,20.54,307.48,2022-10-16,17:24:00
+paleo,Air Fryer Recipes (131 Style),italian,6.02,19.0,18.58,2022-10-16,17:24:06
+paleo,"Whole30 Shepherd's Pie (Paleo, GF) recipes",american,123.49,333.49,133.61,2022-10-16,17:24:06
+paleo,Prosciutto Wrapped Pork Tenderloin,american,189.23,75.63,35.1,2022-10-16,17:24:06
+paleo,Tuna Salad recipes,american,56.28,5.32,47.74,2022-10-16,17:24:06
+paleo,Paleo Chicken Bacon Strawberry Salad with Orange Balsamic recipes,british,140.43,80.35,297.8,2022-10-16,17:24:06
+paleo,Easy 3-Ingredient Homemade Chocolate Peanut Butter Cups recipes,italian,52.06,181.35,205.06,2022-10-16,17:24:06
+paleo,Chicken Pesto Discs recipes,italian,89.94,54.81,119.82,2022-10-16,17:24:06
+paleo,Egg Roll Bowls,italian,109.12,94.35,95.42,2022-10-16,17:24:06
+paleo,"Broccoli, Feta, and Sausage Frittata",mediterranean,133.75,39.86,157.09,2022-10-16,17:24:06
+paleo,Kiwi Apple Cider,american,8.53,210.51,9.79,2022-10-16,17:24:06
+paleo,Marla Sarris recipes,italian,97.03,203.4,62.14,2022-10-16,17:24:06
+paleo,Elvis Style Loaded Sweet Potato,south american,12.26,45.88,30.15,2022-10-16,17:24:06
+paleo,Cranberry Coconut Macaroons,american,21.11,155.62,225.04,2022-10-16,17:24:06
+paleo,No-Bake Energy Bars with Chocolate and Turmeric,american,33.66,81.57,148.1,2022-10-16,17:24:06
+paleo,Butternut Squash Instant Pot Chili,american,13.0,107.78,15.66,2022-10-16,17:24:06
+paleo,Turkey Taco Balls,american,83.4,29.79,24.43,2022-10-16,17:24:06
+paleo,3-Ingredient Crunchy Strawberry Ice-Cream recipes,american,17.65,293.51,94.4,2022-10-16,17:24:13
+paleo,No-Bake Vegan Key-Lime Mini Cheesecakes,american,83.81,336.47,357.93,2022-10-16,17:24:13
+paleo,Turkey Soup,american,1142.58,693.64,287.86,2022-10-16,17:24:13
+paleo,Low Carb Fried Ice Cream,italian,22.62,127.17,104.56,2022-10-16,17:24:13
+paleo,Smoked Beef Brisket recipes,south american,245.48,17.89,340.43,2022-10-16,17:24:13
+paleo,Cauliflower Hash Browns Who Knew?,french,24.46,27.76,27.96,2022-10-16,17:24:13
+paleo,"Balsamic Apple Walnut Salad {GF, Low Cal} recipes",american,7.26,35.93,11.89,2022-10-16,17:24:13
+paleo,Cauliflower Bread,british,75.17,48.1,183.37,2022-10-16,17:24:13
+paleo,"Grilled Chicken Pesto Pizza (grain-free, egg-free, nightshade-free) recipes",italian,88.13,161.76,115.41,2022-10-16,17:24:13
+paleo,Spiralized Cucumber Salad Recipe with Chia Seed Strawberry Vinaigrette {Vegan + Paleo} recipes,american,12.17,97.45,76.12,2022-10-16,17:24:13
+paleo,"Easy Vegan White Cake with Chocolate Coconut Frosting {Gluten Free, Paleo Friendly} recipes",american,75.26,371.75,313.13,2022-10-16,17:24:13
+paleo,BBQ Chicken Sweet Potato Pizza,italian,112.99,285.71,98.15,2022-10-16,17:24:13
+paleo,Creamy Bacon Beet Salad recipes,american,13.37,37.94,68.16,2022-10-16,17:24:13
+paleo,Walnut Pesto recipes,italian,31.36,15.7,39.44,2022-10-16,17:24:13
+paleo,Baked Ranch Chicken Tenders recipes,american,105.57,129.65,146.59,2022-10-16,17:24:13
+paleo,Blueberry French Toast Casserole recipes,french,72.14,306.66,36.59,2022-10-16,17:24:20
+paleo,Low Carb Bulgogi Ground Beef Bowl recipes,british,146.61,79.92,50.85,2022-10-16,17:24:20
+paleo,Kale Pesto recipes,italian,69.78,25.2,204.3,2022-10-16,17:24:20
+paleo,Chicken Avocado Burgers,nordic,97.13,35.1,101.67,2022-10-16,17:24:20
+paleo,"Green Chile Turkey Taco Salad with Peppers and Avocado (Paleo, Low-Carb, Gluten Free) recipes",american,170.68,144.12,180.71,2022-10-16,17:24:20
+paleo,INSTANT POT CHICKEN MARINARA,italian,194.67,26.26,91.92,2022-10-16,17:24:20
+paleo,Blueberries and Cream Truffles recipes,american,22.64,205.97,170.65,2022-10-16,17:24:20
+paleo,Classic Egg Salad,american,34.18,10.4,69.54,2022-10-16,17:24:20
+paleo,Cucumber Tuna Cups,mediterranean,25.78,17.19,40.92,2022-10-16,17:24:20
+paleo,Cauliflower Fried Rice recipes,chinese,150.64,79.08,369.91,2022-10-16,17:24:20
+paleo,Sauteed Leek with Bacon recipes,french,11.61,39.2,41.13,2022-10-16,17:24:20
+paleo,Roast a Whole Cauliflower recipes,american,12.34,39.51,16.73,2022-10-16,17:24:20
+paleo,Dark Chocolate Cashew Butter Candy,french,42.76,169.71,181.61,2022-10-16,17:24:20
+paleo,Maple Frosted Almond Butter Blondies recipes,american,70.14,355.31,243.28,2022-10-16,17:24:20
+paleo,Honey Lime Shrimp recipes,american,92.31,26.34,2.46,2022-10-16,17:24:20
+paleo,Grilled Salmon Cobb Salad {Whole 30} recipes,nordic,60.01,22.5,112.86,2022-10-16,17:24:20
+paleo,Tuna-Stuffed Eggs recipes,italian,52.87,4.1,29.95,2022-10-16,17:24:26
+paleo,Chocolate Caramel Chia Pudding,british,145.04,1545.27,177.4,2022-10-16,17:24:26
+paleo,Old Fashioned Deviled Eggs,american,60.92,6.01,118.36,2022-10-16,17:24:26
+paleo,INSTANT POT CHICKEN CACCIATORE,italian,242.04,87.12,190.75,2022-10-16,17:24:26
+paleo,Paleo Tortillas,french,39.65,23.86,56.1,2022-10-16,17:24:26
+paleo,Marla Sarris recipes,american,250.91,134.81,185.31,2022-10-16,17:24:26
+paleo,One Pot Bacon Braised Lamb Stew {Grain Fre,french,147.55,133.02,214.67,2022-10-16,17:24:26
+paleo,Strawberry Lime Granita,italian,4.45,56.47,1.76,2022-10-16,17:24:26
+paleo,Oven Poached Salmon with Cherry Tomatoes a,nordic,103.94,25.78,75.84,2022-10-16,17:24:26
+paleo,Barbecue Chicken Pizza recipes,italian,91.36,208.4,50.82,2022-10-16,17:24:26
+paleo,Hamburger Steaks With Stroganoff Gravy,eastern europe,104.61,60.01,231.37,2022-10-16,17:24:26
+paleo,Traditional German Rotkohl (Sweet/Sour Red Cabbage) recipes,central europe,13.91,131.15,48.71,2022-10-16,17:24:26
+paleo,Chocolate and Toasted Coconut Butter Pudding recipes,british,15.67,41.91,94.91,2022-10-16,17:24:33
+paleo,Taco Stuffed Avocado Cups,mexican,103.22,54.18,123.51,2022-10-16,17:24:33
+paleo,Crab Stuffed Shrimp Recipe,mediterranean,122.29,4.81,31.9,2022-10-16,17:24:33
+paleo,Basic Balsamic Steak Marinade recipes,american,97.52,21.4,145.98,2022-10-16,17:24:33
+paleo,Slow Cooker Red-Cooked Chicken,chinese,257.78,119.4,274.45,2022-10-16,17:24:33
+paleo,Easy Garlic and Rosemary Roast Beef recipes,mediterranean,316.98,3.68,246.05,2022-10-16,17:24:33
+paleo,Paleo chocolate,american,8.66,77.46,114.72,2022-10-16,17:24:33
+paleo,Honey Garlic Ribs,american,410.45,209.84,349.93,2022-10-16,17:24:33
+paleo,Paleo and Vegan Pumpkin and Fig Bread Pudding. Plus Why We Might Need Carbs During Fall Season recipes,british,15.17,104.57,12.73,2022-10-16,17:24:33
+paleo,Cauliflower Potato Salad,american,39.1,51.14,65.66,2022-10-16,17:24:33
+paleo,SPIRALIZED SWEET POTATO FRIES recipes,south american,3.35,37.48,131.84,2022-10-16,17:24:33
+paleo,Healthy Chocolate Truffles recipes,french,19.39,113.88,103.46,2022-10-16,17:24:33
+paleo,Paleo Crepes,french,29.26,9.68,63.3,2022-10-16,17:24:40
+paleo,Chocolate-Nut Fudge recipes,american,42.37,280.53,224.06,2022-10-16,17:24:40
+paleo,Healthy Vegan Green Bean Casserole recipes,american,20.36,104.02,17.13,2022-10-16,17:24:40
+paleo,Vegan Ranch Dressing,american,17.1,26.49,77.37,2022-10-16,17:24:40
+paleo,"Chicken Sausage, Mashed Potatoes, and Baby Broccoli recipes",american,63.18,146.69,32.84,2022-10-16,17:24:40
+paleo,Oven-Baked Sloppy Joes,american,405.14,202.29,455.75,2022-10-16,17:24:40
+paleo,Oven-Baked Parmesan Green Bean Fries,italian,67.07,37.59,43.58,2022-10-16,17:24:40
+paleo,Paleo Spaghetti,italian,113.5,84.51,32.34,2022-10-16,17:24:40
+paleo,Chocolate Drizzled Pumpkin Donuts,american,22.76,128.52,30.38,2022-10-16,17:24:40
+paleo,Chinese Beef and Broccoli recipes,chinese,120.87,99.95,62.06,2022-10-16,17:24:40
+paleo,Pumpkin Pie Chia Seed Pudding recipes,british,5.44,33.63,7.98,2022-10-16,17:24:40
+paleo,Paleo Spaghetti,italian,91.7,90.28,103.95,2022-10-16,17:24:46
+paleo,Easy Primal Mini Tortilla Pizzas recipes,italian,56.6,119.61,63.87,2022-10-16,17:24:46
+paleo,Easy Chicken Salad recipes,american,238.58,46.12,164.79,2022-10-16,17:24:46
+paleo,Cottage Pie,american,231.51,92.06,376.33,2022-10-16,17:24:46
+paleo,Sweet Potato Salad,south american,11.35,83.85,73.27,2022-10-16,17:24:46
+paleo,Paleo Potatoes,italian,9.41,66.8,1.0,2022-10-16,17:24:46
+paleo,No-Bake Chocolate Almond Butter Truffles,american,50.47,168.54,206.65,2022-10-16,17:24:46
+paleo,Paleo Coleslaw,mediterranean,1.67,7.27,13.2,2022-10-16,17:24:46
+paleo,Paleo Grits,american,51.81,70.43,65.92,2022-10-16,17:24:53
+paleo,Grilled Vegetables with Lemon Thyme Butter recipes,american,4.51,15.99,147.84,2022-10-16,17:24:53
+paleo,Paleo Hummus,mediterranean,12.42,150.94,168.87,2022-10-16,17:24:53
+paleo,Paleo Spaghetti,italian,101.28,128.97,96.98,2022-10-16,17:24:53
+paleo,Garlic Butter Rainbow Trout in Foil,american,91.25,3.47,53.62,2022-10-16,17:24:53
+paleo,Paleo Jello,mediterranean,13.93,33.12,0.96,2022-10-16,17:24:53
+paleo,Chocolate Covered Stuffed Dates recipes,american,32.88,429.73,154.5,2022-10-16,17:24:53
+paleo,Paleo Fruitcake,american,82.45,271.48,204.91,2022-10-16,17:24:53
+paleo,Paleo Pest,french,2.88,5.79,218.98,2022-10-16,17:24:53
+paleo,I Can't Believe It's Not Processed! Caramel Fondant recipes,mediterranean,36.25,169.58,127.08,2022-10-16,17:25:00
+paleo,Sweet and Spicy Asian-Style Eggplant recipes,south east asian,28.05,135.94,33.77,2022-10-16,17:25:00
+paleo,"Aunt Rocky’s Onion Pie in Biscuit Crust (Low Carb, Gluten Free)",american,72.94,95.74,162.6,2022-10-16,17:25:00
+paleo,What Mom Never Told You About Ambrosia Salad recipes,american,21.27,131.23,47.57,2022-10-16,17:25:00
+paleo,"Bacon, Grape and Broccoli Salad",american,97.12,171.09,379.33,2022-10-16,17:25:00
+paleo,Tropical Chicken Burger,american,130.68,53.89,75.11,2022-10-16,17:25:00
+paleo,Paleo Tzatziki,mediterranean,2.82,17.07,0.57,2022-10-16,17:25:00
+paleo,Paleo Wraps,american,11.53,43.67,9.96,2022-10-16,17:25:00
+paleo,Paleo Hash,french,113.32,65.91,136.92,2022-10-16,17:25:00
+paleo,Carolina BBQ Meatballs (Low Carb & Glu,american,92.06,28.05,117.08,2022-10-16,17:25:00
+paleo,Paleo Gingersnaps,british,58.26,120.44,143.2,2022-10-16,17:25:00
+paleo,Paleo Hummus,mediterranean,21.58,35.21,66.94,2022-10-16,17:25:00
+paleo,"Aunt Rocky’s Keto Hot Cocoa Mix (Sugar Free, Dairy Free, Low Carb)",american,37.91,165.84,34.48,2022-10-16,17:25:00
+paleo,Paleo Chili,american,198.76,170.02,202.56,2022-10-16,17:25:07
+paleo,Creamy Cauliflower and Ground Beef Skillet,british,123.76,54.27,293.3,2022-10-16,17:25:07
+paleo,Flaky Sriracha Cod over Parsnip Carrot Mas,american,9.26,42.6,176.28,2022-10-16,17:25:07
+paleo,"Addicting Paleo Cashew Hummus (Paleo, low",mediterranean,112.95,191.68,494.13,2022-10-16,17:25:07
+paleo,One Pot Bacon Braised Lamb Stew {Grain Free} recipes,french,147.55,133.02,214.67,2022-10-16,17:25:07
+paleo,paleo pastelon,italian,127.96,257.63,103.37,2022-10-16,17:25:07
+paleo,Paleo Spaghetti,italian,113.5,84.51,32.34,2022-10-16,17:25:07
+paleo,Paleo Crumble,eastern europe,42.08,149.03,122.62,2022-10-16,17:25:07
+paleo,Delectable Spinach Zucchini Bites for an Easy Party Snack recipes,italian,38.14,65.53,18.64,2022-10-16,17:25:07
+paleo,Paleo Chili,american,95.78,97.82,97.17,2022-10-16,17:25:07
+paleo,Paleo Frittata,italian,173.78,134.07,268.58,2022-10-16,17:25:07
+paleo,Paleo Pita,mediterranean,5.69,101.64,31.13,2022-10-16,17:25:13
+paleo,Paleo Pesto,italian,17.38,19.31,139.44,2022-10-16,17:25:13
+paleo,Paleo Stew,american,114.49,53.93,116.2,2022-10-16,17:25:13
+paleo,Easy Oven Barbecue Chicken recipes,american,55.0,342.7,63.1,2022-10-16,17:25:13
+paleo,paleo meatballs,american,85.79,12.51,115.51,2022-10-16,17:25:13
+paleo,Dinner: Chicken Avocado Burgers,nordic,92.88,31.09,92.32,2022-10-16,17:25:13
+paleo,Banana Cream Pie,american,23.83,210.58,308.61,2022-10-16,17:25:13
+paleo,Paleo Shakshouka,american,63.65,201.73,36.63,2022-10-16,17:25:13
+paleo,Pan-Roasted Cashew Broccoli recipes,british,35.44,69.35,30.46,2022-10-16,17:25:13
+paleo,"5-Ingredient Roasted Tomato Soup (Low Carb, Gluten-free) recipes",eastern europe,7.68,30.35,36.87,2022-10-16,17:25:13
+paleo,Mini Hasselback Potatoes with Roasted Garlic,american,47.23,272.38,38.35,2022-10-16,17:25:13
+paleo,Spanish Salad Dressing,mediterranean,1.87,61.46,162.33,2022-10-16,17:25:20
+paleo,Quick And Creamy Chicken Stew recipes,italian,263.77,112.8,309.92,2022-10-16,17:25:20
+paleo,Roasted Cauliflower Chowder recipes,american,44.63,111.23,150.27,2022-10-16,17:25:20
+paleo,Paleo Ketchup,italian,15.8,181.21,4.77,2022-10-16,17:25:20
+paleo,Hearty Chicken Salad recipes,american,144.26,16.24,127.63,2022-10-16,17:25:20
+paleo,Homemade Apple Cider,american,6.37,400.39,3.96,2022-10-16,17:25:20
+paleo,Paleo Dressing,american,22.74,68.54,127.93,2022-10-16,17:25:20
+paleo,Paleo Salsa,mexican,15.03,79.9,3.0,2022-10-16,17:25:20
+paleo,Paleo Jerky,american,251.76,38.75,139.7,2022-10-16,17:25:20
+paleo,Paleo Blondies,american,109.85,1343.97,1869.58,2022-10-16,17:25:20
+paleo,Paleo Spaghetti,italian,98.63,65.37,65.28,2022-10-16,17:25:20
+paleo,Buffalo Chicken Casserole,american,193.01,74.42,327.15,2022-10-16,17:25:20
+paleo,Paleo Paella,mediterranean,228.68,66.4,163.41,2022-10-16,17:25:27
+paleo,Citrus Basil Mojito Pops,caribbean,2.65,44.27,0.75,2022-10-16,17:25:27
+paleo,Chili Lime Cream Grilled Chicken recipes,american,310.17,22.85,129.07,2022-10-16,17:25:27
+paleo,Paleo Calamari,italian,37.6,30.65,877.4,2022-10-16,17:25:27
+paleo,"Creamy Balsamic Salad Dressing - Easy, Creamy and Real recipes",mediterranean,0.1,2.12,44.59,2022-10-16,17:25:27
+paleo,Waldorf Salad recipes,american,46.42,75.17,187.33,2022-10-16,17:25:27
+paleo,Orange Chocolate Pudding,british,33.68,195.5,155.13,2022-10-16,17:25:27
+paleo,Garlic Mashed Sweet Potatoes With Spinach recipes,american,25.05,200.19,30.7,2022-10-16,17:25:27
+paleo,Fruit Salsa,mexican,7.67,124.25,2.88,2022-10-16,17:25:27
+paleo,Thai Red Curry,south east asian,110.25,128.45,106.7,2022-10-16,17:25:27
+paleo,Low Carb Cauliflower Potato Salad recipes,american,26.18,74.5,62.8,2022-10-16,17:25:27
+paleo,Paleo Chili,american,305.91,139.01,356.15,2022-10-16,17:25:27
+paleo,Golden Paleo Muffins – Gluten-Free/Paleo/Vegetarian,american,32.46,254.97,51.28,2022-10-16,17:25:27
+paleo,Creamy Shaved Brussels Sprouts and Apple Salad recipes,italian,27.78,119.44,158.77,2022-10-16,17:25:33
+paleo,Whole30 Tuna Salad,american,29.18,38.85,17.77,2022-10-16,17:25:33
+paleo,Paleo Lasagna,italian,199.07,166.7,292.21,2022-10-16,17:25:33
+paleo,Low Carb Cauliflower Potato Salad,american,34.18,36.49,119.11,2022-10-16,17:25:33
+paleo,Creamy Balsamic Dressing Recipe,italian,2.05,14.4,130.22,2022-10-16,17:25:33
+paleo,Beef Stir-fry with Snow Peas and Mushrooms recipes,chinese,117.89,113.86,57.65,2022-10-16,17:25:33
+paleo,Baked Sesame Ginger Chicken recipes,chinese,356.6,31.62,198.75,2022-10-16,17:25:33
+paleo,Genoise-Style Paleo Tiramisu ~ The Paleo Mom,italian,25.73,158.9,188.95,2022-10-16,17:25:33
+paleo,Sweet Potato Tater Tots,american,16.02,205.34,117.83,2022-10-16,17:25:33
+paleo,Paleo Middle Eastern Meatballs (Paleo Kibbeh) recipes,middle eastern,102.17,18.57,49.56,2022-10-16,17:25:33
+paleo,Orange Dressing/Vinaigrette,mediterranean,8.69,163.48,574.6,2022-10-16,17:25:33
+paleo,"Low Carb Nut Free English Muffins (Grain Free, Gluten Free)",british,33.89,22.3,121.33,2022-10-16,17:25:33
+paleo,Beef Stir-fry with Snow Peas and Mushrooms,british,12.1,45.68,1.06,2022-10-16,17:25:33
+paleo,Raw Vegan Collard Wraps,american,22.88,56.46,107.24,2022-10-16,17:25:40
+paleo,Chicken Avocado Burgers recipes,nordic,93.27,33.54,92.44,2022-10-16,17:25:40
+paleo,Creamy Whole30 Avocado Tuna Boats,mediterranean,41.82,57.75,94.29,2022-10-16,17:25:40
+paleo,Sweet and Sticky Mango Chutney Chicken,indian,256.98,93.99,261.35,2022-10-16,17:25:40
+paleo,Barbecue Chicken Pizza-ii,italian,91.36,208.4,50.82,2022-10-16,17:25:40
+paleo,The Paleo Pasty,eastern europe,99.39,192.8,125.8,2022-10-16,17:25:40
+paleo,Peanut Butter Chocolate Chunk Blondies recipes,american,68.82,231.05,229.81,2022-10-16,17:25:40
+paleo,Green Goddess Turkey Burgers recipes,american,138.81,4.66,98.06,2022-10-16,17:25:40
+paleo,Cassava Flour Chocolate Mayonnaise Cake,american,11.04,422.58,237.46,2022-10-16,17:25:40
+paleo,Paleo Pizza with a Paleo Pizza Crust recipes,italian,105.31,114.29,180.78,2022-10-16,17:25:40
+paleo,Shoyu Ahi Poke recipes,japanese,111.82,11.58,6.85,2022-10-16,17:25:40
+paleo,Dairy-free Chunky Ice Cream,american,18.19,175.0,123.11,2022-10-16,17:25:40
+paleo,Honey Mustard Salmon,nordic,27.68,63.22,418.12,2022-10-16,17:25:40
+paleo,Five C Spiced Salmon recipes,nordic,324.33,4.57,270.7,2022-10-16,17:25:40
+paleo,Dark & Stormy Date Caramels,french,34.02,119.1,137.32,2022-10-16,17:25:40
+paleo,Keto Fried Fish,south east asian,110.93,20.28,53.53,2022-10-16,17:25:40
+paleo,Paleo Salmon Cakes,nordic,110.13,12.03,50.63,2022-10-16,17:25:47
+paleo,Broccoli and bacon salad,american,66.61,142.18,186.51,2022-10-16,17:25:47
+paleo,Ground Beef Skillet with Pesto and Greens (Low-FODMAP),british,89.94,10.84,58.45,2022-10-16,17:25:47
+paleo,Sweet and Spicy Asian-style Eggplant,south east asian,28.24,153.01,34.26,2022-10-16,17:25:47
+paleo,French Onion Dip recipes,american,15.14,44.77,303.62,2022-10-16,17:25:47
+paleo,Berry Chocolate (Antioxidant) Heaven,american,29.87,352.58,92.19,2022-10-16,17:25:47
+paleo,Chocolate Ice Cream - That's Dairy AND (Added) Sugar Free,american,17.09,98.33,27.65,2022-10-16,17:25:47
+paleo,Chocolate Tiramisu (Grain-Free) recipes,italian,44.35,370.33,265.2,2022-10-16,17:25:47
+paleo,"Strawberry (Heart Berry) Sponge Cake with Swiss Meringue and Coconut Cream (Grain Free, Dairy Free) recipes",british,73.61,215.65,194.58,2022-10-16,17:25:47
+paleo,CHORIZO BURGER WITH CUCUMBER SLAW recipes,mediterranean,146.06,23.64,205.89,2022-10-16,17:25:47
+paleo,Paleo Steak and Kidney Pie ~ The Paleo Mom,american,398.01,82.5,282.32,2022-10-16,17:25:47
+paleo,Paleo Pizza Crust,italian,34.22,27.58,82.33,2022-10-16,17:25:47
+paleo,Salisbury Steak Meatballs,british,145.56,62.05,169.76,2022-10-16,17:25:47
+paleo,Paleo Graham Crackers,american,37.62,65.86,83.96,2022-10-16,17:25:47
+paleo,Pecan and Apple Stuffed Acorn Squash recipes,american,14.02,89.14,100.92,2022-10-16,17:25:54
+paleo,"Chicken Salad With Grapes, Apples And Cranberries recipe recipes",american,101.36,118.91,252.23,2022-10-16,17:25:54
+paleo,Paleo Persimmon Pie,american,38.48,518.49,227.16,2022-10-16,17:25:54
+paleo,Paleo Stir Fry,american,24.43,22.43,8.06,2022-10-16,17:25:54
+paleo,Keto Strawberry Ice Cream,american,29.56,52.43,291.93,2022-10-16,17:25:54
+paleo,Paleo Lemon Tarts,french,38.77,126.1,64.78,2022-10-16,17:25:54
+paleo,Chocolate Chia Seed Pudding,british,13.65,68.33,92.25,2022-10-16,17:25:54
+paleo,Braised Cube Steak with Onion Gravy (AIP) recipes,american,22.12,875.89,54.93,2022-10-16,17:25:54
+paleo,No Bake Almond Butter Bars (Low Carb and Gluten Free) recipes,american,92.22,286.7,321.2,2022-10-16,17:25:54
+paleo,Paleo Lunch “Buns,italian,5.04,227.0,1.45,2022-10-16,17:25:54
+paleo,Parmesan Herb Chicken (Grain Free and Low Carb) recipes,italian,166.91,3.84,72.13,2022-10-16,17:25:54
+paleo,Blueberry Crumble (Gluten-free & Sugar-free) recipes,american,60.03,135.78,188.85,2022-10-16,17:25:54
+paleo,Roasted Garlic Mashed Potatoes recipes,american,25.2,63.62,10.39,2022-10-16,17:25:54
+paleo,Healthy Coconut Meringue Parfait recipes,french,63.04,161.99,13.34,2022-10-16,17:25:54
+paleo,Keto Waldorf Salad,american,6.74,27.28,63.62,2022-10-16,17:25:54
+paleo,Grilled Asian Style Wild Alaskan Black Cod recipes,japanese,44.95,39.22,6.89,2022-10-16,17:26:00
+paleo,Korean Beef Cauliflower Rice Bowls,mediterranean,190.89,158.68,234.05,2022-10-16,17:26:00
+paleo,Paleo Zucchini Spaghetti,italian,4.74,12.19,14.75,2022-10-16,17:26:00
+paleo,Chicken Jicama Slaw,mexican,112.36,32.53,118.16,2022-10-16,17:26:00
+paleo,Paleo Acorn Squash,french,3.57,68.92,11.95,2022-10-16,17:26:00
+paleo,Paleo Coffee Creamer,french,19.37,14.12,98.57,2022-10-16,17:26:00
+paleo,"Paleo chocolate barks, a.k.a. Paleo turr&o",american,23.75,84.18,191.43,2022-10-16,17:26:00
+paleo,Paleo Flour Tortillas (AIP-friendly!) ~ The Paleo Mom,mexican,0.0,150.22,81.0,2022-10-16,17:26:00
+paleo,Paleo Carrot Cake,british,130.64,371.78,327.27,2022-10-16,17:26:00
+paleo,"Low Carb Red Cabbage, Mint, and Granny Smi",american,9.8,75.41,56.01,2022-10-16,17:26:07
+paleo,Sweet Potato Tater Tots,american,16.02,205.34,102.76,2022-10-16,17:26:07
+paleo,Bacon Burger Cauliflower Rice Casserole recipes,american,125.01,32.77,183.92,2022-10-16,17:26:07
+paleo,Mediterranean Eggs Paleo,mediterranean,12.24,9.38,23.7,2022-10-16,17:26:07
+paleo,Paleo Banana Bread,american,54.23,233.84,97.63,2022-10-16,17:26:07
+paleo,Paleo Coconut Crepes,french,14.04,9.69,2.72,2022-10-16,17:26:07
+paleo,Easy Paleo Meatballs,french,78.6,2.96,90.8,2022-10-16,17:26:07
+paleo,Paleo Apple Tart,french,9.15,249.27,59.68,2022-10-16,17:26:07
+paleo,Paleo Birthday Cake,american,71.98,200.17,163.98,2022-10-16,17:26:07
+paleo,PALEO HASH BROWNS,south american,4.65,114.17,36.32,2022-10-16,17:26:14
+paleo,Roasted Beet and Micro Kale Egg White Frittata,italian,38.18,20.35,40.72,2022-10-16,17:26:14
+paleo,Chipotle Pulled Pork Stuffed Potatoes with Creamy Coleslaw recipes,american,32.47,235.85,91.26,2022-10-16,17:26:14
+paleo,Paleo Hamburger Buns,american,14.22,74.17,20.04,2022-10-16,17:26:14
+paleo,Paleo Roasted Asparagus,nordic,9.98,17.6,13.32,2022-10-16,17:26:14
+paleo,Paleo Peach Crumble,eastern europe,44.9,261.29,181.17,2022-10-16,17:26:14
+paleo,Paleo Pesto recipes,italian,12.89,18.24,146.76,2022-10-16,17:26:14
+paleo,Paleo Sausage Balls,american,104.42,60.32,234.14,2022-10-16,17:26:21
+paleo,Paleo Pumpkin Pie,american,42.95,329.53,179.46,2022-10-16,17:26:21
+paleo,Paleo Meat Loaf,american,97.33,60.44,97.57,2022-10-16,17:26:21
+paleo,Paleo Birthday Cake,american,51.4,346.93,234.62,2022-10-16,17:26:21
+paleo,Paleo Vanilla Custard,italian,27.29,65.95,103.42,2022-10-16,17:26:21
+paleo,Parmesan Herb Chicken (Grain Free and Low Carb),italian,166.91,3.84,72.13,2022-10-16,17:26:21
+paleo,Paleo Baked Tuna Cakes - Paleo and Gluten-Free,mediterranean,105.58,58.76,166.85,2022-10-16,17:26:21
+paleo,Mango Banana Vanilla Cream Pops,american,11.09,71.03,97.12,2022-10-16,17:26:21
+paleo,Turkey Avocado Burgers,american,203.1,149.26,333.28,2022-10-16,17:26:21
+paleo,Paleo Roti recipes,south east asian,16.54,72.39,70.77,2022-10-16,17:26:21
+paleo,"Instant Pot Paleo Pumpkin Chili {Whole30, Paleo}",american,92.49,93.22,123.26,2022-10-16,17:26:21
+paleo,Strawberry Grapefruit Salad recipes,american,7.83,63.3,29.81,2022-10-16,17:26:21
+paleo,Paleo Custard Bake,mediterranean,40.09,48.85,114.16,2022-10-16,17:26:21
+paleo,Paleo Chicken Stew,american,131.55,66.3,25.08,2022-10-16,17:26:27
+paleo,Paleo Eggplant Hummus,mediterranean,9.79,47.87,9.76,2022-10-16,17:26:27
+paleo,Paleo Margaritas recipes,world,0.16,14.07,0.02,2022-10-16,17:26:27
+paleo,Paleo Beef Jerkey,american,206.94,104.79,47.42,2022-10-16,17:26:27
+paleo,Paleo Caramel Frappuccino,mediterranean,4.83,10.41,8.02,2022-10-16,17:26:27
+paleo,Mango Salsa (Paleo),mexican,13.16,144.64,32.84,2022-10-16,17:26:27
+paleo,Paleo Butterfingers recipes,french,4.35,247.32,139.99,2022-10-16,17:26:27
+paleo,Paleo Carrot Hummus,mediterranean,8.4,38.01,232.91,2022-10-16,17:26:27
+paleo,Paleo Shamrock Shake,american,7.82,43.51,58.32,2022-10-16,17:26:27
+paleo,Summer Squash Noodles with Skinny Garlic Butter recipes,asian,9.62,19.66,26.36,2022-10-16,17:26:34
+paleo,Summer Squash Tomato Bake,american,22.49,72.05,38.26,2022-10-16,17:26:34
+paleo,Paleo Zuppa Toscana,italian,57.87,253.19,103.32,2022-10-16,17:26:34
+paleo,Paleo Chocolate Mousse,french,40.91,139.35,285.15,2022-10-16,17:26:34
+paleo,"Paleo ""Parmesan"" Cheese",italian,39.27,40.29,71.93,2022-10-16,17:26:34
+paleo,Healthy Fettuccine Alfredo recipes,italian,14.78,65.85,29.75,2022-10-16,17:26:34
+paleo,Paleo Tortilla Chips,american,17.17,67.44,76.21,2022-10-16,17:26:34
+paleo,Paleo strawberry icecream,italian,26.36,168.28,195.15,2022-10-16,17:26:34
+paleo,Paleo Cheese recipes,french,66.76,64.6,63.44,2022-10-16,17:26:34
+paleo,Perfect Paleo Burger,american,7.33,47.38,55.47,2022-10-16,17:26:34
+paleo,Killer Paleo Horseradish,american,2.83,27.14,1.66,2022-10-16,17:26:41
+paleo,Paleo Peppermint Macaroons,french,11.77,64.05,54.94,2022-10-16,17:26:41
+paleo,Sesame Orange Vinaigrette,chinese,5.61,46.24,58.25,2022-10-16,17:26:41
+paleo,Paleo Chicken Marsala,italian,149.53,27.82,148.35,2022-10-16,17:26:41
+paleo,Weight Watchers Beef Stew,french,275.18,230.52,62.63,2022-10-16,17:26:41
+paleo,Paleo Grilled Salmon,nordic,197.13,7.3,57.9,2022-10-16,17:26:41
+paleo,Paleo Chocolate Pudding,british,11.97,127.01,58.87,2022-10-16,17:26:41
+paleo,Paleo Gnocchi recipes,italian,6.22,102.72,3.7,2022-10-16,17:26:41
+paleo,Paleo pumpkin pie,american,78.68,305.74,389.01,2022-10-16,17:26:41
+paleo,Tropical Paleo Popsicles,american,7.29,80.99,2.69,2022-10-16,17:26:41
+paleo,"Paleo Steak Marinade (Paleo, GF + Sugar Free) recipes",american,2.9,27.16,27.62,2022-10-16,17:26:41
+paleo,Paleo Kale Salmon,nordic,6.58,10.28,63.92,2022-10-16,17:26:48
+paleo,Paleo Sandwich Thins,american,31.76,91.98,24.72,2022-10-16,17:26:48
+paleo,Paleo Waldorf Salad,american,3.37,64.06,91.21,2022-10-16,17:26:48
+paleo,Paleo Shrimp Scampi,chinese,298.21,35.88,30.01,2022-10-16,17:26:48
+paleo,Paleo Chicken Marsala,italian,303.12,28.89,81.2,2022-10-16,17:26:48
+paleo,Apricot Bites Paleo,french,6.74,59.88,50.54,2022-10-16,17:26:48
+paleo,Paleo Spinach Crepes,italian,32.03,90.8,30.21,2022-10-16,17:26:48
+paleo,PALEO CREPES recipes,french,31.86,22.28,34.51,2022-10-16,17:26:48
+paleo,Moroccan Spice Blend,middle eastern,1.03,6.36,1.02,2022-10-16,17:26:48
+paleo,Paleo Pumpkin Butter,american,2.84,55.05,9.82,2022-10-16,17:26:48
+paleo,Paleo Tempura Asparagus,japanese,40.84,30.73,146.81,2022-10-16,17:26:48
+paleo,Paleo Taco Soup,mexican,187.46,30.42,23.91,2022-10-16,17:26:48
+paleo,Easy Chicken Marsala,italian,107.08,36.05,48.9,2022-10-16,17:26:55
+paleo,Easy Paleo Ketchup,italian,7.52,47.99,0.81,2022-10-16,17:26:55
+paleo,Paleo Hummus recipes,mediterranean,28.06,49.03,93.44,2022-10-16,17:26:55
+paleo,Paleo Pumpkin Gnocchi,mediterranean,28.38,154.13,79.81,2022-10-16,17:26:55
+paleo,Paleo Cauli Couscous,middle eastern,21.26,71.22,24.81,2022-10-16,17:26:55
+paleo,Hawaiian Barbecue-Style Chicken Salad recipes,american,84.54,210.42,89.07,2022-10-16,17:26:55
+paleo,Paleo Pumpkin Pie,american,76.56,180.96,184.22,2022-10-16,17:26:55
+paleo,Paleo Chocolate Milk,british,26.79,128.02,165.51,2022-10-16,17:26:55
+paleo,"Roasted Acorn Squash With Dates, Pumpkin Seeds And Goat Cheese",mediterranean,26.37,221.01,51.73,2022-10-16,17:26:55
+paleo,Gluten Free Chocolate Zucchini Muffins recipes,mediterranean,69.91,125.55,157.81,2022-10-16,17:26:55
+paleo,Easy Paleo Falafel,mediterranean,21.62,32.57,64.66,2022-10-16,17:26:55
+paleo,Paleo Blueberry Mousse,french,53.13,323.37,439.18,2022-10-16,17:26:55
+paleo,"Roasted Italian Sausages with Potatoes, Peppers, and Onions recipes",italian,46.3,138.96,31.67,2022-10-16,17:26:55
+paleo,Green Sorbet (Paleo),mediterranean,7.16,119.64,1.93,2022-10-16,17:27:05
+paleo,Paleo Carrot Souffle,american,32.67,119.89,137.81,2022-10-16,17:27:05
+paleo,Paleo Chocolate Pudding,british,30.5,91.77,123.75,2022-10-16,17:27:05
+paleo,Paleo Chicken Tenders,american,85.12,81.13,103.53,2022-10-16,17:27:05
+paleo,Loco Coco (paleo),american,32.1,84.86,183.44,2022-10-16,17:27:05
+paleo,Paleo Mini Quiche,french,88.06,14.19,45.71,2022-10-16,17:27:05
+paleo,Apple Cider Poppyseed Salad recipes,mediterranean,22.75,175.37,133.44,2022-10-16,17:27:05
+paleo,'PALEO' Pizza Base,italian,28.69,131.07,105.15,2022-10-16,17:27:05
+paleo,Paleo Friendly Meatballs,nordic,114.89,46.78,169.8,2022-10-16,17:27:05
+paleo,Paleo Fettuccine Alfredo,italian,36.18,46.25,21.54,2022-10-16,17:27:05
+paleo,Paleo Mushroom Soup,french,11.95,28.45,2.59,2022-10-16,17:27:05
+paleo,Paleo Thanksgiving Stuffing,american,27.7,119.89,77.25,2022-10-16,17:27:05
+paleo,Pistachio Crusted Salmon with Green Curry recipes,nordic,261.59,29.86,239.02,2022-10-16,17:27:05
+paleo,Paleo Sausage Meatballs,eastern europe,73.38,51.45,142.07,2022-10-16,17:27:05
+paleo,Paleo Crepes recipes,french,27.22,68.05,50.0,2022-10-16,17:27:05
+paleo,Paleo Greek 'Rice',mediterranean,13.09,44.48,56.22,2022-10-16,17:27:12
+paleo,Company Pot Roast recipes,french,350.05,176.53,240.25,2022-10-16,17:27:12
+paleo,Paleo Flatbread Recipe,american,31.91,120.79,25.97,2022-10-16,17:27:12
+paleo,Paleo Chex recipes,american,26.86,101.27,108.62,2022-10-16,17:27:12
+paleo,Paleo Breakfast Sandwich,american,20.23,14.22,49.8,2022-10-16,17:27:12
+paleo,Paleo Toffee & A Review of Paleo Indulgences Cookbook recipes,british,24.4,231.54,88.47,2022-10-16,17:27:12
+paleo,Paleo Squash Pesto,italian,33.19,10.65,186.65,2022-10-16,17:27:12
+paleo,Paleo pizza crust,italian,11.43,121.83,117.55,2022-10-16,17:27:12
+paleo,Paleo Mini Quiche,french,74.29,24.48,77.75,2022-10-16,17:27:12
+paleo,Paleo Hungarian Goulash,central europe,105.01,36.89,38.16,2022-10-16,17:27:12
+paleo,Paleo Curry Meatballs,indian,16.42,34.1,89.05,2022-10-16,17:27:12
+paleo,Paleo Spinach Latkes,french,44.1,215.12,100.34,2022-10-16,17:27:12
+paleo,Paleo Pesto Recipe,italian,20.91,19.71,119.3,2022-10-16,17:27:12
+paleo,Paleo Chicken Fingers,eastern europe,163.02,148.03,236.07,2022-10-16,17:27:12
+paleo,Paleo Primal Fudge,american,34.66,101.48,184.31,2022-10-16,17:27:18
+paleo,Paleo Cod Burgers,nordic,92.92,30.26,8.57,2022-10-16,17:27:18
+paleo,Paleo Carrot Soup,american,26.79,115.76,119.4,2022-10-16,17:27:18
+paleo,Paleo Zucchini Hummus,mediterranean,25.15,43.41,79.87,2022-10-16,17:27:18
+paleo,Paleo Zuppa Toscana,italian,87.27,117.16,169.21,2022-10-16,17:27:18
+paleo,Homemade Paleo Ketchup,italian,10.13,56.96,1.49,2022-10-16,17:27:18
+paleo,Paleo Cassava Tortillas,mediterranean,0.06,75.16,27.0,2022-10-16,17:27:18
+paleo,Paleo Tandoori Chicken,indian,308.98,21.54,323.35,2022-10-16,17:27:18
+paleo,Glazed Paleo Éclairs,american,11.94,115.46,16.76,2022-10-16,17:27:25
+paleo,Paleo Tortillas recipes,mediterranean,36.75,41.01,34.25,2022-10-16,17:27:25
+paleo,Paleo Chicken Parmesan,italian,153.87,119.21,171.95,2022-10-16,17:27:25
+paleo,Paleo Potato Salad,mediterranean,41.57,430.55,555.11,2022-10-16,17:27:25
+paleo,Slow Cooker Stewed Rosemary Garlic Chicken,american,134.21,25.83,144.46,2022-10-16,17:27:25
+paleo,Rice with Mushroom and Asparagus,french,23.57,101.25,25.44,2022-10-16,17:27:25
+paleo,Paleo Dirty Rice,french,26.68,80.75,35.37,2022-10-16,17:27:25
+paleo,Paleo Ranch Seasoning,american,4.29,20.24,0.82,2022-10-16,17:27:25
+paleo,Paleo Sangria recipes,world,2.87,110.03,0.69,2022-10-16,17:27:25
+paleo,Paleo Fried Rice,chinese,17.07,23.74,36.07,2022-10-16,17:27:25
+paleo,Primal Pizza Pie Layer Casserole,italian,131.33,34.99,159.19,2022-10-16,17:27:25
+paleo,Paleo Lemon Curd,french,24.82,161.28,132.63,2022-10-16,17:27:25
+paleo,Easy Make Ahead Paleo Gravy {paleo + vegan option},american,6.16,23.93,33.74,2022-10-16,17:27:25
+paleo,"Aunt Rocky’s Chorizo and Spaghetti Squash Casserole (Low Carb, Keto)",italian,126.73,77.95,197.8,2022-10-16,17:27:31
+paleo,Smoked Salmon Deviled Eggs,nordic,72.44,9.31,228.93,2022-10-16,17:27:31
+paleo,Paleo cauliflower puree,mediterranean,14.68,49.71,47.87,2022-10-16,17:27:31
+paleo,Paleo Caesar Dressing,mediterranean,20.16,9.07,497.18,2022-10-16,17:27:31
+paleo,Paleo Ginger??Snaps,italian,95.94,152.11,226.9,2022-10-16,17:27:31
+paleo,Paleo Zuppa Toscana,italian,179.75,261.94,425.47,2022-10-16,17:27:31
+paleo,Paleo Hummus recipes,mediterranean,11.66,20.89,24.94,2022-10-16,17:27:31
+paleo,paleo banana bread,american,35.68,134.46,62.16,2022-10-16,17:27:31
+paleo,Paleo Turkey Meatballs,american,195.62,33.54,79.05,2022-10-16,17:27:31
+paleo,Paleo Banana Muffins,american,85.78,200.52,260.37,2022-10-16,17:27:31
+paleo,Jamerican Paleo Burger,nordic,98.81,32.99,64.72,2022-10-16,17:27:38
+paleo,Paleo PIzza Crust,italian,44.0,86.7,84.35,2022-10-16,17:27:38
+paleo,Paleo Zucchini Burger,american,25.16,49.41,20.0,2022-10-16,17:27:38
+paleo,Paleo Meatballs recipes,french,170.29,21.84,190.17,2022-10-16,17:27:38
+paleo,Low Carb Broiled Asian Chicken Thighs recipes,chinese,149.89,13.87,49.44,2022-10-16,17:27:38
+paleo,Clafoutis Paleo Gf,french,62.38,171.71,143.8,2022-10-16,17:27:38
+paleo,Whole30 Potato Salad recipes,mediterranean,10.4,86.61,60.05,2022-10-16,17:27:38
+paleo,Paleo Greek Chicken,mediterranean,103.21,8.28,120.13,2022-10-16,17:27:38
+paleo,Paleo Crepes recipes,french,28.52,83.51,66.12,2022-10-16,17:27:38
+paleo,Spicy Avocado Shrimp Tower recipes,south american,7.46,24.73,87.84,2022-10-16,17:27:38
+paleo,Barilla Turkey Sausage Meatball Hero Subs + Giveaway,american,149.37,161.26,67.43,2022-10-16,17:27:38
+paleo,Paleo Berry Cobbler,french,70.95,495.23,258.21,2022-10-16,17:27:45
+paleo,Paleo Cheesecake recipes,mediterranean,46.61,112.79,239.75,2022-10-16,17:27:45
+paleo,Paleo Eggplant Meatballs,eastern europe,34.86,81.96,71.02,2022-10-16,17:27:45
+paleo,Paleo Chicken Strips,american,120.01,13.19,115.84,2022-10-16,17:27:45
+paleo,Paleo Turkey Meatballs,american,142.25,147.48,353.72,2022-10-16,17:27:45
+paleo,Paleo Chicken Tenders,american,79.75,175.06,81.41,2022-10-16,17:27:45
+paleo,Easy Pot Roast Crock Pot recipes,chinese,323.19,230.68,74.72,2022-10-16,17:27:45
+paleo,Paleo Peppermint Patties,american,26.8,227.58,233.46,2022-10-16,17:27:45
+paleo,Paleo Stuffed Peppers,italian,212.2,126.47,233.63,2022-10-16,17:27:45
+paleo,Paleo Pita Chips,french,55.69,45.56,112.34,2022-10-16,17:27:45
+paleo,Paleo Pulled Pork,american,363.86,41.0,258.48,2022-10-16,17:27:53
+paleo,Paleo Sesame Pasta,italian,35.12,70.83,237.2,2022-10-16,17:27:53
+paleo,Paleo White Christmas,mediterranean,34.52,80.74,102.14,2022-10-16,17:27:53
+paleo,Paleo Salisbury Steak,british,200.74,47.0,170.27,2022-10-16,17:27:53
+paleo,Paleo Taco Bowl,mexican,21.47,11.82,26.3,2022-10-16,17:27:53
+paleo,Crockpot Drumsticks | Paleo,american,125.17,37.02,62.51,2022-10-16,17:27:53
+paleo,Blueberry Cobbler {Paleo},american,34.41,144.65,130.08,2022-10-16,17:27:53
+paleo,Yummy Paleo Flatbread,american,7.16,5.48,11.53,2022-10-16,17:27:53
+paleo,Paleo Pizza Crust,italian,56.89,154.26,135.9,2022-10-16,17:27:53
+paleo,Paleo Baked Chicken,american,293.67,43.68,141.43,2022-10-16,17:27:53
+paleo,Paleo guacamole recipe,mexican,4.98,22.1,29.73,2022-10-16,17:27:53
+paleo,Pumpkin Dutch Baby,central europe,51.94,78.05,132.72,2022-10-16,17:27:53
+paleo,Paleo Peach Crisp,american,39.58,126.88,97.83,2022-10-16,17:27:53
+paleo,Paleo chicken Marsala,italian,81.21,14.37,100.85,2022-10-16,17:27:53
+paleo,Salmon Cobb Salad,nordic,86.32,52.34,193.65,2022-10-16,17:27:59
+paleo,PALEO PULLED PORK,american,240.95,21.38,170.76,2022-10-16,17:27:59
+paleo,Paleo Coleslaw recipes,mediterranean,8.05,49.05,89.95,2022-10-16,17:27:59
+paleo,Paleo Braised Cabbage,french,21.85,113.36,69.95,2022-10-16,17:27:59
+paleo,Paleo Cauliflower Tabouli,middle eastern,9.04,30.15,28.7,2022-10-16,17:27:59
+paleo,Paleo Gyros recipes,mediterranean,156.23,22.07,197.86,2022-10-16,17:27:59
+paleo,Paleo Carrot Cake,american,28.87,176.52,124.04,2022-10-16,17:27:59
+paleo,Paleo Sandwich Bread,nordic,82.9,96.1,203.88,2022-10-16,17:27:59
+paleo,Paleo Carrot Cake,british,56.59,372.24,166.67,2022-10-16,17:27:59
+paleo,Everyday Paleo Meatloaf,american,222.77,73.67,180.94,2022-10-16,17:27:59
+paleo,Paleo Chicken Tacos,mexican,88.54,25.39,90.34,2022-10-16,17:27:59
+paleo,Paleo Whole30 Meatballs,italian,49.65,25.33,31.86,2022-10-16,17:28:06
+paleo,Grilled Cilantro Lime Chicken recipes,mediterranean,137.17,20.55,43.28,2022-10-16,17:28:06
+paleo,"5-Min Microwave Paleo Chocolate Cake Recipe [Paleo, GF]",american,14.34,43.94,44.76,2022-10-16,17:28:06
+paleo,Broiled Paleo Burger,american,147.0,98.03,245.1,2022-10-16,17:28:06
+paleo,Paleo Cabbage Hash,french,94.84,47.81,54.27,2022-10-16,17:28:06
+paleo,Paleo Vanilla Wafers,american,54.39,171.17,173.06,2022-10-16,17:28:06
+paleo,Paleo Strawberry Sundae,american,78.6,428.36,388.56,2022-10-16,17:28:06
+paleo,Paleo Lamingtons recipes,french,57.82,215.83,226.98,2022-10-16,17:28:06
+paleo,Paleo Fudgy Brownies,french,82.58,181.14,215.9,2022-10-16,17:28:06
+paleo,Crock Pot Chile Verde,mexican,201.78,29.12,81.49,2022-10-16,17:28:06
+paleo,Paleo Zucchini Hummus,mediterranean,13.47,25.56,47.07,2022-10-16,17:28:06
+paleo,Paleo Venison Burgers,french,108.33,30.05,39.3,2022-10-16,17:28:06
+paleo,Paleo Pumpkin Scones,british,99.59,336.0,235.0,2022-10-16,17:28:13
+paleo,Paleo Chocolate Pudding,british,19.89,122.56,101.95,2022-10-16,17:28:13
+paleo,Paleo Orange Chicken,french,110.54,52.28,39.95,2022-10-16,17:28:13
+paleo,Paleo Hamburger Soup,nordic,140.81,255.09,63.29,2022-10-16,17:28:13
+paleo,Paleo Honey Cake,kosher,87.32,258.25,207.98,2022-10-16,17:28:13
+paleo,Paleo Fried Chicken,american,208.66,32.76,375.11,2022-10-16,17:28:13
+paleo,Tasty Paleo Borscht,nordic,15.58,86.02,25.4,2022-10-16,17:28:13
+paleo,Delicious Paleo Meatballs,american,196.24,26.33,247.65,2022-10-16,17:28:13
+paleo,Paleo Zuppa Toscana,italian,123.43,124.25,194.74,2022-10-16,17:28:13
+paleo,Gluten-Free Buckwheat Blinis with All the Fixings,eastern europe,38.05,140.05,129.25,2022-10-16,17:28:13
+paleo,Paleo Asian Meatballs,indian,155.39,13.86,206.43,2022-10-16,17:28:13
+paleo,Paleo Coffee Creamer,french,10.48,183.87,47.85,2022-10-16,17:28:13
+paleo,Paleo Cantaloupe Custard,french,18.09,77.28,73.54,2022-10-16,17:28:13
+paleo,Paleo Bunny Bites,american,39.14,114.78,142.85,2022-10-16,17:28:13
+paleo,Paleo Fettuccine Alfredo,italian,69.5,237.82,25.43,2022-10-16,17:28:19
+paleo,Paleo Pie Crust,american,49.41,83.14,129.24,2022-10-16,17:28:19
+paleo,Paleo Paella recipes,mediterranean,114.28,67.22,23.74,2022-10-16,17:28:19
+paleo,Paleo Pita Crisps,mediterranean,52.77,543.93,1094.53,2022-10-16,17:28:19
+paleo,Paleo Chocolate Pudding,british,38.41,187.18,204.57,2022-10-16,17:28:19
+paleo,"Paleo Baked Apples with Pecan Crumble (Paleo, Primal, GAPS)",american,17.04,196.36,153.33,2022-10-16,17:28:19
+paleo,Paleo Chicken Piccata,italian,114.48,38.79,146.83,2022-10-16,17:28:19
+paleo,Paleo Pizza Quiches,italian,68.7,16.57,86.7,2022-10-16,17:28:19
+paleo,Paleo Meatballs recipes,french,94.91,9.62,62.19,2022-10-16,17:28:19
+paleo,Gluten Free Caramelized Onion Gravy,eastern europe,2.91,52.72,54.94,2022-10-16,17:28:19
+paleo,Pineapple Muffins (Paleo),british,78.26,90.12,180.1,2022-10-16,17:28:19
+paleo,“Pho” Slow Cooker Pulled Pork Sandwiches recipes,american,284.71,240.0,268.1,2022-10-16,17:28:19
+paleo,PALEO BEEF JERKY,american,259.42,103.71,96.66,2022-10-16,17:28:19
+paleo,Paleo Venison Stroganoff,eastern europe,171.5,59.19,132.4,2022-10-16,17:28:19
+paleo,Paleo Mushroom Risotto,italian,27.18,92.53,59.88,2022-10-16,17:28:26
+paleo,Paleo Skillet Frittata,italian,95.19,51.98,103.55,2022-10-16,17:28:26
+paleo,Paleo Pig Burger,french,215.41,54.5,248.86,2022-10-16,17:28:26
+paleo,Paleo Salmon Slaw,nordic,165.67,25.68,200.27,2022-10-16,17:28:26
+paleo,Paleo Banana Muffins,british,101.95,204.31,286.85,2022-10-16,17:28:26
+paleo,Paleo Chocolate Chippers,french,286.58,822.4,979.01,2022-10-16,17:28:26
+paleo,Paleo Cashews Fudge,french,50.26,225.6,141.56,2022-10-16,17:28:26
+paleo,Paleo Pumpkin Pie,american,46.99,331.12,136.78,2022-10-16,17:28:26
+paleo,Paleo Gingersnaps recipes,british,43.14,289.83,136.28,2022-10-16,17:28:26
+paleo,Paleo pepperoni pizza,italian,66.53,212.2,71.37,2022-10-16,17:28:26
+paleo,Paleo-ish Sangria,world,7.08,110.19,1.18,2022-10-16,17:28:26
+paleo,Paleo Strawberry Crumble,british,14.7,154.05,64.63,2022-10-16,17:28:33
+paleo,Paleo Lemon Bars,american,33.65,272.71,143.06,2022-10-16,17:28:33
+paleo,Paleo Gingersnaps recipes,british,76.06,245.59,206.39,2022-10-16,17:28:33
+paleo,Paleo Banana Loaf,british,65.05,169.97,121.5,2022-10-16,17:28:33
+paleo,Paleo Energy Bites,french,40.56,182.5,183.14,2022-10-16,17:28:33
+paleo,Paleo Cake – recipes,american,54.06,199.51,244.21,2022-10-16,17:28:33
+paleo,Paleo Chocolate Cake,american,59.12,213.93,153.54,2022-10-16,17:28:33
+paleo,Beef Curry (Paleo),south east asian,112.87,76.07,111.59,2022-10-16,17:28:33
+paleo,Paleo Chicken Nuggets,american,175.8,40.7,158.93,2022-10-16,17:28:33
+paleo,Salmon With Lemon And Ginger Marinade recipes,nordic,95.45,20.67,88.85,2022-10-16,17:28:33
+paleo,Paleo Shrimp Scampi,chinese,94.63,21.46,12.7,2022-10-16,17:28:33
+paleo,Paleo Coffee Cake,american,67.02,311.15,242.85,2022-10-16,17:28:33
+paleo,Paleo Sandwich Bread,nordic,82.9,96.1,203.88,2022-10-16,17:28:33
+paleo,Paleo/Keto Pizza,italian,78.8,24.95,119.75,2022-10-16,17:28:40
+paleo,Paleo Chicken Parma,italian,178.18,285.14,271.06,2022-10-16,17:28:40
+paleo,Creamy Paleo Fudge,american,16.83,232.82,253.79,2022-10-16,17:28:40
+paleo,Paleo Steak Diane,american,63.68,8.04,82.25,2022-10-16,17:28:40
+paleo,"Slow Cooker Chicken Pot Pie (Gluten-Free, Dairy-Free) recipes",american,245.93,128.16,72.98,2022-10-16,17:28:40
+paleo,Chicken Creole,american,83.36,39.13,45.01,2022-10-16,17:28:40
+paleo,Paleo Lemon Cake,italian,14.61,187.9,38.98,2022-10-16,17:28:40
+paleo,Paleo Shrimp Scampi,chinese,94.64,21.55,12.71,2022-10-16,17:28:40
+paleo,Strawberry Paleo Galette,french,5.97,13.82,5.75,2022-10-16,17:28:40
+paleo,Val's Paleo Ketchup,italian,10.16,83.67,1.52,2022-10-16,17:28:46
+paleo,Deviled Eggs with Garlic and Parsley | Healthy Natural,french,40.66,7.92,76.44,2022-10-16,17:28:46
+paleo,Paleo Spaghetti Carbonara,italian,80.93,46.8,198.95,2022-10-16,17:28:46
+paleo,Paleo Chicken Veloute,american,258.98,696.3,234.84,2022-10-16,17:28:46
+paleo,Paleo Chili recipes,american,292.46,96.19,138.73,2022-10-16,17:28:46
+paleo,Paleo Zucchini Fritters,south east asian,18.02,39.43,10.15,2022-10-16,17:28:46
+paleo,Paleo Taco Salad,mexican,96.83,93.25,232.5,2022-10-16,17:28:46
+paleo,Paleo Beef Stew,american,234.83,145.29,51.71,2022-10-16,17:28:46
+paleo,"Paleo Shrimp Linguini (Gluten Free, Grain Free, Paleo)",italian,43.06,33.92,55.64,2022-10-16,17:28:46
+paleo,Paleo Salmon Croquette,nordic,41.97,40.54,51.19,2022-10-16,17:28:46
+paleo,Paleo Berry Crumble,french,86.07,236.88,212.25,2022-10-16,17:28:46
+paleo,Gluten-Free Buckwheat Blinis with All the Fixings recipes,eastern europe,38.05,140.05,129.25,2022-10-16,17:28:46
+paleo,Paleo Pizza Crust,italian,53.81,81.55,122.71,2022-10-16,17:28:46
+paleo,Paleo Antipasto Salad,italian,24.91,44.96,95.18,2022-10-16,17:28:46
+paleo,Paleo Cowboy Chili,american,161.78,90.59,208.39,2022-10-16,17:28:46
+paleo,Paleo Elk Chili,american,286.03,110.86,231.19,2022-10-16,17:28:53
+paleo,Paleo Christmas Pudding,british,68.83,427.12,256.43,2022-10-16,17:28:53
+paleo,Fudgy Paleo Brownies,french,53.12,237.39,247.94,2022-10-16,17:28:53
+paleo,Paleo Stuffed Cabbage,middle eastern,229.77,232.27,217.06,2022-10-16,17:28:53
+paleo,{Paleo} Broccoli Salad,american,23.77,43.62,96.87,2022-10-16,17:28:53
+paleo,Paleo Gingerbread Cake,american,87.36,174.46,247.75,2022-10-16,17:28:53
+paleo,Gluten Free Easy Herbed Chicken and Biscui,french,78.65,58.36,94.28,2022-10-16,17:28:53
+paleo,Paleo Coffee Cake,american,81.97,94.52,200.18,2022-10-16,17:28:53
+paleo,Paleo Blueberry Bars,american,92.97,1628.09,195.87,2022-10-16,17:28:53
+paleo,Onion Bacon Rosemary Dip (with Dairy Free Option) recipes,american,22.71,47.18,208.94,2022-10-16,17:28:53
+paleo,Paleo Watercress Soup,french,43.8,86.63,107.0,2022-10-16,17:28:53
+paleo,Paleo Beef Stroganoff,eastern europe,109.57,33.41,183.38,2022-10-16,17:29:00
+paleo,Harvest Stuffed Sweet Potatoes,american,12.23,186.71,24.24,2022-10-16,17:29:00
+paleo,Paleo Seafood Chili,american,111.9,73.58,24.01,2022-10-16,17:29:00
+paleo,Paleo Empanadas recipes,south american,100.52,258.19,107.18,2022-10-16,17:29:00
+paleo,Paleo Blueberry Muffins,british,156.8,770.8,251.17,2022-10-16,17:29:00
+paleo,Paleo banana muffins,american,71.16,171.09,198.55,2022-10-16,17:29:00
+paleo,Blueberry Almond Chicken Salad,american,99.12,36.69,135.75,2022-10-16,17:29:00
+paleo,Paleo Lettuce Wraps,american,108.99,45.41,90.71,2022-10-16,17:29:00
+paleo,Paleo Crab Cakes,eastern europe,103.0,18.43,63.56,2022-10-16,17:29:00
+paleo,Paleo Orange Chicken,french,97.53,54.15,60.35,2022-10-16,17:29:00
+paleo,Paleo Popcorn Chicken,american,109.81,264.74,208.88,2022-10-16,17:29:00
+paleo,Paleo Seafood Chowder,american,233.41,204.85,214.69,2022-10-16,17:29:00
+paleo,Paleo Spicy Chili,american,194.54,99.84,119.95,2022-10-16,17:29:00
+paleo,Paleo Ketchup recipes,italian,11.34,225.53,1.71,2022-10-16,17:29:00
+paleo,Paleo sandwich bread,nordic,75.03,110.71,150.27,2022-10-16,17:29:07
+paleo,Paleo Chicken Soup,american,240.89,79.86,89.39,2022-10-16,17:29:07
+paleo,Paleo Tortillas recipes,mediterranean,25.82,82.77,77.45,2022-10-16,17:29:07
+paleo,Paleo Fajita Meatza,mexican,284.13,139.22,256.16,2022-10-16,17:29:07
+paleo,Paleo Pumpkin Blondies,american,64.63,236.43,169.61,2022-10-16,17:29:07
+paleo,Paleo Cashew Chicken,mediterranean,108.97,137.78,144.37,2022-10-16,17:29:07
+paleo,paleo stuffed peppers,italian,135.82,90.19,170.12,2022-10-16,17:29:07
+paleo,Paleo Pizza Soup,italian,99.14,770.63,116.36,2022-10-16,17:29:07
+paleo,Sweet Potato Salad recipes,south american,41.38,110.47,169.99,2022-10-16,17:29:07
+paleo,Paleo Spaghetti Bake,italian,102.94,90.53,142.52,2022-10-16,17:29:07
+paleo,Paleo Plantain Falafel,south american,14.12,87.17,14.09,2022-10-16,17:29:07
+paleo,Paleo Tuna Burgers,american,120.05,17.93,85.49,2022-10-16,17:29:07
+paleo,Paleo Chilli Bowl,italian,20.04,81.07,10.95,2022-10-16,17:29:07
+paleo,Paleo Spaghetti recipes,italian,102.38,62.87,111.67,2022-10-16,17:29:07
+paleo,Paleo Banana Bread,american,46.7,127.5,94.72,2022-10-16,17:29:07
+paleo,No-Fail Paleo Mayo,mediterranean,5.47,1.61,220.1,2022-10-16,17:29:07
+paleo,Paleo Moroccan Chicken,middle eastern,238.78,80.5,216.52,2022-10-16,17:29:13
+paleo,Paleo Dump Soup,american,192.42,107.77,55.62,2022-10-16,17:29:13
+paleo,PALEO CHICKEN NUGGETS,american,112.16,38.87,111.23,2022-10-16,17:29:13
+paleo,Paleo Chili recipes,american,259.74,188.02,173.73,2022-10-16,17:29:13
+paleo,Paleo Banana Bread,american,63.87,79.46,151.21,2022-10-16,17:29:13
+paleo,Paleo Artichoke Bruschetta,mediterranean,14.74,50.52,54.99,2022-10-16,17:29:13
+paleo,Paleo Pizza recipes,italian,95.14,122.74,168.95,2022-10-16,17:29:13
+paleo,Paleo Seafood Gumbo,american,211.09,117.5,66.52,2022-10-16,17:29:13
+paleo,Zesty Paleo Meatloaf,american,255.56,60.15,128.16,2022-10-16,17:29:13
+paleo,Paleo Southwest Meatloaf,american,146.75,48.65,198.36,2022-10-16,17:29:13
+paleo,5-Ingredient Low Carb Clam Chowder (Gluten-free) recipes,american,114.23,68.24,103.49,2022-10-16,17:29:13
+paleo,Ropa Vieja Paleo,caribbean,165.47,187.81,89.37,2022-10-16,17:29:13
+paleo,Paleo Pasta Bolognese,italian,162.8,223.06,125.13,2022-10-16,17:29:20
+paleo,Cuban Vaca Frita recipes,caribbean,196.62,28.07,103.81,2022-10-16,17:29:20
+paleo,Paleo Dirty Rice,caribbean,16.24,49.41,18.3,2022-10-16,17:29:20
+paleo,Paleo Chicken Marsala,italian,329.35,110.0,248.22,2022-10-16,17:29:20
+paleo,"Paleo Salmon Meal Prep Bowls (Paleo, AIP, Whole30)",nordic,266.24,71.73,204.75,2022-10-16,17:29:20
+paleo,Honey Garlic Glazed Pork Chops recipes,american,113.13,126.15,46.69,2022-10-16,17:29:20
+paleo,Paleo Profiteroles recipes,french,33.0,201.88,241.51,2022-10-16,17:29:20
+paleo,paleo meatloaf with apples,american,95.89,31.49,39.27,2022-10-16,17:29:20
+paleo,Paleo Vegetable Curry,south east asian,34.06,129.1,103.3,2022-10-16,17:29:20
+paleo,Paleo Broccoli Slaw,italian,32.48,57.74,155.95,2022-10-16,17:29:20
+paleo,Paleo Pizza recipes,italian,34.44,206.25,101.83,2022-10-16,17:29:20
+paleo,Paleo Tuna Patties,american,121.47,55.66,73.88,2022-10-16,17:29:20
+paleo,Bacon-Ranch Meatloaf recipes,american,188.15,36.64,270.76,2022-10-16,17:29:20
+paleo,Paleo Caesar Salad,american,54.23,296.63,184.04,2022-10-16,17:29:20
+paleo,PALEO LASAGNA SOUP,italian,213.64,480.19,167.62,2022-10-16,17:29:27
+paleo,"Instant Pot Paleo Beef and Broccoli {Whole30, Paleo, GF}",nordic,192.22,71.34,126.24,2022-10-16,17:29:27
+paleo,Lemon Herb Garlic Chicken,mediterranean,229.75,32.4,304.84,2022-10-16,17:29:27
+paleo,Paleo Picadillo recipes,mediterranean,167.32,112.61,221.8,2022-10-16,17:29:27
+paleo,"Tayste of Paleo, Paleo Brussel Sprout, Kale & Peach Salad",mediterranean,68.84,47.85,21.84,2022-10-16,17:29:27
+paleo,Farmhouse Paleo Meatloaf,american,172.13,31.99,190.52,2022-10-16,17:29:27
+paleo,Chicken Salad with Apples and Almonds recipes,american,240.46,40.33,201.22,2022-10-16,17:29:27
+paleo,Creamy Pumpkin Sausage & Kale Soup recipes,american,107.08,92.09,76.81,2022-10-16,17:29:27
+paleo,Paleo Chicken Casserole,italian,69.22,63.43,112.03,2022-10-16,17:29:27
+paleo,Paleo Chili recipes,american,141.21,108.72,141.23,2022-10-16,17:29:27
+paleo,100 Calorie Paleo Crepes,french,15.86,103.19,13.94,2022-10-16,17:29:27
+paleo,Thai Green Curry Guacamole recipes,south east asian,14.23,100.98,68.13,2022-10-16,17:29:27
+paleo,Paleo Enchiladas recipes,mexican,147.34,107.16,233.4,2022-10-16,17:29:27
+paleo,Gluten-Free “Pho” Slow Cooker Pulled Pork Sandwiches,south east asian,360.56,239.96,323.42,2022-10-16,17:29:27
+paleo,Paleo Stuffed Peppers,italian,166.76,254.78,178.21,2022-10-16,17:29:27
+paleo,5 Minute Paleo Sorbet,italian,5.57,53.23,36.58,2022-10-16,17:29:34
+paleo,Paleo Lamb Stew,mediterranean,160.18,61.01,224.54,2022-10-16,17:29:34
+paleo,Paleo Pumpkin Chili,american,95.99,127.2,111.62,2022-10-16,17:29:34
+paleo,April’s Spicy Pumpkin Soup,american,15.46,181.09,63.21,2022-10-16,17:29:34
+paleo,Chicken Marbella recipes,mediterranean,185.47,111.73,130.32,2022-10-16,17:29:34
+paleo,4 Ingredient Paleo Crêpes,french,15.37,56.89,83.58,2022-10-16,17:29:34
+paleo,Hearty Paleo Chili,american,107.05,97.55,65.79,2022-10-16,17:29:34
+paleo,Chocolate Paleo Chili,american,183.19,98.27,215.87,2022-10-16,17:29:34
+paleo,Paleo Samosa recipes,mediterranean,50.45,292.24,104.86,2022-10-16,17:29:34
+paleo,Spicy Salmon Cakes,nordic,111.33,1.41,90.55,2022-10-16,17:29:34
+paleo,Paleo cherry ripe,french,68.86,567.7,328.48,2022-10-16,17:29:34
+paleo,Paleo Italian Meatballs,italian,285.68,142.68,253.66,2022-10-16,17:29:34
+paleo,Paleo Chipotle Chili,american,180.36,96.73,204.05,2022-10-16,17:29:34
+paleo,BBQ Chicken Sweet Potato Skins recipes,american,119.62,218.24,135.41,2022-10-16,17:29:40
+paleo,Paleo Vindaloo recipes,indian,321.93,336.61,105.04,2022-10-16,17:29:40
+paleo,Paleo Chicken Mole,italian,97.24,71.3,142.43,2022-10-16,17:29:40
+paleo,Dreamy Hasselback Apples recipes,american,11.22,80.87,53.86,2022-10-16,17:29:40
+paleo,Paleo Hamburger Soup,american,140.59,254.11,63.22,2022-10-16,17:29:40
+paleo,Paleo Jambalaya recipes,american,127.08,67.44,41.11,2022-10-16,17:29:40
+paleo,Paleo Pad Thai,south east asian,66.62,69.34,59.48,2022-10-16,17:29:40
+paleo,Paleo Orange Beef,mediterranean,219.95,316.31,165.19,2022-10-16,17:29:40
+paleo,Paleo Mini Meatloaves,middle eastern,231.55,43.61,295.86,2022-10-16,17:29:40
+paleo,Paleo Donuts recipes,american,56.41,169.52,179.66,2022-10-16,17:29:40
+paleo,Paleo cauliflower crunch,nordic,58.01,44.33,67.81,2022-10-16,17:29:40
+paleo,Paleo Coconut Walnut Squash,american,5.98,54.41,30.59,2022-10-16,17:29:40
+paleo,Paleo Rolls recipes,french,50.08,227.02,94.75,2022-10-16,17:29:40
+paleo,Paleo Hamburg and Squash,mediterranean,83.33,27.42,105.06,2022-10-16,17:29:40
+paleo,Day 3 - Paleo Restart,american,18.67,124.0,91.33,2022-10-16,17:29:40
+paleo,Instant Pot Sweet Potato Casserole,south american,39.73,349.82,167.44,2022-10-16,17:29:47
+paleo,Paleo Chili recipes,american,341.92,141.14,392.34,2022-10-16,17:29:47
+paleo,Paleo Pumpkin Pie,american,81.77,300.44,215.51,2022-10-16,17:29:47
+paleo,Paleo Orange Beef,mediterranean,219.95,316.31,165.19,2022-10-16,17:29:47
+paleo,"Seared Scallops with Sweet Corn Purée, Crumbled Bacon, and Tomato Chive Salsa",south american,48.76,94.38,52.89,2022-10-16,17:29:47
+paleo,Paleo Antipasto Salad,italian,72.54,69.05,38.89,2022-10-16,17:29:47
+paleo,Thai Mango Sweet Potato Salad,south east asian,7.93,75.25,27.61,2022-10-16,17:29:47
+paleo,Pork Steaks recipes,french,464.85,89.22,445.73,2022-10-16,17:29:47
+paleo,Oven Pork Steaks,mediterranean,464.85,89.22,445.73,2022-10-16,17:29:47
+paleo,{Paleo} Beef Rendang,american,225.77,131.53,157.67,2022-10-16,17:29:47
+paleo,Paleo Steak and Veggies,american,24.48,13.2,13.09,2022-10-16,17:29:47
+paleo,Creamy Whole30 Potato Salad recipes,italian,68.76,203.71,207.16,2022-10-16,17:29:47
+paleo,Paleo Beef Chili,american,115.08,137.47,81.33,2022-10-16,17:29:47
+paleo,Sesame Pineapple Sausage Bites,chinese,5.68,124.15,18.27,2022-10-16,17:29:54
+paleo,Paleo Shepherd’s Pie,american,183.04,127.54,299.75,2022-10-16,17:29:54
+paleo,Whole 30 Zucchini Noodle Bake,asian,60.53,42.02,75.73,2022-10-16,17:29:54
+paleo,The Best Paleo Buckeyes,american,13.78,186.0,111.81,2022-10-16,17:29:54
+paleo,Gluten Free Chicken Marsala recipes,italian,265.87,68.02,60.11,2022-10-16,17:29:54
+paleo,Creole Apple Turkey Burgers,american,119.33,32.54,45.24,2022-10-16,17:29:54
+paleo,Smoky and Sweet Broccoli Chicken Salad recipes,american,85.42,84.28,124.61,2022-10-16,17:29:54
+paleo,Slow-cooked Pork Roast recipes,american,298.94,44.15,117.59,2022-10-16,17:29:54
+paleo,Creamy Cashew Thai Chicken with Cilantro Lime Cauliflower Rice,south east asian,151.09,115.62,95.11,2022-10-16,17:29:54
+paleo,Paleo Meat Pockets from The Paleo Kids Cookbook recipes,american,88.91,182.92,186.11,2022-10-16,17:29:54
+paleo,Paleo Eggrolls recipes,french,29.26,76.21,188.09,2022-10-16,17:29:54
+paleo,Italian Primal Pizza with Free-Range Chicken,italian,62.29,93.97,67.14,2022-10-16,17:29:54
+paleo,Paleo Swedish Meatballs,nordic,123.49,48.93,150.26,2022-10-16,17:29:54
+paleo,Slow Cooker Red Pepper Paprika Chicken recipes,mediterranean,195.64,60.83,39.2,2022-10-16,17:29:54
+paleo,Paleo Orange Chicken,french,234.69,98.07,97.05,2022-10-16,17:29:54
+paleo,Paleo Apple Meatloaf,american,175.03,199.06,191.3,2022-10-16,17:29:54
+paleo,Instant Pot Chicken Soup with Mushrooms and Kale,french,271.76,95.75,240.31,2022-10-16,17:30:01
+paleo,Paleo Cassava Flour Tortillas,mexican,0.0,124.8,51.1,2022-10-16,17:30:01
+paleo,Paleo Shepherd's Pie,american,103.98,191.55,131.64,2022-10-16,17:30:01
+paleo,Healthy Turkey Meatloaf,american,105.48,55.14,41.85,2022-10-16,17:30:01
+paleo,Grass-Fed Bison Stuffed Peppers,american,170.1,79.27,107.66,2022-10-16,17:30:01
+paleo,Easy Salmon Tacos recipes,nordic,118.62,105.19,115.07,2022-10-16,17:30:01
+paleo,"Paleo Shrimp Creole (Paleo, gluten-free roux) recipes",american,198.22,83.15,113.4,2022-10-16,17:30:01
+paleo,Paleo Carrot Cake,french,120.47,462.74,758.62,2022-10-16,17:30:01
+paleo,Beef Stroganoff recipes,eastern europe,109.57,33.41,183.38,2022-10-16,17:30:01
+paleo,The Perfect Paleo Meatballs,french,91.01,61.2,101.35,2022-10-16,17:30:01
+paleo,"Roasted Garlic Turnip Puree with Chorizo - Low Carb, Gluten Free",french,124.04,80.89,326.42,2022-10-16,17:30:01
+paleo,Paleo Pad Thai,south east asian,132.06,82.17,223.93,2022-10-16,17:30:01
+paleo,Brussels Sprout & Kale Slaw recipes,central europe,38.53,163.13,124.5,2022-10-16,17:30:07
+paleo,Spaghetti Carbonara-Paleo Style,italian,45.08,47.92,167.43,2022-10-16,17:30:07
+paleo,Paleo Chocolate Protein Truffles,american,29.5,12.09,17.69,2022-10-16,17:30:07
+paleo,Paleo Pizza Crust #1,italian,31.08,121.36,58.78,2022-10-16,17:30:07
+paleo,Avocado Cucumber Salad recipes,mediterranean,15.8,81.26,74.48,2022-10-16,17:30:07
+paleo,Slow Cooker Pumpkin Salsa Shredded Beef,mexican,199.83,31.93,57.61,2022-10-16,17:30:07
+paleo,Najib's Special Lebanese Cauliflower recipes,mediterranean,17.38,56.94,27.53,2022-10-16,17:30:07
+paleo,PALEO HASH BROWNS recipes,south american,4.78,114.92,36.36,2022-10-16,17:30:07
+paleo,Gluten Free Beef Bourguignon (Beef Burgundy) recipes,french,331.01,124.34,96.36,2022-10-16,17:30:07
+paleo,Tomato Avocado Burgers (Low Carb and Gluten-Free) recipes,american,90.67,45.15,135.0,2022-10-16,17:30:07
+paleo,Paleo Chocolate Protein Truffles,american,29.51,19.72,17.74,2022-10-16,17:30:07
+paleo,Stuffed Pork Tenderloin recipes,american,197.23,51.76,48.64,2022-10-16,17:30:07
+paleo,Easy Paleo Chicken Fajitas,mexican,55.21,41.5,49.55,2022-10-16,17:30:07
+paleo,Paleo Prawn Cocktail recipes,american,69.5,10.88,82.21,2022-10-16,17:30:07
+paleo,Easy Lemon Curd (paleo),french,15.41,94.7,15.33,2022-10-16,17:30:07
+paleo,Grain Free Double Chocolate Banana Bread,american,73.61,224.75,186.62,2022-10-16,17:30:14
+paleo,Clafoutis ~ The Paleo Mom,french,23.78,170.14,105.78,2022-10-16,17:30:14
+paleo,Hawaiian Chicken Recipe,south east asian,153.03,132.16,79.17,2022-10-16,17:30:14
+paleo,Creamy Artichoke Chicken recipes,mediterranean,294.34,167.48,152.06,2022-10-16,17:30:14
+paleo,Fluffy Paleo Cauliflower Mash,american,16.37,41.77,25.39,2022-10-16,17:30:14
+paleo,Paleo Shepard's Pie,american,187.09,160.46,263.51,2022-10-16,17:30:14
+paleo,Paleo Coconut Lemon Cake,american,29.46,120.26,73.21,2022-10-16,17:30:14
+paleo,"Best Keto & Paleo Tortillas, Taco Shells & Nachos recipes",mexican,57.32,98.71,161.51,2022-10-16,17:30:14
+paleo,Homemade Paleo Protein Bars,american,88.19,289.27,122.03,2022-10-16,17:30:14
+paleo,Paleo Spaghetti Squash Primavera,italian,16.53,88.52,32.47,2022-10-16,17:30:14
+paleo,"Easiest Paleo ""Ice Cream""",american,6.07,82.98,25.25,2022-10-16,17:30:14
+paleo,Paleo Chocolate Chip Scones,american,37.98,145.35,114.58,2022-10-16,17:30:14
+paleo,Sriracha Ranch Cobb Salad recipes,american,117.7,21.91,154.52,2022-10-16,17:30:14
+paleo,Paleo Garlic Mashed Cauliflower,mediterranean,11.29,29.24,47.61,2022-10-16,17:30:14
+paleo,Spiced Vanilla Pumpkin Milk Steamer,american,21.95,105.25,20.23,2022-10-16,17:30:14
+paleo,Delicious Paleo Chocolate Muffins,american,30.08,120.13,124.29,2022-10-16,17:30:14
+paleo,Paleo Plantain Fries recipes,south american,4.65,114.17,29.32,2022-10-16,17:30:21
+paleo,10 Paleo Lunch Ideas,italian,17.11,89.38,32.11,2022-10-16,17:30:21
+paleo,Paleo Paella recipes,mediterranean,165.01,120.66,192.24,2022-10-16,17:30:21
+paleo,Blueberry and macadamia yoghurt bark,french,24.89,74.19,67.42,2022-10-16,17:30:21
+paleo,Baked Vanilla Paleo Donuts,american,40.41,91.57,140.95,2022-10-16,17:30:21
+paleo,Paleo Cauliflower Rice recipes,mediterranean,16.4,43.41,29.44,2022-10-16,17:30:21
+paleo,Homemade Paleo Chocolates recipes,french,12.69,108.27,172.4,2022-10-16,17:30:21
+paleo,Chocolate Paleo Snack Cake,american,38.57,266.83,135.99,2022-10-16,17:30:21
+paleo,Baked Keto Chicken Wings - Sweet & Spicy,south american,241.71,22.98,252.73,2022-10-16,17:30:21
+paleo,The Best Paleo Ketchup,italian,18.58,96.02,16.04,2022-10-16,17:30:21
+paleo,Paleo Power Baked Cauliflower,american,20.54,52.74,73.87,2022-10-16,17:30:21
+paleo,PALEO CHICKEN FINGERS recipes,italian,70.92,198.74,61.64,2022-10-16,17:30:21
+paleo,Zucchini Noodles with Shrimp,asian,103.79,39.61,46.35,2022-10-16,17:30:21
+paleo,Paleo Plantain Fries (Whole30),south american,4.65,114.17,29.32,2022-10-16,17:30:28
+paleo,Paleo Peach Cobbler recipes,british,18.73,161.9,29.61,2022-10-16,17:30:28
+paleo,Paleo Chick-fil-A,american,102.57,17.37,139.06,2022-10-16,17:30:28
+paleo,Bean-Free Paleo Chili,american,168.33,61.1,198.81,2022-10-16,17:30:28
+paleo,Paleo Fried Plantains recipes,south american,4.76,116.26,14.96,2022-10-16,17:30:28
+paleo,Paleo Strawberry Creamsicles recipes,french,8.94,36.01,90.47,2022-10-16,17:30:28
+paleo,Easy Paleo Cauliflower Rice,mediterranean,10.69,28.78,15.58,2022-10-16,17:30:28
+paleo,Pupusas - taco style Paleo,mexican,4.58,16.68,4.1,2022-10-16,17:30:28
+paleo,The Best Paleo Snickerdoodles,french,45.91,155.32,113.15,2022-10-16,17:30:28
+paleo,One Pan Lemon Garlic Chicken and Asparagus recipes,british,100.0,121.41,109.85,2022-10-16,17:30:28
+paleo,Paleo Banana Egg rolls,american,43.42,352.63,38.01,2022-10-16,17:30:28
+paleo,Garlic Shrimp with Zucchini Noodles,asian,128.54,498.9,42.12,2022-10-16,17:30:28
+paleo,Paleo BBQ Chicken recipes,american,149.29,40.41,145.3,2022-10-16,17:30:28
+paleo,Paleo Chicken Taco Burger,mexican,294.48,74.04,212.66,2022-10-16,17:30:28
+paleo,Perfect Paleo Ice Cream,italian,24.81,74.45,123.19,2022-10-16,17:30:34
+paleo,Paleo Mushroom Leek Frittata,italian,87.05,26.49,73.66,2022-10-16,17:30:34
+paleo,Paleo Sweet Potato Mousse,french,9.45,123.59,22.28,2022-10-16,17:30:34
+paleo,Paleo Apple Pie Nachos,nordic,14.47,124.98,69.95,2022-10-16,17:30:34
+paleo,Paleo Mini Egg Cakes,american,43.83,13.43,72.69,2022-10-16,17:30:34
+paleo,Quick Shrimp Scampi with Squash Noodles recipes,asian,108.12,51.58,79.72,2022-10-16,17:30:34
+paleo,Crab Stuffed Mushrooms recipes,american,32.53,14.87,64.25,2022-10-16,17:30:34
+paleo,Crab-Stuffed Avocados (Paleo),mediterranean,39.34,38.27,74.0,2022-10-16,17:30:34
+paleo,Paleo Banana & Blueberry Muffins,american,60.55,303.43,137.4,2022-10-16,17:30:34
+paleo,Paleo Avocado Tuna Salad,mexican,32.45,24.27,31.05,2022-10-16,17:30:34
+paleo,Paleo Blueberry Bread Pudding,british,57.43,176.46,103.41,2022-10-16,17:30:34
+paleo,Paleo Pumpkin Caramels recipes,american,4.22,115.7,116.49,2022-10-16,17:30:34
+paleo,Spiced Paleo Apple Dip,american,24.53,175.16,109.81,2022-10-16,17:30:41
+paleo,Paleo Salted Caramel Dip,american,0.67,35.58,26.24,2022-10-16,17:30:41
+paleo,Paleo Peppermint Ice Cream,italian,6.9,36.42,72.59,2022-10-16,17:30:41
+paleo,Greek Orange Salad with Fresh Mint recipes,mediterranean,5.97,96.51,59.3,2022-10-16,17:30:41
+paleo,Paleo Sweet Potato Casserole,italian,49.47,291.72,151.36,2022-10-16,17:30:41
+paleo,Vegan Paleo Chocolate Mousse,american,16.72,192.81,79.34,2022-10-16,17:30:41
+paleo,Crispy Paleo Plantain Chips,south american,2.55,58.61,55.34,2022-10-16,17:30:48
+paleo,Paleo Sweet Potato Waffles,american,23.49,39.24,18.88,2022-10-16,17:30:48
+paleo,Honey Roasted Carrots (Paleo),american,4.44,61.71,21.39,2022-10-16,17:30:48
+paleo,Paleo Gingerbread Mini Donuts,american,8.57,298.18,74.54,2022-10-16,17:30:48
+paleo,Homemade Paleo Nutella recipes,french,30.36,148.62,175.53,2022-10-16,17:30:48
+paleo,'Croodité' Paleo Basil Dip,american,6.35,7.27,127.41,2022-10-16,17:30:48
+paleo,Paleo Cumin Cauliflower Rice,indian,24.31,99.2,26.28,2022-10-16,17:30:48
+paleo,Cherry Garcia Paleo Milkshake with DIY Paleo Magic Hardshell recipes,american,5.57,59.44,21.59,2022-10-16,17:30:48
+paleo,German Tomato Salad (Tomatensalat) recipes,central europe,7.25,38.69,42.06,2022-10-16,17:30:48
+paleo,Low Carb Paleo Biscuits,american,61.56,45.53,181.46,2022-10-16,17:30:48
+paleo,Paleo Pineapple & Beef Tacos,mexican,90.52,119.93,96.46,2022-10-16,17:30:48
+paleo,Paleo Bison Burger recipes,american,92.2,35.47,102.26,2022-10-16,17:30:55
+paleo,(Nut-Free) Basil Pesto recipes,italian,30.12,22.06,103.28,2022-10-16,17:30:55
+paleo,Crockpot Paleo Apple Butter,american,6.53,347.37,4.66,2022-10-16,17:30:55
+paleo,Gluten Free Easy Herbed Chicken and Biscuit Bake recipes,eastern europe,110.29,58.36,119.9,2022-10-16,17:30:55
+paleo,Apricot Jalapeno Paleo Jam,british,18.08,213.75,5.09,2022-10-16,17:30:55
+paleo,Paleo Egg Drop Soup,chinese,56.95,69.25,60.75,2022-10-16,17:30:55
+paleo,Paleo Chocolate Almond Bark,french,34.16,153.55,57.23,2022-10-16,17:30:55
+paleo,Paleo Berry Compote or Cobbler,french,17.31,63.01,53.15,2022-10-16,17:30:55
+paleo,Paleo Lemon Curd recipes,french,19.67,103.25,96.17,2022-10-16,17:30:55
+paleo,Paleo Candy Apple Wedges,french,7.85,80.52,52.89,2022-10-16,17:30:55
+paleo,Paleo Cashew Cream Cheese,american,32.86,55.49,78.97,2022-10-16,17:30:55
+paleo,Paleo 7-Layer Dip,mexican,133.18,76.45,179.73,2022-10-16,17:30:55
+paleo,Paleo Spaghetti Squash Noodles,asian,8.45,64.39,59.9,2022-10-16,17:30:55
+paleo,Paleo Pureed Cauliflower recipes,american,12.05,31.38,45.55,2022-10-16,17:31:04
+paleo,Paleo Caramel Date Slice,french,83.93,245.88,331.29,2022-10-16,17:31:04
+paleo,Paleo Baked Fries recipes,american,13.74,118.86,28.61,2022-10-16,17:31:04
+paleo,Paleo Cassava Flour Tortillas,mexican,0.0,224.64,81.0,2022-10-16,17:31:04
+paleo,Sweet Potato Hash recipes,american,27.89,64.1,66.82,2022-10-16,17:31:04
+paleo,Paleo Greek Roasted Lamb,mediterranean,115.42,15.53,1305.07,2022-10-16,17:31:04
+paleo,Paleo Curry Leeks recipes,indian,5.61,47.41,12.98,2022-10-16,17:31:04
+paleo,Paleo Banana & Blueberry Muffins,american,64.16,260.81,146.33,2022-10-16,17:31:04
+paleo,Paleo Pecan Tart Crust,american,20.15,24.96,111.99,2022-10-16,17:31:04
+paleo,Paleo Ginger Snaps recipes,italian,50.38,109.88,112.1,2022-10-16,17:31:04
+paleo,Coconut-Crusted Tilapia - Paleo,mediterranean,118.32,42.58,75.47,2022-10-16,17:31:11
+paleo,"Amazing Paleo Pizza Crust - vegan, autoimmune paleo & cauliflower free recipes",italian,8.28,167.87,33.64,2022-10-16,17:31:11
+paleo,"Paleo Slow Cooker Apple Honey Chicken Drumsticks Recipe [Paleo, AIP]",american,181.88,94.85,92.71,2022-10-16,17:31:11
+paleo,Paleo Coconut Shrimp recipes,mediterranean,159.33,41.29,134.16,2022-10-16,17:31:11
+paleo,Paleo Shepherd’s Pie,american,124.01,230.07,181.24,2022-10-16,17:31:11
+paleo,"Paleo Apple Crisp (Paleo, GF, Vegan + Refined Sugar-Free) recipes",american,31.89,298.07,109.02,2022-10-16,17:31:11
+paleo,Paleo Peach Frangipane Muffins,french,60.35,140.67,201.48,2022-10-16,17:31:11
+paleo,Paleo green bean recipe,american,15.37,18.31,35.08,2022-10-16,17:31:11
+paleo,Paleo Mango Cake recipes,american,64.28,108.36,46.38,2022-10-16,17:31:11
+paleo,Paleo Sweet Potato Soup,american,27.29,156.45,7.57,2022-10-16,17:31:11
+paleo,Paleo Crispy Noodles recipes,asian,2.7,33.62,40.93,2022-10-16,17:31:11
+paleo,Herb Paleo Cauliflower Mash,french,29.89,99.19,552.98,2022-10-16,17:31:18
+paleo,Decadent Paleo Custard recipes,american,30.45,51.96,106.8,2022-10-16,17:31:18
+paleo,Paleo Shepherd's Pie,american,197.56,123.66,253.41,2022-10-16,17:31:18
+paleo,Paleo Berry Crumble Bars,french,3.4,206.17,1.6,2022-10-16,17:31:18
+paleo,Paleo + Vegan Chocolate Frosting,american,24.97,280.27,162.7,2022-10-16,17:31:18
+paleo,Sunday Slow Cooker: Thai Curry Ground Beef recipes,south east asian,104.82,34.94,32.89,2022-10-16,17:31:18
+paleo,Paleo Chicken Nuggets recipes,american,211.64,47.69,100.54,2022-10-16,17:31:18
+paleo,Paleo Bacon-Wrapped Cauliflower,american,70.23,224.84,424.27,2022-10-16,17:31:18
+paleo,Green Eggs and Bacon,american,28.37,13.96,101.73,2022-10-16,17:31:18
+paleo,Kitchen Sink Paleo Lunch,american,94.21,25.93,36.16,2022-10-16,17:31:18
+paleo,Herb Paleo Cauliflower Mash,french,29.89,99.19,552.98,2022-10-16,17:31:24
+paleo,Decadent Paleo Custard recipes,american,30.45,51.96,106.8,2022-10-16,17:31:24
+paleo,Paleo Shepherd's Pie,american,197.56,123.66,253.41,2022-10-16,17:31:24
+paleo,Paleo Berry Crumble Bars,french,3.4,206.17,1.6,2022-10-16,17:31:24
+paleo,Paleo + Vegan Chocolate Frosting,american,24.97,280.27,162.7,2022-10-16,17:31:24
+paleo,Sunday Slow Cooker: Thai Curry Ground Beef recipes,south east asian,104.82,34.94,32.89,2022-10-16,17:31:24
+paleo,Paleo Chicken Nuggets recipes,american,211.64,47.69,100.54,2022-10-16,17:31:24
+paleo,Paleo Bacon-Wrapped Cauliflower,american,70.23,224.84,424.27,2022-10-16,17:31:24
+paleo,Green Eggs and Bacon,american,28.37,13.96,101.73,2022-10-16,17:31:24
+paleo,Kitchen Sink Paleo Lunch,american,94.21,25.93,36.16,2022-10-16,17:31:24
