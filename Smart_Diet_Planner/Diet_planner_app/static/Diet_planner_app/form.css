@@ -1,26 +1,28 @@
 :root {
-    --primary-color: #6b8e23;
+    --primary-color: #D1D976;
     --dark-color: #2d3436;
     --light-shadow: rgba(255, 255, 255, 0.1);
     --dark-shadow: rgba(0, 0, 0, 0.2);
 }
 
+/* Body Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Start from the top */
+    align-items: center; /* Horizontally center the content */
+    min-height: 100vh; /* Full viewport height */
     margin: 0;
     background-color: #fafaf9;
     overflow: hidden;
-    position: relative;
 }
 
+/* Background Circle */
 .background-circle {
     position: fixed;
     bottom: -42%;
-    right: 0%;
+    right: 0;
     width: 100vw;
     height: 100vh;
     background: #F6F7E4;
@@ -29,6 +31,8 @@ body {
     z-index: -1;
 }
 
+/* Form Container */
+
 .form-container {
     background: white;
     padding: 1.5rem;
@@ -36,8 +40,14 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
+
+    /* Vertical centering with flexbox */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
+/* Step Styles */
 .step {
     display: none;
 }
@@ -46,13 +56,15 @@ body {
     display: block;
 }
 
+/* Heading Styles */
 h2 {
-    font-size: 24px;
-    margin-bottom: 1.5rem;
-    font-weight: 500;
-    text-align: center;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #1E1E24;
+    margin-top: 2%; /* Push the heading a bit from the top */
 }
 
+/* Progress Bar Styles */
 .progress {
     display: flex;
     justify-content: space-between;
@@ -72,33 +84,35 @@ h2 {
     z-index: 0;
 }
 
+/* Step Indicator Styles */
 .step-indicator {
-    width: 34px;
-    height: 34px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background: white;
     border: 2px solid #e5e5e5;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 10px;
     position: relative;
     z-index: 1;
 }
 
 .step-indicator.completed {
-    background: #6b8e23;
-    border-color: #6b8e23;
+    background: #313040;
+    border-color: #313040;
     color: white;
 }
 
+/* Form Group Styles */
 .form-group {
     margin-bottom: 1rem;
 }
 
 label {
     display: block;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
     font-weight: 500;
     font-size: 14px;
 }
@@ -114,6 +128,7 @@ textarea {
     font-size: 14px;
 }
 
+/* Radio Group Styles */
 .radio-group {
     display: flex;
     gap: 0.5rem;
@@ -132,14 +147,16 @@ textarea {
 }
 
 .radio-option.selected {
-    background: #6b8e23;
+    background: var(--primary-color);
     color: white;
-    border-color: #6b8e23;
+    border-color: var(--primary-color);
 }
 
+/* Button Group Styles */
 .button-group {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    gap: 15px;
     margin-top: 1.5rem;
 }
 
@@ -156,11 +173,12 @@ button {
 }
 
 .btn-next {
-    background: #6b8e23;
+    background: #313040;
     color: white;
     border: none;
 }
 
+/* Allergy Tag Styles */
 .allergy-tags {
     display: flex;
     gap: 0.5rem;
@@ -170,17 +188,18 @@ button {
 .allergy-tag {
     padding: 0.5rem 1rem;
     border: 1px solid #e5e5e5;
-    border-radius: 20px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 14px;
 }
 
 .allergy-tag.selected {
-    background: #6b8e23;
+    background: var(--primary-color);
     color: white;
-    border-color: #6b8e23;
+    border-color: var(--primary-color);
 }
 
+/* Toggle Button Styles */
 .toggle-group {
     display: flex;
     gap: 10px;
@@ -201,4 +220,21 @@ button {
     background: var(--primary-color);
     color: #ffffff;
     border-color: var(--primary-color);
+}
+
+.group4 {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap; /* Allows items to wrap onto the next row */
+}
+
+.ing4 {
+    flex: 0 1 calc(50% - 0.5rem); /* Each item takes 50% width minus the gap */
+    padding: 0.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
 }

@@ -16,3 +16,9 @@ def contact(request):
 def logout_view(request):
     logout(request)
     return redirect('/')
+
+def welcome(request):
+    return render(request, 'Diet_planner_app/welcome.html')
+
+def form(request):
+    return render(request, 'Diet_planner_app/multiform.html')

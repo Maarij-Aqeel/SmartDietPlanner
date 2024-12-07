@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login/Signup</title>
+    {% load static %}
     <link href="https://fonts.cdnfonts.com/css/clash-display-variable" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'Diet_planner_app/login.css' %}">
 </head>
@@ -14,7 +14,7 @@
     <div class="login_page">
         <div class="container" id="container">
             <div class="form-container sign-up-container">
-                <form action="{% url 'home' %}">
+                <form action="{% url 'welcome' %}">
                     <h1>Create Account</h1>
                     <div class="social-container">
                         <a href="#" class="social"><img src="{% static 'media/icons/apple.svg' %}" alt="Apple"></a>

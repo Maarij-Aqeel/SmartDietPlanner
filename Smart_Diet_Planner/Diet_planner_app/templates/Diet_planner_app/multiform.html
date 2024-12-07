@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info Getter Form</title>
-    <link rel="stylesheet" href="infogetter.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'Diet_planner_app/form.css' %}">
 </head>
 
 <body>
+    <h2>Tell us about yourself</h2>
     <div class="background-circle"></div>
+
     <div class="form-container">
+
         <div class="progress">
             <div class="step-indicator completed">1</div>
             <div class="step-indicator">2</div>
@@ -18,34 +22,36 @@
             <div class="step-indicator">4</div>
         </div>
 
+
         <div class="step active" id="step1">
-            <h2>Tell us about yourself</h2>
-            <div class="form-group">
-                <label>Age</label>
-                <input type="number" min="0" max="120">
-            </div>
-            <div class="form-group">
-                <label>Height</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <input type="number" style="flex: 1">
-                    <div class="toggle-group" style="width: 120px;">
-                        <button type="button" class="toggle-button active" data-unit="cm">cm</button>
-                        <button type="button" class="toggle-button" data-unit="in">in</button>
+            <div style="display: flex; gap: 8%;">
+                <div class="form-group" id="age_group" style="width: 50%;">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" min="0" max="120" style="height: 25px;">
+                </div>
+                <div class="form-group" id="height_group">
+                    <label for="height">Height</label>
+                    <div style="display: flex; gap: 0.5rem;">
+                        <input type="number" id="height" style="flex: 1">
+                        <div class="toggle-group">
+                            <button type="button" class="toggle-button active" data-unit="cm">cm</button>
+                            <button type="button" class="toggle-button" data-unit="in">in</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="form-group">
                 <label>Gender</label>
-                <div class="radio-group">
-                    <div class="radio-option">Female</div>
-                    <div class="radio-option selected">Male</div>
+                <div class="radio-group" style="flex-wrap: nowrap; width: 80%;">
+                    <div class="radio-option" id="gender-female">Female</div>
+                    <div class="radio-option selected" id="gender-male">Male</div>
                 </div>
             </div>
             <div class="form-group">
                 <label>Current Weight</label>
                 <div style="display: flex; gap: 0.5rem;">
                     <input type="number" style="flex: 1">
-                    <div class="toggle-group" style="width: 120px;">
+                    <div class="toggle-group">
                         <button type="button" class="toggle-button active" data-unit="kg">kg</button>
                         <button type="button" class="toggle-button" data-unit="lb">lb</button>
                     </div>
@@ -55,7 +61,7 @@
                 <label>Target Weight</label>
                 <div style="display: flex; gap: 0.5rem;">
                     <input type="number" style="flex: 1">
-                    <div class="toggle-group" style="width: 120px;">
+                    <div class="toggle-group">
                         <button type="button" class="toggle-button active" data-unit="kg">kg</button>
                         <button type="button" class="toggle-button" data-unit="lb">lb</button>
                     </div>
@@ -63,8 +69,8 @@
             </div>
         </div>
 
+
         <div class="step" id="step2">
-            <h2>Nice! How about your dietary needs?</h2>
             <div class="form-group">
                 <label>Food Allergies</label>
                 <div class="allergy-tags">
@@ -84,10 +90,10 @@
             </div>
             <div class="form-group">
                 <label>Budget</label>
-                <div class="radio-group">
-                    <div class="radio-option">Low budget</div>
-                    <div class="radio-option selected">Mid range</div>
-                    <div class="radio-option">No restrictions</div>
+                <div class="radio-group" id="budget-options" style="flex-wrap: nowrap; width: 60%;">
+                    <div class="radio-option" id="budget-low" style="width: 30%;">Low budget</div>
+                    <div class="radio-option selected" id="budget-mid" style="width: 30%;">Mid range</div>
+                    <div class="radio-option" id="budget-no-restrictions" style="width: 30%;">No restrictions</div>
                 </div>
             </div>
             <div class="form-group">
@@ -99,21 +105,21 @@
                     <option>Active</option>
                 </select>
             </div>
-            <div class="checkbox-group">
+            <div class="checkbox-group" style="display: flex; gap: 5%;">
                 <input type="checkbox" id="exercise" checked>
                 <label for="exercise">Prefer a plan that factors in exercise suggestions.</label>
             </div>
         </div>
 
+
         <div class="step" id="step3">
-            <h2>Time Commitment</h2>
             <div class="form-group">
                 <label>Meal prep time</label>
-                <div class="radio-group">
-                    <div class="radio-option">Less than 15 minutes</div>
-                    <div class="radio-option selected">15-30 minutes</div>
-                    <div class="radio-option">30-60 minutes</div>
-                    <div class="radio-option">No time restrictions</div>
+                <div class="radio-group group4">
+                    <div class="radio-option ing4">Less than 15 minutes</div>
+                    <div class="radio-option ing4 selected">15-30 minutes</div>
+                    <div class="radio-option ing4">30-60 minutes</div>
+                    <div class="radio-option ing4">No time restrictions</div>
                 </div>
             </div>
             <div class="form-group">
@@ -127,11 +133,11 @@
             </div>
             <div class="form-group">
                 <label>Frequency of Cooking</label>
-                <div class="radio-group">
-                    <div class="radio-option">Every day</div>
-                    <div class="radio-option selected">3-4 times per week</div>
-                    <div class="radio-option">Only on weekends</div>
-                    <div class="radio-option">Rarely, prefer ready-to-eat options</div>
+                <div class="radio-group group4">
+                    <div class="radio-option ing4">Every day</div>
+                    <div class="radio-option ing4 selected">3-4 times per week</div>
+                    <div class="radio-option ing4">Only on weekends</div>
+                    <div class="radio-option ing4">Rarely, prefer ready-to-eat options</div>
                 </div>
             </div>
             <div class="form-group">
@@ -140,13 +146,14 @@
             </div>
         </div>
 
+
         <div class="step" id="step4">
-            <h2>Anything else you'd like to tell the coach?</h2>
             <div class="form-group">
                 <label>Additional Information</label>
                 <textarea rows="4" placeholder="Enter any additional information..."></textarea>
             </div>
         </div>
+
 
         <div class="button-group">
             <button class="btn-back">Back</button>
@@ -154,7 +161,17 @@
         </div>
     </div>
 
-    <script src="infogetter.js"></script>
+    <script src="{% static 'Diet_planner_app/form.js' %}"></script>
+    <script>
+    nextBtn.addEventListener('click', () => {
+        if (currentStep < steps.length - 1) {
+            currentStep++;
+            updateSteps();
+        } else {
+            window.location.href = "{% url 'home' %}"; // Django template tag
+        }
+    });
+    </script>
 </body>
 
 </html>

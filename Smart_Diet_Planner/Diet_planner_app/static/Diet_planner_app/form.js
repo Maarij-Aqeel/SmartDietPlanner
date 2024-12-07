@@ -3,7 +3,15 @@ const indicators = document.querySelectorAll('.step-indicator');
 const nextBtn = document.querySelector('.btn-next');
 const backBtn = document.querySelector('.btn-back');
 const backgroundCircle = document.querySelector('.background-circle');
+const heading = document.querySelector("h2");
 let currentStep = 0;
+
+const stepHeadings = [
+  "Tell us about yourself",
+  "Nice! How about your dietary needs?",
+  "Time Commitment",
+  "Anything else you'd like to tell the coach?"
+];
 
 function updateSteps() {
     steps.forEach((step, index) => {
@@ -37,16 +45,9 @@ function updateSteps() {
     } else {
         nextBtn.textContent = 'Next';
     }
-}
 
-nextBtn.addEventListener('click', () => {
-    if (currentStep < steps.length - 1) {
-        currentStep++;
-        updateSteps();
-    } else {
-        alert('Form submitted!');
-    }
-});
+    heading.textContent = stepHeadings[currentStep];
+}
 
 backBtn.addEventListener('click', () => {
     if (currentStep > 0) {
