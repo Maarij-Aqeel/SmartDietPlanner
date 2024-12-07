@@ -21,7 +21,11 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// How its works
+//Sign-up button
+// const signUpButton = document.getElementById("sign-up-btn");
+// signUpButton.addEventListener("click", function () {
+//   window.location.href = "{% url 'login' %}";
+// });
 
 // Add animation when cards come into view
 const cards = document.querySelectorAll(".card");
