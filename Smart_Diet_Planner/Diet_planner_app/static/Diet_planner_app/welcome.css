@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /* Main font */
+}
+
+#first_bg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #1E1E24;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    position: fixed;
+    /* or 'absolute' depending on your needs */
+    top: 50px;
+    left: 100px;
+    width: 250px;
+    /* Adjust width as needed */
+    height: 250px;
+    /* Adjust height as needed */
+    z-index: 4;
+    /* Set z-index to control stacking, adjust as needed */
+}
+
+#second_bg {
+    position: fixed;
+    top: 50%;
+    left: 18%;
+    transform: translate(0, -50%);
+    width: 1700px;
+    height: 1700px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.welcome-box {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    left: 10rem;
+}
+
+.welcome-box h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1E1E24;
+    margin-bottom: 8%;
+}
+
+.welcome-box .intro-text {
+    font-size: 1.2rem;
+    color: #1E1E24;
+    margin-bottom: 3%;
+}
+
+.welcome-box .subtext {
+    font-size: 1rem;
+    color: #6A6A6A;
+    line-height: 1.5;
+    margin-bottom: 8%;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.primary-btn {
+    width: 35%;
+    padding: 12px;
+    background-color: #1E1E24;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    display: block;
+    border: 2px solid;
+}
+
+.primary-btn:hover {
+    background-color: #333333;
+}
+
+.secondary-btn {
+    width: 35%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    transition: border 0.3s ease;
+    border: none;
+}
+
+.secondary-btn:hover {
+    border: 2px solid;
+}
