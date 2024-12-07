@@ -5,30 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diet Planner Welcome Screen</title>
-    <link rel="stylesheet" href="welcome.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'Diet_planner_app/welcome.css' %}">
 </head>
 
 <body>
-    <div id="first_bg">
-        <div id="img">
-            <svg width="300" height="300" viewBox="0 0 350 376" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="51" cy="83" r="51" fill="#D5DCB3" />
-                <circle cx="160.5" cy="31.5" r="31.5" fill="#D5DCB3" />
-                <circle cx="325" cy="351" r="25" fill="#D5DCB3" />
-                <circle cx="217" cy="198" r="115" fill="#D5DCB3" />
-            </svg>
-        </div>
-        <div id="second_bg"></div>
-        <div class="welcome-box">
-            <h1>Welcome!</h1>
-            <p class="intro-text">We’re excited to help you become a healthier version of yourself</p>
-            <p class="subtext">To get started, we’ll need you to tell us a bit about yourself so we can tailor the best
-                plan for you</p>
-            <button id="startButton" class="primary-btn">Let’s Go!</button>
-            <button id="goBackButton" class="secondary-btn">Go back</button>
-        </div>
+<div id="first_bg">
+    <div id="img">
+        <svg width="300" height="300" viewBox="0 0 350 376" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="51" cy="83" r="51" fill="#D5DCB3"/>
+            <circle cx="160.5" cy="31.5" r="31.5" fill="#D5DCB3"/>
+            <circle cx="325" cy="351" r="25" fill="#D5DCB3"/>
+            <circle cx="217" cy="198" r="115" fill="#D5DCB3"/>
+        </svg>
     </div>
-    <script src="welcome.js"></script>
+    <div id="second_bg"></div>
+    <div class="welcome-box">
+        <h1>Welcome!</h1>
+        <p class="intro-text">We’re excited to help you become a healthier version of yourself</p>
+        <p class="subtext">To get started, we’ll need you to tell us a bit about yourself so we can tailor the best
+            plan for you</p>
+        <button id="startButton" class="primary-btn">Let’s Go!</button>
+        <button id="goBackButton" class="secondary-btn">Go back</button>
+    </div>
+</div>
+<script>
+    document.getElementById("startButton").addEventListener("click", function () {
+        // Redirect to the next step in the planner
+        window.location.href = "{% url 'form' %}";
+    });
+
+    document.getElementById("goBackButton").addEventListener("click", function () {
+        // Logic to go back (e.g., redirect to a previous page)
+        window.location.href = "{% url 'home' %}";
+    });
+</script>
 </body>
 
 </html>

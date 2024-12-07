@@ -11,3 +11,9 @@ def about(request):
 
 def contact(request):
     return render(request, 'Diet_planner_app/contact.html')
+
+def welcome(request):
+    return render(request, 'Diet_planner_app/welcome.html')
+
+def form(request):
+    return render(request, 'Diet_planner_app/multiform.html')

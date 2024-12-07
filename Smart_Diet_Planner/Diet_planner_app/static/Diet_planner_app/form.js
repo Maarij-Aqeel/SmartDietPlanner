@@ -39,15 +39,6 @@ function updateSteps() {
     }
 }
 
-nextBtn.addEventListener('click', () => {
-    if (currentStep < steps.length - 1) {
-        currentStep++;
-        updateSteps();
-    } else {
-        alert('Form submitted!');
-    }
-});
-
 backBtn.addEventListener('click', () => {
     if (currentStep > 0) {
         currentStep--;

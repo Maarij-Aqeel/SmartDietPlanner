@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info Getter Form</title>
-    <link rel="stylesheet" href="infogetter.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'Diet_planner_app/form.css' %}">
 </head>
 
 <body>
@@ -154,7 +155,17 @@
         </div>
     </div>
 
-    <script src="infogetter.js"></script>
+    <script src="{% static 'Diet_planner_app/form.js' %}"></script>
+    <script>
+    nextBtn.addEventListener('click', () => {
+        if (currentStep < steps.length - 1) {
+            currentStep++;
+            updateSteps();
+        } else {
+            window.location.href = "{% url 'home' %}"; // Django template tag
+        }
+    });
+    </script>
 </body>
 
 </html>
