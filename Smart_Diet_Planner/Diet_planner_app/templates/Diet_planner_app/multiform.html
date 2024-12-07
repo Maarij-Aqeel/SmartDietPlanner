@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Getter Form</title>
+    <link rel="stylesheet" href="infogetter.css">
+</head>
+
+<body>
+    <div class="background-circle"></div>
+    <div class="form-container">
+        <div class="progress">
+            <div class="step-indicator completed">1</div>
+            <div class="step-indicator">2</div>
+            <div class="step-indicator">3</div>
+            <div class="step-indicator">4</div>
+        </div>
+
+        <div class="step active" id="step1">
+            <h2>Tell us about yourself</h2>
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" min="0" max="120">
+            </div>
+            <div class="form-group">
+                <label>Height</label>
+                <div style="display: flex; gap: 0.5rem;">
+                    <input type="number" style="flex: 1">
+                    <div class="toggle-group" style="width: 120px;">
+                        <button type="button" class="toggle-button active" data-unit="cm">cm</button>
+                        <button type="button" class="toggle-button" data-unit="in">in</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="radio-group">
+                    <div class="radio-option">Female</div>
+                    <div class="radio-option selected">Male</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Current Weight</label>
+                <div style="display: flex; gap: 0.5rem;">
+                    <input type="number" style="flex: 1">
+                    <div class="toggle-group" style="width: 120px;">
+                        <button type="button" class="toggle-button active" data-unit="kg">kg</button>
+                        <button type="button" class="toggle-button" data-unit="lb">lb</button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Target Weight</label>
+                <div style="display: flex; gap: 0.5rem;">
+                    <input type="number" style="flex: 1">
+                    <div class="toggle-group" style="width: 120px;">
+                        <button type="button" class="toggle-button active" data-unit="kg">kg</button>
+                        <button type="button" class="toggle-button" data-unit="lb">lb</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step" id="step2">
+            <h2>Nice! How about your dietary needs?</h2>
+            <div class="form-group">
+                <label>Food Allergies</label>
+                <div class="allergy-tags">
+                    <div class="allergy-tag">Gluten</div>
+                    <div class="allergy-tag selected">Dairy</div>
+                    <div class="allergy-tag">Nuts</div>
+                    <div class="allergy-tag">Other</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Cooking Skill</label>
+                <select>
+                    <option>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Budget</label>
+                <div class="radio-group">
+                    <div class="radio-option">Low budget</div>
+                    <div class="radio-option selected">Mid range</div>
+                    <div class="radio-option">No restrictions</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Physical activity</label>
+                <select>
+                    <option>Sedentary</option>
+                    <option>Light</option>
+                    <option>Moderate</option>
+                    <option>Active</option>
+                </select>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="exercise" checked>
+                <label for="exercise">Prefer a plan that factors in exercise suggestions.</label>
+            </div>
+        </div>
+
+        <div class="step" id="step3">
+            <h2>Time Commitment</h2>
+            <div class="form-group">
+                <label>Meal prep time</label>
+                <div class="radio-group">
+                    <div class="radio-option">Less than 15 minutes</div>
+                    <div class="radio-option selected">15-30 minutes</div>
+                    <div class="radio-option">30-60 minutes</div>
+                    <div class="radio-option">No time restrictions</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Number of Meals</label>
+                <select>
+                    <option>1 meal</option>
+                    <option>2 meals</option>
+                    <option>3 meals</option>
+                    <option>4+ meals</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Frequency of Cooking</label>
+                <div class="radio-group">
+                    <div class="radio-option">Every day</div>
+                    <div class="radio-option selected">3-4 times per week</div>
+                    <div class="radio-option">Only on weekends</div>
+                    <div class="radio-option">Rarely, prefer ready-to-eat options</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>How long will you commit to the diet?</label>
+                <input type="text" placeholder="Enter duration">
+            </div>
+        </div>
+
+        <div class="step" id="step4">
+            <h2>Anything else you'd like to tell the coach?</h2>
+            <div class="form-group">
+                <label>Additional Information</label>
+                <textarea rows="4" placeholder="Enter any additional information..."></textarea>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-back">Back</button>
+            <button class="btn-next">Next</button>
+        </div>
+    </div>
+
+    <script src="infogetter.js"></script>
+</body>
+
+</html>
