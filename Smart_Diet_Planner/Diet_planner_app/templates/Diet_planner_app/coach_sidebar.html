@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Companion</title>
+    <link rel="stylesheet" href="{% static 'Diet_planner_app/ai_coach.css' %}">
+</head>
+<body>
+    <button title="Ti" class="toggle-button" onclick="togglePanel()">
+        <img src="{% static 'media/icons/Ai_icon.png' %}" alt="AI Icon" style="width: 55px; height: 55px;">
+    </button>
+
+    <div class="panel" id="panel">
+        <div class="welcome-section">
+            <h1>Welcome back, {{ user.first_name }} </h1>
+            <p>Your wellness journey continues today</p>
+        </div>
+
+        <div class="card hydrate-section">
+            <div>
+                <h3>Time to Hydrate!</h3>
+                <p>Stay refreshed and energized</p>
+            </div>
+            <div class="icon">💧</div>
+        </div>
+
+        <div class="progress-section card">
+            <div class="progress-header">
+                <span>Week 7 Progress</span>
+                <span>1200/1800 kcal</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 65%"></div>
+            </div>
+            <div class="chart-container">
+                <canvas id="pieChart" aria-label="Nutritional chart" role="img"></canvas>
+                <div class="total-calories" id="totalCalories">1300 kcal</div>
+            </div>
+        </div>
+
+        <div class="suggestions-section">
+            <h2>Today's Suggestions</h2>
+            <div class="suggestion-item">
+                <img src="https://via.placeholder.com/70" alt="Salad">
+                <div>
+                    <h4>White Bean & Spinach Salad</h4>
+                    <p>Nutritious and delicious lunch option</p>
+                </div>
+            </div>
+            <div class="suggestion-item">
+                <img src="https://via.placeholder.com/70" alt="Broccoli Dish">
+                <div>
+                    <h4>Grilled Broccoli with Rice</h4>
+                    <p>Healthy and filling dinner choice</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="ask-section">
+            <input type="text" placeholder="Ask a wellness question...">
+            <button title="Title">
+                <i class="ri-send-plane-fill"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"></script>
+    <script>
+        function togglePanel() {
+            const panel = document.getElementById('panel');
+            panel.classList.toggle('open');
+        }
+
+        // Chart data and configuration
+        const data = {
+            labels: ['Carbs', 'Protein', 'Fiber', 'Fats', 'Minerals', 'Others'],
+            datasets: [{
+                data: [300, 500, 100, 150, 200, 50], // Example calorie values
+                backgroundColor: ['#F3EDDD', '#D0D976', '#D5DCB3', '#303040', '#708B05', '#506400'],
+                borderWidth: 0
+            }]
+        };
+
+        const chartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            cutout: '70%',
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'bottom',
+                    labels: {
+                        color: 'var(--text-color)'
+                    }
+                }
+            },
+            onClick(event, elements) {
+                const totalCaloriesElem = document.getElementById('totalCalories');
+
+                if (elements.length > 0) {
+                    const index = elements[0].index;
+                    const selectedLabel = this.data.labels[index];
+                    const selectedData = this.data.datasets[0].data[index];
+
+                    // Update total calories displayed in the center
+                    totalCaloriesElem.innerText = `${selectedData} kcal`;
+
+                    // Dim other segments and highlight selected one
+                    this.data.datasets[0].backgroundColor = this.data.datasets[0].backgroundColor.map((color, i) =>
+                        i === index ? color : 'rgba(200,200,200,0.5)'
+                    );
+                    this.update();
+                } else {
+                    // Reset to original state if clicking outside any segment
+                    totalCaloriesElem.innerText = '1300 kcal'; // Reset to default
+                    this.data.datasets[0].backgroundColor = ['#F3EDDD', '#D0D976', '#D5DCB3', '#303040', '#708B05', '#506400'];
+                    this.update();
+                }
+            }
+        };
+
+        // Initialize the chart
+        const ctx = document.getElementById('pieChart').getContext('2d');
+        const nutrientChart = new Chart(ctx, {
+            type: 'doughnut',
+            data,
+            options: chartOptions
+        });
+    </script>
+</body>
+</html>

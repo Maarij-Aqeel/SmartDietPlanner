@@ -17,15 +17,16 @@ Home
         <p class="hero-description">Personalized diets and AI-driven guidance to help you achieve your health goals
             effortlessly.</p>
         <div class="hero-buttons">
-            <button class="btn btn-sign-up" id="sign-up-btn">Sign Up</button>
-            <button class="btn btn-demo">Get Demo</button>
-        </div>
+    <button class="btn btn-sign-up" id="sign-up-btn" onclick="location.href='{% url 'login' %}'">Sign Up</button>
+    <button class="btn btn-demo">Get Demo</button>
+</div>
+
     </div>
     <div class="hero-image">
         <img src="{% static 'media/hero-img.png' %}" alt="Healthy meal" class="plate">
     </div>
 </section>
-
+    {% include 'Diet_planner_app/coach_sidebar.html' %}
 <!-- How its works  -->
 <section class="sec-howitworks">
     <div class="how-it-works-container">
