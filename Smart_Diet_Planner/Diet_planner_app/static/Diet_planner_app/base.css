@@ -25,11 +25,6 @@ p {
   margin-bottom: 0;
 }
 
-/* Footer */
-body {
-  font-family: Arial, sans-serif;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -231,7 +226,7 @@ p {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inter", sans-serif;
   padding-top: 4.25rem; /* Add padding to prevent content from being hidden behind fixed navbar */
 }
 
@@ -404,3 +399,141 @@ body {
 }
 
 /* Additional styles for other parts of the page can be added here */
+
+/* FONT STYLES */
+
+.display-large {
+  font-family: 'Clash Display', sans-serif; /* Fallback to sans-serif if the font is not available */
+  font-size: 80px; 
+  line-height: 120%; 
+  font-weight: normal; 
+}
+
+.display-large-b {
+  font-family: 'Clash Display', sans-serif; /* Fallback to sans-serif if the font is not available */
+  font-size: 80px; 
+  line-height: 120%; 
+  font-weight: bold; 
+}
+
+/* Class for large display text */
+.display-small {
+  font-family: 'Clash Display', sans-serif; 
+  font-size: 64px; 
+  line-height: 120%; 
+  font-weight: normal; 
+}
+
+.display-small {
+  font-family: 'Clash Display', sans-serif; 
+  font-size: 64px; 
+  line-height: 120%; 
+  font-weight: bold; 
+}
+
+/* Heading 1 style */
+h1 {
+  font-family: 'Clash Display', sans-serif; 
+  font-size: 56px; 
+  line-height: 120%; 
+  font-weight: 400; 
+}
+
+/* Heading 2 style */
+h2 {
+  font-family: 'Clash Display', sans-serif; 
+  font-size: 48px; 
+  line-height: 120%; 
+  font-weight: 400; 
+}
+
+/* Heading 3 style */
+h3 {
+  font-family: 'Inter', sans-serif; 
+  font-size: 40px; 
+  line-height: 120%; 
+  font-weight: bold; 
+}
+
+/* Heading 4 style */
+h4 {
+  font-family: 'Inter', sans-serif; 
+  font-size: 32px; 
+  line-height: 130%; 
+  font-weight: normal; 
+}
+
+.h4-bold {
+  font-family: 'Inter', sans-serif; 
+  font-size: 32px; 
+  line-height: 130%; 
+  font-weight: bold; 
+}
+
+/* Heading 5 style */
+h5 {
+  font-family: 'Inter', sans-serif; 
+  font-size: 24px; 
+  line-height: 150%; 
+  font-weight: normal; 
+}
+
+.h5-bold {
+  font-family: 'Inter', sans-serif; 
+  font-size: 24px; 
+  line-height: 150%; 
+  font-weight: normal; 
+}
+
+/* Class for large body text */
+.body-large {
+  font-family: 'Inter', sans-serif; 
+  font-size: 20px; 
+  line-height: 150%; 
+  font-weight: normal; 
+}
+
+.body-large-b {
+  font-family: 'Inter', sans-serif; 
+  font-size: 20px; 
+  line-height: 150%; 
+  font-weight: 500; 
+}
+
+/* Class for regular body text */
+body {
+  font-family: 'Inter', sans-serif; 
+  font-size: 16px; 
+  line-height: 150%; 
+  font-weight: normal; 
+}
+
+.body-reg-b {
+  font-family: 'Inter', sans-serif; 
+  font-size: 16px; 
+  line-height: 150%; 
+  font-weight: 500; 
+}
+
+/* Class for medium body text */
+.body-medium {
+  font-family: 'Inter', sans-serif; 
+  font-size: 18px; 
+  line-height: 150%; 
+  font-weight: normal; 
+}
+
+.body-medium-b {
+  font-family: 'Inter', sans-serif; 
+  font-size: 18px; 
+  line-height: 150%; 
+  font-weight: 500; 
+}
+
+/* Class for captions */
+.caption {
+  font-family: 'Inter', sans-serif; 
+  font-size: 12px; 
+  line-height: 150%; 
+  font-weight: normal; 
+}
