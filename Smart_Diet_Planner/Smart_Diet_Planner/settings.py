@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
+    'diet_plan.apps.DietPlanConfig',
+    'recipes.apps.RecipesConfig',
 ]
 
 SOCIALACCOUNT_PROVIDERS = {
@@ -135,6 +137,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'diet_plan/static/diet_plan'),  
+    os.path.join(BASE_DIR, 'recipes/static/recipes'), 
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
