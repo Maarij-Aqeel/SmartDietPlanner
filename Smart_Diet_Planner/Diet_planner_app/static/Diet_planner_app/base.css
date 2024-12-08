@@ -9,6 +9,7 @@
   --dark-color: #2D2F3E;
   --text-color: #626262;
   --light-bg: #FAF7F4;
+  --light-bg-cream: #F3EDDD;
   --hover-bg: #f5f0ec;
   --transition: 0.3s ease;
 }
@@ -482,7 +483,7 @@ h5 {
   font-family: 'Inter', sans-serif; 
   font-size: 24px; 
   line-height: 150%; 
-  font-weight: normal; 
+  font-weight: bold; 
 }
 
 /* Class for large body text */
@@ -501,7 +502,8 @@ h5 {
 }
 
 /* Class for regular body text */
-body {
+
+.body {
   font-family: 'Inter', sans-serif; 
   font-size: 16px; 
   line-height: 150%; 
@@ -528,6 +530,13 @@ body {
   font-size: 18px; 
   line-height: 150%; 
   font-weight: 500; 
+}
+
+.tagline {
+  font-family: 'Inter', sans-serif; 
+  font-size: 12px; 
+  line-height: 150%; 
+  font-weight: 600; 
 }
 
 /* Class for captions */
