@@ -81,7 +81,7 @@ oauthlib==3.2.2
     #   -r requirements.in
     #   requests-oauthlib
     #   social-auth-core
-pillow==10.0.1
+pillow==11.0.0
     # via -r requirements.in
 proto-plus==1.25.0
     # via
