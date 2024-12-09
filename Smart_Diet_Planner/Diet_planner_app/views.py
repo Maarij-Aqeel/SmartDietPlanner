@@ -22,3 +22,6 @@ def welcome(request):
 
 def form(request):
     return render(request, 'Diet_planner_app/multiform.html')
+
+def plan(request):
+    return render(request, 'Diet_planner_app/plan.html')

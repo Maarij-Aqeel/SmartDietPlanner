@@ -105,6 +105,7 @@ footer {
 .links-columns {
   display: flex;
   gap: 30px;
+  margin-top: 20px;
 }
 
 .links-column {
@@ -116,7 +117,6 @@ h5 {
   font-weight: 600;
   margin-bottom: 20px;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 ul {
@@ -157,9 +157,14 @@ ul li a:hover {
   align-items: center;
 }
 
+.footer-content p {
+  margin-bottom: 20px;
+}
+
 .social-icons {
   display: flex;
-  gap: 15px;
+  gap: 20px;
+  padding-top: 20px;
 }
 
 .social-icons a {
@@ -229,6 +234,7 @@ p {
 body {
   font-family: "Inter", sans-serif;
   padding-top: 4.25rem; /* Add padding to prevent content from being hidden behind fixed navbar */
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -280,7 +286,7 @@ body {
 .vertical-line {
   height: 2rem;
   width: 2px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
   margin: 0 0 0 13px;
 }
 
@@ -336,7 +342,7 @@ body {
   border: 2px solid var(--secondary-dark);
   padding: 10px 20px;
   border-radius: 7px;
-  font-weight: 600;
+  font-weight: 400;
   transition: .2s ease-in-out background-color, color, border;
 }
 
