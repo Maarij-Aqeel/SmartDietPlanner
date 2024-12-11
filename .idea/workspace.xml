@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0fe98fe-57da-4c4b-a520-75dcfdff4ab3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_unregis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/ai_coach.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/ai_coach.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/unregis.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/coach_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_regis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/unregis_ai.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,7 +82,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -117,6 +124,7 @@
       <workItem from="1733551405740" duration="4539000" />
       <workItem from="1733574812006" duration="16975000" />
       <workItem from="1733638717733" duration="7456000" />
+      <workItem from="1733899992956" duration="5101000" />
     </task>
     <servers />
   </component>

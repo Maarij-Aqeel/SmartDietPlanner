@@ -246,7 +246,11 @@ Home
     </div>
 </section>
 <!--AI sidebar chatbot -->
-{% include 'Diet_planner_app/coach_sidebar.html' %}
+{% if user.is_authenticated %}
+{% include 'Diet_planner_app/Sidebar_regis.html' %}
+{% else %}
+{% include 'Diet_planner_app/Sidebar_unregis.html' %}
+{% endif %}
 
 {% endblock content %}
 
