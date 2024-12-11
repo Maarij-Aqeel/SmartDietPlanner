@@ -3,11 +3,11 @@
 
 {% block header %}
 Home
-{% endblock %}
+{% endblock header %}
 
 {% block css %}
 <link rel="stylesheet" href="{% static 'Diet_planner_app/home.css' %}">
-{% endblock %}
+{% endblock css %}
 
 {% block content %}
 <!-- Hero section -->
@@ -26,7 +26,6 @@ Home
         <img src="{% static 'media/hero-img.png' %}" alt="Healthy meal" class="plate">
     </div>
 </section>
-    {% include 'Diet_planner_app/coach_sidebar.html' %}
 <!-- How its works  -->
 <section class="sec-howitworks">
     <div class="how-it-works-container">
@@ -119,7 +118,7 @@ Home
         </div>
     </div>
 </section>
-<!-- Ai chat bot description -->
+<!-- Ai chatbot description -->
 <section class="smart-planner-container">
     <div class="smart-section">
         <h1 class="smart-title">AI Diet Planner & Coach</h1>
@@ -246,8 +245,11 @@ Home
         </div>
     </div>
 </section>
-{% endblock %}
+<!--AI sidebar chatbot -->
+{% include 'Diet_planner_app/coach_sidebar.html' %}
 
-{% block js %}
+{% endblock content %}
+
+{% block js%}
 <script src="{% static 'Diet_planner_app/home.js' %}"></script>
-{% endblock %}
+{% endblock js%}

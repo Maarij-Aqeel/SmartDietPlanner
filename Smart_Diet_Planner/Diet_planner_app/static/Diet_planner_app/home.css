@@ -40,6 +40,7 @@
     min-height: calc(100vh - 80px);
     position: relative;
     overflow: hidden;
+    height: 100vh;
 }
 
 .hero-content {

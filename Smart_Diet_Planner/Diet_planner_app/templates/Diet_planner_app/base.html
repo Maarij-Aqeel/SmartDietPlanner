@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block header %} Base {% endblock %}</title>
+    <title>{% block header %} Base {% endblock header%}</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{% static 'Diet_planner_app/base.css' %}">
     {% block css %}
     <!-- Placeholder for additional CSS -->
-    {% endblock %}
+    {% endblock css%}
 </head>
 
 <body>
@@ -46,7 +46,7 @@
                         <button type="button" class="btn-login login" style="margin-left: 18px; margin-right: 10px">
                             <a href="{% url 'login' %}" style="text-decoration: none; color: inherit;">Login</a>
                         </button>
-                        <button type="button" class="nav-get-demo body-reg-b">Get Demo</button>
+                        <button type="button" class="nav-get-demo body-reg-b" style="font-size: 14px;">Get Demo</button>
                     </div>
                 </div>
             </div>
@@ -65,11 +65,11 @@
     <main>
         {% block content %}
         <!-- This is where child template content will be inserted -->
-        {% endblock %}
+        {% endblock content%}
     </main>
 
     <footer>
-        <div class="container">
+        <div class="footer-container">
             <div class="footer-content">
                 <!-- Logo Section -->
                 <div class="footer-logo">
@@ -87,7 +87,7 @@
                 <div class="footer-links">
                     <div class="quick-links">
                         <div class="quick-links-content">
-                            <p class="body-reg-b">QUICK LINKSs</p>
+                            <p class="body-reg-b">QUICK LINKs</p>
                             <div class="links-columns">
                                 <div class="links-column">
                                     <ul>
@@ -152,7 +152,7 @@
     </script>
     {% block js %}
     <!-- Placeholder for additional JS -->
-    {% endblock %}
+    {% endblock js%}
 </body>
 
 </html>
