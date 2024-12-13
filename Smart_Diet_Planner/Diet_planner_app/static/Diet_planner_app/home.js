@@ -131,3 +131,92 @@ faqItems.forEach((item) => {
     }
   });
 });
+
+// Popular Diet Section JS
+const carousel = document.querySelector('.diet-carousel');
+const popular_cards = document.querySelectorAll('.diet-card');
+const dotsContainer = document.querySelector('.dots-container');
+const totalCards = popular_cards.length;
+let currentIndex = 0;
+const visibleCards = 3;
+let cardWidth;
+
+function createDots() {
+  const numberOfDots = Math.ceil(totalCards / visibleCards);
+  dotsContainer.innerHTML = '';
+  for (let i = 0; i < numberOfDots; i++) {
+    const dot = document.createElement('div');
+    dot.classList.add('dot');
+    if (i === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => goToSlide(i));
+    dotsContainer.appendChild(dot);
+  }
+}
+
+function updateLayout() {
+  const containerWidth = carousel.parentElement.offsetWidth - 100;
+  cardWidth = containerWidth / visibleCards;
+
+  popular_cards.forEach(card => {
+    card.style.flex = `0 0 ${cardWidth}px`;
+    card.style.width = `${cardWidth}px`;
+  });
+
+  createDots();
+  goToSlide(0);
+}
+
+function updateDots() {
+  const dots = document.querySelectorAll('.dot');
+  dots.forEach((dot, index) => {
+    dot.classList.remove('active');
+    if (index === Math.floor(currentIndex / visibleCards)) {
+      dot.classList.add('active');
+    }
+  });
+}
+
+function goToSlide(index) {
+  currentIndex = index * visibleCards;
+  if (currentIndex > totalCards - visibleCards) {
+    currentIndex = totalCards - visibleCards;
+  }
+  carousel.style.transform = `translateX(-${currentIndex * (cardWidth + 30)}px)`;
+  updateDots();
+}
+
+function nextSlide() {
+  if (currentIndex < totalCards - visibleCards) {
+    currentIndex++;
+    carousel.style.transform = `translateX(-${currentIndex * (cardWidth + 30)}px)`;
+    updateDots();
+  }
+}
+
+function prevSlide() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    carousel.style.transform = `translateX(-${currentIndex * (cardWidth + 30)}px)`;
+    updateDots();
+  }
+}
+
+// Initialize layout
+updateLayout();
+
+// Update layout on window resize
+window.addEventListener('resize', updateLayout);
+
+// Add touch support
+let touchStartX = 0;
+let touchEndX = 0;
+
+carousel.addEventListener('touchstart', e => {
+  touchStartX = e.changedTouches[0].screenX;
+});
+
+carousel.addEventListener('touchend', e => {
+  touchEndX = e.changedTouches[0].screenX;
+  if (touchEndX < touchStartX) nextSlide();
+  if (touchEndX > touchStartX) prevSlide();
+});
