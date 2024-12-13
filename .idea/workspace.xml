@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0fe98fe-57da-4c4b-a520-75dcfdff4ab3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_unregis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/ai_coach.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/ai_coach.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/unregis.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/coach_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_regis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/unregis_ai.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +51,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.Final_A.iProject.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Django__website&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/SEM-3/PAI/SmartDietPlanner&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.Final_A.iProject.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "Django__website",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Final_A.iProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="Final_A.iProject" />
@@ -79,7 +82,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -97,7 +100,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -120,6 +124,7 @@
       <workItem from="1733551405740" duration="4539000" />
       <workItem from="1733574812006" duration="16975000" />
       <workItem from="1733638717733" duration="7456000" />
+      <workItem from="1733899992956" duration="5101000" />
     </task>
     <servers />
   </component>

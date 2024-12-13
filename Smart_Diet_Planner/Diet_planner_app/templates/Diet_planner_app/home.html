@@ -6,7 +6,7 @@ Home
 {% endblock header %}
 
 {% block css %}
-<link href="{% static 'Diet_planner_app/home.css' %}" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'Diet_planner_app/home.css' %}">
 {% endblock css %}
 
 {% block content %}
@@ -17,14 +17,13 @@ Home
         <p class="hero-description">Personalized diets and AI-driven guidance to help you achieve your health goals
             effortlessly.</p>
         <div class="hero-buttons">
-            <button class="btn btn-sign-up" id="sign-up-btn" onclick="location.href='{% url 'login' %}'">Sign Up
-            </button>
-            <button class="btn btn-demo">Get Demo</button>
-        </div>
+    <button class="btn btn-sign-up" id="sign-up-btn" onclick="location.href='{% url 'login' %}'">Sign Up</button>
+    <button class="btn btn-demo">Get Demo</button>
+</div>
 
     </div>
     <div class="hero-image">
-        <img alt="Healthy meal" class="plate" src="{% static 'media/hero-img.png' %}">
+        <img src="{% static 'media/hero-img.png' %}" alt="Healthy meal" class="plate">
     </div>
 </section>
 <!-- How its works  -->
@@ -35,9 +34,9 @@ Home
             <div class="how-it-works-card">
                 <div class="how-it-works-icon">
                     <svg viewBox="0 0 24 24">
-                        <circle cx="12" cy="12" r="10"/>
-                        <line x1="12" x2="12" y1="8" y2="12"/>
-                        <line x1="12" x2="12" y1="16" y2="16"/>
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="12" y1="8" x2="12" y2="12" />
+                        <line x1="12" y1="16" x2="12" y2="16" />
                     </svg>
                 </div>
                 <h2>Set your goals</h2>
@@ -48,7 +47,7 @@ Home
             <div class="how-it-works-card">
                 <div class="how-it-works-icon">
                     <svg viewBox="0 0 24 24">
-                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                     </svg>
                 </div>
                 <h2>Get Your Personalized Plan</h2>
@@ -59,8 +58,8 @@ Home
             <div class="how-it-works-card">
                 <div class="how-it-works-icon">
                     <svg viewBox="0 0 24 24">
-                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
-                        <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                        <path d="M13.73 21a2 2 0 0 1-3.46 0" />
                     </svg>
                 </div>
                 <h2>Stay on Track with Daily Support</h2>
@@ -70,7 +69,7 @@ Home
             <div class="how-it-works-card">
                 <div class="how-it-works-icon">
                     <svg viewBox="0 0 24 24">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                     </svg>
                 </div>
                 <h2>See Results Over Time</h2>
@@ -87,7 +86,7 @@ Home
 
         <div class="feature-card">
             <div class="feature-image-container">
-                <img alt="Custom Diet Plans" class="feature-image" src="{% static 'media/unsplash_6AUHONBTYjI.png' %}">
+                <img src="{% static 'media/unsplash_6AUHONBTYjI.png' %}" alt="Custom Diet Plans" class="feature-image">
             </div>
             <div class="feature-content">
                 <h2 class="feature-title">Custom Diet Plans for Your Goals</h2>
@@ -98,7 +97,7 @@ Home
 
         <div class="feature-card">
             <div class="feature-image-container">
-                <img alt="Preferences" class="feature-image" src="{% static 'media/unsplash_a9rxefN9vgY.png' %}">
+                <img src="{% static 'media/unsplash_a9rxefN9vgY.png' %}" alt="Preferences" class="feature-image">
             </div>
             <div class="feature-content ">
                 <h2 class="feature-title">Your Preferences, Your Plan</h2>
@@ -109,7 +108,7 @@ Home
 
         <div class="feature-card">
             <div class="feature-image-container">
-                <img alt="Roadmap" class="feature-image" src="{% static 'media/unsplash_TN09yTRftZ8.png' %}">
+                <img src="{% static 'media/unsplash_TN09yTRftZ8.png' %}" alt="Roadmap" class="feature-image">
             </div>
             <div class="feature-content">
                 <h2 class="feature-title">Tailored Roadmap for Success</h2>
@@ -118,53 +117,6 @@ Home
             </div>
         </div>
     </div>
-</section>
-<!--Popular Diets-->
-<section class="popular-diets">
-    <h1 class="popular-title">Popular Diet Plans</h1>
-    <div class="carousel-container">
-        <button class="carousel-nav prev" onclick="prevSlide()">&#8249;</button>
-        <div class="diet-carousel">
-            <div class="diet-card">
-                <img alt="Mediterranean Diet" class="diet-image" src="{% static './media/med-salmon.png' %}">
-                <div class="diet-info">
-                    <h2 class="diet-name">Mediterranean Diet</h2>
-                </div>
-            </div>
-            <div class="diet-card">
-                <img alt="Ketogenic Diet" class="diet-image" src="{% static './media/keto.jpg' %}">
-                <div class="diet-info">
-                    <h2 class="diet-name">Ketogenic Diet</h2>
-                </div>
-            </div>
-            <div class="diet-card">
-                <img alt="Paleo Diet" class="diet-image" src="{% static './media/paleo-2.jpg' %}">
-                <div class="diet-info">
-                    <h2 class="diet-name">Paleo Diet</h2>
-                </div>
-            </div>
-            <div class="diet-card">
-                <img alt="Mediterranean Diet" class="diet-image" src="{% static './media/med-salmon.png' %}">
-                <div class="diet-info">
-                    <h2 class="diet-name">Mediterranean Diet</h2>
-                </div>
-            </div>
-            <div class="diet-card">
-                <img alt="Ketogenic Diet" class="diet-image" src="{% static './media/keto.jpg' %}">
-                <div class="diet-info">
-                    <h2 class="diet-name">Ketogenic Diet</h2>
-                </div>
-            </div>
-            <div class="diet-card">
-                <img alt="Paleo Diet" class="diet-image" src="{% static './media/paleo-2.jpg' %}">
-                <div class="diet-info">
-                    <h2 class="diet-name">Paleo Diet</h2>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-nav next" onclick="nextSlide()">&#8250;</button>
-    </div>
-    <div class="dots-container"></div>
 </section>
 <!-- Ai chatbot description -->
 <section class="smart-planner-container">
@@ -175,7 +127,7 @@ Home
     <div class="smart-feature-block">
         <div class="smart-container">
             <div class="smart-feature-image">
-                <img alt="Smart Recipe Interface" src="{% static 'media/smart-recs.png' %}">
+                <img src="{% static 'media/smart-recs.png' %}" alt="Smart Recipe Interface">
             </div>
             <div class="smart-feature-content">
                 <h2 class="smart-feature-title">Smart Recipe Recommendations</h2>
@@ -196,7 +148,7 @@ Home
                     or your preferences change, your diet plan is updated in real-time</p>
             </div>
             <div class="smart-feature-image">
-                <img alt="Real-time Dashboard" src="{% static 'media/real-time.png' %}">
+                <img src="{% static 'media/real-time.png' %}" alt="Real-time Dashboard">
             </div>
         </div>
     </div>
@@ -294,7 +246,12 @@ Home
     </div>
 </section>
 <!--AI sidebar chatbot -->
-{% include 'Diet_planner_app/coach_sidebar.html' %}
+{% if user.is_authenticated %}
+{% include 'Diet_planner_app/Sidebar_regis.html' %}
+{% else %}
+{% include 'Diet_planner_app/Sidebar_unregis.html' %}
+{% endif %}
+
 {% endblock content %}
 
 {% block js%}

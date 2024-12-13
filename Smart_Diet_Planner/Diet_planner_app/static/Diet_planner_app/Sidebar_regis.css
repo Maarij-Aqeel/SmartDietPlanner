@@ -1,9 +1,3 @@
-/*:root {
-    --primary-color-ai: #F3EDDD;
-    --background-color-ai: #F0F4F2;
-    --text-color-ai: #2C3E50;
-    --white: #FFFFFF;
-}*/
 .panel {
     position: fixed;
     top: 0;
@@ -130,7 +124,6 @@
 .chart-container {
     position: relative;
     height: 300px;
-    /* width: 300px;  */
 }
 
 .total-calories-div{
