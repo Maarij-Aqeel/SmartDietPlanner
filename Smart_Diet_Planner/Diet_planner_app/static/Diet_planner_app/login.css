@@ -7,7 +7,7 @@
 }
 
 .login_page {
-    background: url('../media/login-bg.png') no-repeat center center fixed;
+    background: url("/media/login-bg.png") no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;

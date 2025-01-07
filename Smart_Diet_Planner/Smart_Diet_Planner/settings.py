@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-SITE_ID = 3
+SITE_ID = 4
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -136,15 +136,20 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+# Static files (CSS, JavaScript, etc.)
+STATIC_URL = '/static/'  # Ensure there's a trailing slash
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'diet_plan/static/diet_plan'),  
-    os.path.join(BASE_DIR, 'recipes/static/recipes'), 
+    os.path.join(BASE_DIR, 'diet_plan/static/diet_plan'),
+    os.path.join(BASE_DIR, 'recipes/static/recipes'),
 ]
 
-# Media files (images, icons, etc)
-MEDIA_URL = '/media/'
+# Directory to collect all static files in production
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Media files (images, icons, etc.)
+MEDIA_URL = '/media/'  # Ensure there's a trailing slash
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
