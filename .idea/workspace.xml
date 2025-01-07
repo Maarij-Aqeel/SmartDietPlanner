@@ -5,15 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0fe98fe-57da-4c4b-a520-75dcfdff4ab3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_unregis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/angel-food-cake-105741.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/apple-pie-11725.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/bacon-baklava-51225820.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/banana-cream-pie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/bananas-foster-351929.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/bloody-mary-351589.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/blue-cheese-dressing-369192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/borscht-51115600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/bouillabaisse-238411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/caesar-salad-51160630.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/cheese-straws-241167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/chicken-and-dumplings-388655.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/chicken-with-olives-caramelized-onions-and-sage-231291.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/chickpea-spread-356229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/chickpeas-with-spinach-354552.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/chocolate-truffles-364213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/classic-martini-56389382.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/coconut-macaroons-350891.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/crab-cakes-242592.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/flourless-chocolate-cake-14478.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/fried-oysters-237365.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/fruit-crisp-51113410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/gazpacho-51121580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/greek-turkey-burgers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/grilled-vegetables-51238080.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/homemade-mayonnaise-241868.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/jambalaya-230294.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/lean-lasagna-230145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/lentil-veggie-burgers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/macaroni-and-cheese-51218810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/mai-tai-51172000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/manhattan-238166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/meatloaf-241512.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/michelada-242665.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/mulligatawny-soup-232690.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/naan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/old-fashioned-350766.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/panzanella-353151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/pickled-red-onions-51196620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/pisco-sour-351595.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/quick-paella-354351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/ramos-gin-fizz-351596.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/raspberry-pops-365730.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/raspberry-sorbet-51113440.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/ratatouille-350730.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/roast-chicken-394676.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/rosemary-pork-chops-56389503.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/rouille-238412.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/rum-swizzle-56389925.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/salmon-blt-350286.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/sazerac-237263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/shrimp-creole-14653.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/shrimp-scampi-51262170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/sidecar-350783.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/singapore-sling-200060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/slow-baked-salmon-with-lemon-and-thyme-365151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/thai-beef-salad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/turkey-soup-232958.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/turkey-tetrazzini-13377.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/tzatziki-greek-cucumber-yogurt-sauce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/vasilopita-361412.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/vegan-chili-51216410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/vegan-chocolate-cheesecake-355990.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/vegan-mayonnaise-366490.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/vegan-pumpkin-pie-56390152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/recipes/wine-spritzer-51193900.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SmartDietPlanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SmartDietPlanner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/ai_coach.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/ai_coach.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/unregis.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/coach_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_regis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/unregis_ai.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Smart_Diet_Planner/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Smart_Diet_Planner/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +112,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.Final_A.iProject.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "Django__website",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Final_A.iProject.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Django__website&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Final_A.iProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="Final_A.iProject" />
