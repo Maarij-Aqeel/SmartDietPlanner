@@ -154,3 +154,5 @@ urllib3==2.2.3
     # via
     #   -r requirements.in
     #   requests
+pandas>=2.2.3
+    # used for importing csv in model
