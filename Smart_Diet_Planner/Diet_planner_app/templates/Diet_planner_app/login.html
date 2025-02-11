@@ -14,7 +14,8 @@
     <div class="login_page">
         <div class="container" id="container">
             <div class="form-container sign-up-container">
-                <form action="{% url 'welcome' %}">
+                <form action="{% url 'welcome' %}",method="POST">
+                    {% csrf_token %}
                     <h1>Create Account</h1>
                     <div class="social-container">
                         <a href="#" class="social"><img src="/media/icons/apple.svg" alt="Apple"></a>
