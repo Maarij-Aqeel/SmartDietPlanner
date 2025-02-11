@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-SITE_ID = 4
+SITE_ID = 5
 
 INSTALLED_APPS = [
     'django.contrib.admin',

@@ -36,7 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px;
+    padding: 0px 80px;
     min-height: calc(100vh - 80px);
     position: relative;
     overflow: hidden;
@@ -191,7 +191,7 @@
 
 .how-it-works-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 2px 8px var(--primary-color);
+    box-shadow: 0 2px 8px #D5DCB3;
 }
 
 .how-it-works-icon {

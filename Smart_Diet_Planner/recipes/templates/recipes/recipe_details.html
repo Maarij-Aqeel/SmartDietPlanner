@@ -41,8 +41,7 @@ Recipe Page
                 </div>
             </div>
 
-            <img src="/media/med-salmon.png" alt="Mediterranean Grilled Salmon"
-                class="responsive-image">
+            <img src="/media/med-salmon.png" alt="Mediterranean Grilled Salmon" class="responsive-image">
             <div class="tags-container">
                 <div class="text-wrapper">Tags</div>
                 <div class="tags">
@@ -177,12 +176,12 @@ Recipe Page
                 </tbody>
             </table>
             <!-- PIE CHART -->
-            <div id="chart_div"></div>
-            <a style="font-size:12px;color:#BDBDBD" href="https://livechatai.com/">Powered by LiveChatAI</a>
+            <div id="chart_div" style="width: 100%; height: 400px;"></div>
             <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
             <script type="text/javascript">
                 google.charts.load('current', { 'packages': ['corechart'] });
                 google.charts.setOnLoadCallback(drawChart);
+
                 function drawChart() {
                     var data = google.visualization.arrayToDataTable([
                         ['Nutrient', 'Amount'],
@@ -192,12 +191,41 @@ Recipe Page
                         ['Cholesterol', 60],
                         ['Protein', 22]
                     ]);
+
                     var options = {
-                        title: 'Nutrition Information in Mediterranean Grilled Salmon'
+                        title: 'Nutrition Information in Mediterranean Grilled Salmon',
+                        titleTextStyle: {
+                            color: '#666',
+                            fontSize: 16,
+                            bold: false,
+                            // alignment: 'center'
+                        },
+                        pieHole: 0.7,
+                        pieSliceText: 'none',
+                        legend: {
+                            position: 'right',
+                            alignment: 'center',
+                            textStyle: {
+                                color: '#666',
+                                fontSize: 14,
+                                cursor: 'pointer'
+                            }
+                        },
+                        colors: ['#708B06', '#D1D976', '#D5DCB3', '#D5DCB3', '#313040'],
+                        tooltip: {
+                            text: 'value',
+                            showColorCode: true
+                        },
+                        chartArea: {
+                            width: '80%',
+                            height: '80%'
+                        },
+                        height: 400,
+                        backgroundColor: 'transparent'
                     };
                     var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
                     chart.draw(data, options);
-                }    
+                }
             </script>
         </div>
     </div>
