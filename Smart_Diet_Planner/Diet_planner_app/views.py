@@ -1,19 +1,12 @@
-from django.shortcuts import render,redirect
-from django.contrib.auth import logout
-from django.contrib.auth import authenticate, login as auth_login
-from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth.models import User
-from django import forms
-
-def home(request):
-    return render(request, 'Diet_planner_app/home.html')
-
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login as auth_login, logout
 from django.contrib.auth.models import User
 from django.contrib import messages
 from django.core.exceptions import ValidationError
 from django.core.validators import validate_email
+
+def home(request):
+    return render(request, 'Diet_planner_app/home.html')
 
 def login(request):
     if request.method == 'POST':
@@ -95,3 +88,6 @@ def form(request):
 
 def plan(request):
     return render(request, 'Diet_planner_app/plan.html')
+
+def policy(request):
+    return render(request, 'Diet_planner_app/policy.html')
