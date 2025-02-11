@@ -91,3 +91,6 @@ def plan(request):
 
 def policy(request):
     return render(request, 'Diet_planner_app/policy.html')
+
+def terms(request):
+    return render(request, 'Diet_planner_app/terms.html')

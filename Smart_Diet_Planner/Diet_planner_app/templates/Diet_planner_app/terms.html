@@ -1,0 +1,134 @@
+{% extends 'Diet_planner_app/base.html' %}
+{% load static %}
+
+{% block header %}
+Home
+{% endblock header %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'Diet_planner_app/terms.css' %}">
+{% endblock css %}
+
+{% block content %}
+    <div class="container">
+        <div class="terms-header">
+            <h1>Terms of Use</h1>
+            <p>Please read these terms carefully before using our platform.</p>
+            <span class="effective-date">Effective Date: February 10, 2025</span>
+        </div>
+
+        <div class="section">
+            <h2>1. Acceptance of Terms</h2>
+            <p>By accessing or using the Diet Planner platform, you agree to be bound by these Terms of Use. If you disagree with any part of these terms, you may not access our services.</p>
+
+            <div class="important-notice">
+                <strong>Important:</strong> These terms constitute a legally binding agreement between you and Diet Planner.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. Service Description</h2>
+            <p>Diet Planner provides:</p>
+            <ul>
+                <li>Personalized meal planning services</li>
+                <li>Nutritional guidance and recommendations</li>
+                <li>Health and wellness tracking tools</li>
+                <li>Educational resources</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. User Accounts</h2>
+            <h3>3.1 Account Creation</h3>
+            <p>To use our services, you must:</p>
+            <ul>
+                <li>Be at least 18 years old</li>
+                <li>Register for an account</li>
+                <li>Provide accurate and complete information</li>
+                <li>Maintain the security of your account</li>
+            </ul>
+
+            <h3>3.2 Account Responsibilities</h3>
+            <p>You are responsible for:</p>
+            <ul>
+                <li>Maintaining the confidentiality of your account</li>
+                <li>All activities that occur under your account</li>
+                <li>Notifying us of any unauthorized access</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. User Conduct</h2>
+            <p>You agree not to:</p>
+            <ul>
+                <li>Violate any applicable laws or regulations</li>
+                <li>Impersonate any person or entity</li>
+                <li>Interfere with the platform's functionality</li>
+                <li>Share harmful or malicious content</li>
+                <li>Use the service for unauthorized commercial purposes</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Subscription and Payments</h2>
+            <h3>5.1 Subscription Terms</h3>
+            <p>Our subscription services are billed on a recurring basis. You can cancel your subscription at any time.</p>
+
+            <h3>5.2 Refund Policy</h3>
+            <p>Refunds are handled according to our refund policy, available separately on our website.</p>
+
+            <div class="highlight-box">
+                <strong>Note:</strong> All prices are in USD and subject to change with notice.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>6. Health Disclaimer</h2>
+            <div class="important-notice">
+                <p>The information provided through our platform is for general informational purposes only and is not a substitute for professional medical advice. Always consult with a healthcare professional before starting any diet or exercise program.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>7. Intellectual Property</h2>
+            <p>All content, features, and functionality of our platform are owned by Diet Planner and are protected by international copyright, trademark, and other intellectual property laws.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Limitation of Liability</h2>
+            <p>Diet Planner shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use the service.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Modifications to Service</h2>
+            <p>We reserve the right to:</p>
+            <ul>
+                <li>Modify or discontinue any part of our service</li>
+                <li>Change fees and charges for using our service</li>
+                <li>Update these terms of use at any time</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>10. Termination</h2>
+            <p>We may terminate or suspend your account and access to our services:</p>
+            <ul>
+                <li>For violations of these terms</li>
+                <li>For conduct that risks harm to other users</li>
+                <li>For illegal or unauthorized use</li>
+                <li>At our sole discretion</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>11. Governing Law</h2>
+            <p>These terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.</p>
+        </div>
+
+        <div class="contact-section">
+            <h2>Questions About Our Terms?</h2>
+            <p>If you have any questions about these Terms of Use, please contact our support team.</p>
+            <a href="{% url 'contact' %}" class="contact-button">Contact Support</a>
+        </div>
+    </div>
+{% endblock content %}
