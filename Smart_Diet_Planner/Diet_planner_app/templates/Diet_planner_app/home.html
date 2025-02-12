@@ -17,9 +17,10 @@ Home
         <p class="hero-description">Personalized diets and AI-driven guidance to help you achieve your health goals
             effortlessly.</p>
         <div class="hero-buttons">
-    <button class="btn btn-sign-up" id="sign-up-btn" onclick="location.href='{% url 'login' %}'">Sign Up</button>
-    <button class="btn btn-demo">Get Demo</button>
-</div>
+            <button class="btn btn-sign-up" id="sign-up-btn" onclick="location.href='{% url 'login' %}'">Sign
+                Up</button>
+            <button class="btn btn-demo">Get Demo</button>
+        </div>
 
     </div>
     <div class="hero-image">
@@ -116,6 +117,59 @@ Home
                     shopping lists that fit your lifestyle, helping you stay consistent and see progress.</p>
             </div>
         </div>
+    </div>
+</section>
+<!-- Popular Diets -->
+<section class="popular-diets">
+    <h1 class="popular-title">Popular Diet Plans</h1>
+
+    <div class="carousel-container">
+        <button class="carousel-nav prev" onclick="prevSlide()"><i class="fas fa-chevron-left"style="font-size: medium;"></i></button>
+        <div class="diet-carousel">
+            <div class="diet-card">
+                <img src="./media/med-salmon.png" alt="Mediterranean Diet" class="diet-image">
+                <div class="diet-info">
+                    <h2 class="diet-name">Mediterranean Diet</h2>
+                </div>
+            </div>
+            <div class="diet-card">
+                <img src="./media/keto.jpg" alt="Ketogenic Diet" class="diet-image">
+                <div class="diet-info">
+                    <h2 class="diet-name">Ketogenic Diet</h2>
+                </div>
+            </div>
+            <div class="diet-card">
+                <img src="./media/paleo-2.jpg" alt="Paleo Diet" class="diet-image">
+                <div class="diet-info">
+                    <h2 class="diet-name">Paleo Diet</h2>
+                </div>
+            </div>
+            <div class="diet-card">
+                <img src="./media/med-salmon.png" alt="Mediterranean Diet" class="diet-image">
+                <div class="diet-info">
+                    <h2 class="diet-name">Mediterranean Diet</h2>
+                </div>
+            </div>
+            <div class="diet-card">
+                <img src="./media/keto.jpg" alt="Ketogenic Diet" class="diet-image">
+                <div class="diet-info">
+                    <h2 class="diet-name">Ketogenic Diet</h2>
+                </div>
+            </div>
+            <div class="diet-card">
+                <img src="./media/paleo-2.jpg" alt="Paleo Diet" class="diet-image">
+                <div class="diet-info">
+                    <h2 class="diet-name">Paleo Diet</h2>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-nav next" onclick="nextSlide()"><i class="fas fa-chevron-right" style="font-size: medium;"></i></button>
+    </div>
+
+    <div class="dots-container"></div>
+
+    <div class="popular-diets-btn">
+        <a href="#">Explore more </a><i class="fas fa-chevron-right" style="padding-left:13px;"></i>
     </div>
 </section>
 <!-- Ai chatbot description -->

@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
     <!-- Linking Footer CSS -->
     {% load static %}
     <link rel="stylesheet" href="{% static 'Diet_planner_app/base.css' %}">
@@ -24,10 +26,12 @@
     <header id="nav-header">
         <nav class="navbar poppins-medium" id="navbar">
             <div class="Navbar-bg">
-                <div class="navbar-left">
-                    <img src="/media/Diet_logo.png" alt="logo" style="height: 55px;">
-                    <p style="color: black; margin-left: 10px;">Diet <span style="color: green;">Planner</span></p>
-                </div>
+                <a href="{% url 'home' %}" style="text-decoration:none;">
+                    <div class="navbar-left">
+                        <img src="/media/Diet_logo.png" alt="logo" style="height: 55px;">
+                        <p style="color: black; margin-left: 10px;">Diet <span style="color: green;">Planner</span></p>
+                    </div>
+                </a>
                 <div class="navbar-right">
                     <!-- Hamburger icon for mobile -->
                     <div class="hamburger" id="hamburger">
@@ -99,10 +103,10 @@
                                 </div>
                                 <div class="links-column">
                                     <ul>
-                                        <li><a href="#">Roadmaps</a></li>
+                                        <li><a href="{% url 'roadmap' %}">Roadmaps</a></li>
                                         <li><a href="{% url 'about' %}">About</a></li>
-                                        <li><a href="#">Terms of Use</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="{% url 'terms' %}">Terms of Use</a></li>
+                                        <li><a href="{% url 'policy' %}">Privacy Policy</a></li>
                                     </ul>
                                 </div>
                             </div>

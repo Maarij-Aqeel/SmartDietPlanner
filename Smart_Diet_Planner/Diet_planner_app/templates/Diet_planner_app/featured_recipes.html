@@ -1,0 +1,138 @@
+{% extends 'Diet_planner_app/base.html' %}
+{% load static %}
+
+{% block header %}
+Home
+{% endblock header %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'Diet_planner_app/featured_diet.css' %}">
+{% endblock css %}
+
+{% block content %}
+<div class="container">
+    <div class="header">
+        <h1>Featured Plans</h1>
+        <p>Not sure which diet is right for you? Let us recommend the best plan!"</p>
+        <button class="choose-plan-btn">
+            <i class="fas fa-utensils"></i>
+            Choose my plan
+        </button>
+    </div>
+
+    <div class="plans-container">
+        <div class="plan-card">
+            <img src="/media/food-img-1.png" alt="Ketogenic meal with avocado and eggs" class="plan-image">
+            <div class="plan-content">
+                <h2 class="plan-title">Ketogenic Plan</h2>
+                <div class="tags">
+                    <span class="tag primary">Keto</span>
+                    <span class="tag primary">Low Carb</span>
+                    <span class="tag secondary">Fat burning</span>
+                </div>
+                <p class="description">Achieve ketosis with low-carb, high-fat meals</p>
+                <div class="rating">
+                    <div class="stars">★★★★☆</div>
+                    <span class="review-count">431 reviews</span>
+                </div>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+
+        <div class="plan-card">
+            <img src="/media/food-img-2.png" alt="Mediterranean dish" class="plan-image">
+            <div class="plan-content">
+                <h2 class="plan-title">Mediterranean Diet</h2>
+                <div class="tags">
+                    <span class="tag primary">Mediterranean</span>
+                    <span class="tag primary">Anti-Inflammatory</span>
+                    <span class="tag secondary">Healthy Fats</span>
+                </div>
+                <p class="description">Balanced meals inspired by the sunny Mediterranean lifestyle</p>
+                <div class="rating">
+                    <div class="stars">★★★★☆</div>
+                    <span class="review-count">445 reviews</span>
+                </div>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+
+        <div class="plan-card">
+            <img src="/media/food-img-3.png" alt="Mediterranean dish" class="plan-image">
+            <div class="plan-content">
+                <h2 class="plan-title">Mediterranean Diet</h2>
+                <div class="tags">
+                    <span class="tag primary">Mediterranean</span>
+                    <span class="tag primary">Anti-Inflammatory</span>
+                    <span class="tag secondary">Healthy Fats</span>
+                </div>
+                <p class="description">Balanced meals inspired by the sunny Mediterranean lifestyle</p>
+                <div class="rating">
+                    <div class="stars">★★★★☆</div>
+                    <span class="review-count">445 reviews</span>
+                </div>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+
+        <div class="plan-card">
+            <img src="/media/food-img-4.png" alt="Ketogenic meal with avocado and eggs" class="plan-image">
+            <div class="plan-content">
+                <h2 class="plan-title">Ketogenic Plan</h2>
+                <div class="tags">
+                    <span class="tag primary">Keto</span>
+                    <span class="tag primary">Low Carb</span>
+                    <span class="tag secondary">Fat burning</span>
+                </div>
+                <p class="description">Achieve ketosis with low-carb, high-fat meals</p>
+                <div class="rating">
+                    <div class="stars">★★★★☆</div>
+                    <span class="review-count">431 reviews</span>
+                </div>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+
+        <div class="plan-card">
+            <img src="/media/food-img-5.png" alt="Mediterranean dish" class="plan-image">
+            <div class="plan-content">
+                <h2 class="plan-title">Mediterranean Diet</h2>
+                <div class="tags">
+                    <span class="tag primary">Mediterranean</span>
+                    <span class="tag primary">Anti-Inflammatory</span>
+                    <span class="tag secondary">Healthy Fats</span>
+                </div>
+                <p class="description">Balanced meals inspired by the sunny Mediterranean lifestyle</p>
+                <div class="rating">
+                    <div class="stars">★★★★☆</div>
+                    <span class="review-count">445 reviews</span>
+                </div>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+        
+        <div class="plan-card">
+            <img src="/media/food-img-6.png" alt="Mediterranean dish" class="plan-image">
+            <div class="plan-content">
+                <h2 class="plan-title">Mediterranean Diet</h2>
+                <div class="tags">
+                    <span class="tag primary">Mediterranean</span>
+                    <span class="tag primary">Anti-Inflammatory</span>
+                    <span class="tag secondary">Healthy Fats</span>
+                </div>
+                <p class="description">Balanced meals inspired by the sunny Mediterranean lifestyle</p>
+                <div class="rating">
+                    <div class="stars">★★★★☆</div>
+                    <span class="review-count">445 reviews</span>
+                </div>
+                <a href="#" class="view-details-btn">View Details</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block js%}
+<script src="{% static 'Diet_planner_app/home.js' %}"></script>
+{% endblock js%}
