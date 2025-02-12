@@ -9,6 +9,7 @@
     <link href="https://fonts.cdnfonts.com/css/clash-display-variable" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'Diet_planner_app/login.css' %}">
 </head>
+
 <body>
     {% load socialaccount %}
     <div class="login_page">
@@ -18,7 +19,7 @@
             <div class="form-container sign-up-container">
                 <form action="{% url 'welcome' %}" method="POST">
                     {% csrf_token %}
-                    <!-- Hidden method that will help to differencaiate actions in view.py-->
+                    <!-- Hidden method that will help to differentiate actions in view.py-->
                     <input type="hidden" name="form_type" value="signup">
                     <input type="hidden" name="signup_method" value="manual">
 
@@ -45,7 +46,7 @@
                 <form action="{% url 'home' %}" method="POST">
                     {% csrf_token %}
                     
-                    <!-- Hidden method that will help to differencaiate actions in view.py-->
+                    <!-- Hidden method that will help to differentiate actions in view.py-->
                     <input type="hidden" name="form_type" value="signup">
                     <input type="hidden" name="signup_method" value="manual">
 

@@ -1,30 +1,9 @@
-<<<<<<< HEAD
-from django.shortcuts import render,redirect
+from django.shortcuts import render, redirect
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib import messages
+from django.contrib.auth.models import User
 from django.contrib.auth import logout
-from django.contrib.auth import authenticate, login as auth_login
-from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth.models import User
-from django.contrib import messages
-from django.core.exceptions import ValidationError
-from django.core.validators import validate_email
-from django import forms
-
-def home(request):
-    return render(request, 'Diet_planner_app/home.html')
-
-=======
->>>>>>> 3b8310f06b86254bb1b6461d1c38aca9eccdb398
-from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login
-from django.contrib.auth.forms import AuthenticationForm
-from django.contrib import messages
-from django.contrib.auth.models import User
-
-from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login
-from django.contrib.auth.forms import AuthenticationForm
-from django.contrib import messages
-from django.contrib.auth.models import User
 
 def home(request):
     return render(request, 'Diet_planner_app/home.html')
@@ -132,3 +111,6 @@ def policy(request):
 
 def terms(request):
     return render(request, 'Diet_planner_app/terms.html')
+
+def roadmap(request):
+    return render(request, 'Diet_planner_app/roadmap.html')

@@ -1,0 +1,108 @@
+{% extends 'Diet_planner_app/base.html' %}
+{% load static %}
+
+{% block header %}
+Home
+{% endblock header %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'Diet_planner_app/roadmap.css' %}">
+{% endblock css %}
+
+{% block content %}
+    <div class="container">
+        <div class="roadmap-header">
+            <h1>Product Roadmap</h1>
+            <p>Discover our journey and future plans as we continue to improve your nutrition planning experience. Our roadmap outlines completed milestones and upcoming features.</p>
+        </div>
+
+        <div class="timeline">
+            <div class="milestone">
+                <div class="milestone-content">
+                    <div class="milestone-header">
+                        <span class="milestone-date">Q4 2024</span>
+                        <span class="milestone-status status-completed">Completed</span>
+                    </div>
+                    <h3>Platform Launch</h3>
+                    <p>Initial release of our core features and functionality.</p>
+                    <div class="feature-list">
+                        <div class="feature-item">Basic meal planning system</div>
+                        <div class="feature-item">User profiles and preferences</div>
+                        <div class="feature-item">Nutrition tracking dashboard</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="milestone">
+                <div class="milestone-content">
+                    <div class="milestone-header">
+                        <span class="milestone-date">Q1 2025</span>
+                        <span class="milestone-status status-in-progress">In Progress</span>
+                    </div>
+                    <h3>Enhanced Personalization</h3>
+                    <p>Improving user experience with AI-driven recommendations.</p>
+                    <div class="feature-list">
+                        <div class="feature-item">AI-powered meal suggestions</div>
+                        <div class="feature-item">Advanced dietary preferences</div>
+                        <div class="feature-item">Integration with fitness apps</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="milestone">
+                <div class="milestone-content">
+                    <div class="milestone-header">
+                        <span class="milestone-date">Q2 2025</span>
+                        <span class="milestone-status status-planned">Planned</span>
+                    </div>
+                    <h3>Community Features</h3>
+                    <p>Building a supportive community platform.</p>
+                    <div class="feature-list">
+                        <div class="feature-item">User forums and discussions</div>
+                        <div class="feature-item">Recipe sharing platform</div>
+                        <div class="feature-item">Success story showcase</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="milestone">
+                <div class="milestone-content">
+                    <div class="milestone-header">
+                        <span class="milestone-date">Q3 2025</span>
+                        <span class="milestone-status status-planned">Planned</span>
+                    </div>
+                    <h3>Mobile Experience</h3>
+                    <p>Launching native mobile applications.</p>
+                    <div class="feature-list">
+                        <div class="feature-item">iOS and Android apps</div>
+                        <div class="feature-item">Offline meal planning</div>
+                        <div class="feature-item">Push notifications</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="milestone">
+                <div class="milestone-content">
+                    <div class="milestone-header">
+                        <span class="milestone-date">Q4 2025</span>
+                        <span class="milestone-status status-planned">Planned</span>
+                    </div>
+                    <h3>Professional Integration</h3>
+                    <p>Connecting users with nutrition professionals.</p>
+                    <div class="feature-list">
+                        <div class="feature-item">Nutritionist consultation platform</div>
+                        <div class="feature-item">Professional meal plan reviews</div>
+                        <div class="feature-item">Expert Q&A sessions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback-section">
+            <h2>Help Shape Our Future</h2>
+            <p>We value your input! Share your thoughts and suggestions to help us improve our platform.</p>
+            <a href="{% url 'contact' %}" class="feedback-button">Submit Feedback</a>
+        </div>
+    </div>
+
+{% endblock content %}
