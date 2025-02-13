@@ -1,7 +1,11 @@
 function togglePanel() {
-    const panel = document.getElementById('panel');
-    panel.classList.toggle('open');
+    const sidebar = document.getElementById('panel');
+    const toggleButton = document.querySelector('.toggle-button');
+
+    sidebar.classList.toggle('open');
+    toggleButton.classList.toggle('move'); // This ensures only one button moves
 }
+
 
 // Chart data and configuration
         const data = {

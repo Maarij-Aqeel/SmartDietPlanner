@@ -40,7 +40,7 @@
                     <div class="navbar-right-menu">
                         <ul class="menu-list" style="margin-bottom: 0;">
                             <li><a href="{% url 'home' %}">Home</a></li>
-                            <li><a href="#">Meal Planner</a></li>
+                            <li><a href="{% url 'features'%}">Meal Planner</a></li>
                             <li><a href="#">Recipes</a></li>
                             <li><a href="{% url 'contact' %}">Contact</a></li>
                         </ul>
@@ -66,6 +66,12 @@
         </nav>
     </header>
 
+    <!--AI sidebar chatbot -->
+{% if user.is_authenticated %}
+{% include 'Diet_planner_app/Sidebar_regis.html' %}
+{% else %}
+{% include 'Diet_planner_app/Sidebar_regis.html' %}
+{% endif %}  <!--   Sidebar display on every page-->
     <main>
         {% block content %}
         <!-- This is where child template content will be inserted -->

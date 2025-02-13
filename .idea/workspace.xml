@@ -6,133 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="d0fe98fe-57da-4c4b-a520-75dcfdff4ab3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_regis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.css" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.js" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/static/Diet_planner_app/Sidebar_unregis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_regis.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_regis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_unregis.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/Sidebar_unregis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/featured_recipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/featured_recipes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Diet_planner_app/templates/Diet_planner_app/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Smart_Diet_Planner/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Smart_Diet_Planner/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/Smart_Diet_Planner/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/Smart_Diet_Planner/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Diet_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/Diet_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/facebook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/food-img-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/food-img-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/food-img-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/food-img-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/food-img-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/food-img-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/food-img-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/food-img-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/food-img-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/food-img-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/food-img-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/food-img-6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/gluten-free.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/gluten-free.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/google.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/hero-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/hero-img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/AI-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/AI-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/Ai_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/Ai_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/Chevron left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/Chevron left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/Chevron right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/Chevron right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/Group 2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/Group 2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/Group 3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/Group 3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/Group 4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/Group 4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/Group 5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/Group 5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/Progress step.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/Progress step.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/X.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/X.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/add.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/apple logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/apple logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/apple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/apple.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/carrot.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/carrot.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/check.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/chevron-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/chevron-down.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/facebookwhite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/facebookwhite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/fb.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/fb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/goal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/goal.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/google.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/google.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/googlewhite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/googlewhite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/goto-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/goto-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/insta.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/instagramwhite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/instagramwhite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/linkedin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/temp.md" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/temp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icons/timer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/icons/timer.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/instagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/keto-pancakes.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/keto-pancakes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/keto.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/keto.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/login-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/login-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/med-salmon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/med-salmon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/paleo-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/paleo-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/paleo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/paleo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/real-time.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/real-time.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/angel-food-cake-105741.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/angel-food-cake-105741.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/apple-pie-11725.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/apple-pie-11725.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/bacon-baklava-51225820.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/bacon-baklava-51225820.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/banana-cream-pie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/banana-cream-pie.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/bananas-foster-351929.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/bananas-foster-351929.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/bloody-mary-351589.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/bloody-mary-351589.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/blue-cheese-dressing-369192.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/blue-cheese-dressing-369192.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/borscht-51115600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/borscht-51115600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/bouillabaisse-238411.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/bouillabaisse-238411.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/caesar-salad-51160630.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/caesar-salad-51160630.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/cheese-straws-241167.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/cheese-straws-241167.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/chicken-and-dumplings-388655.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/chicken-and-dumplings-388655.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/chicken-with-olives-caramelized-onions-and-sage-231291.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/chicken-with-olives-caramelized-onions-and-sage-231291.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/chickpea-spread-356229.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/chickpea-spread-356229.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/chickpeas-with-spinach-354552.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/chickpeas-with-spinach-354552.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/chocolate-truffles-364213.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/chocolate-truffles-364213.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/classic-martini-56389382.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/classic-martini-56389382.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/coconut-macaroons-350891.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/coconut-macaroons-350891.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/crab-cakes-242592.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/crab-cakes-242592.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/flourless-chocolate-cake-14478.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/flourless-chocolate-cake-14478.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/fried-oysters-237365.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/fried-oysters-237365.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/fruit-crisp-51113410.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/fruit-crisp-51113410.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/gazpacho-51121580.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/gazpacho-51121580.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/greek-turkey-burgers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/greek-turkey-burgers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/grilled-vegetables-51238080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/grilled-vegetables-51238080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/homemade-mayonnaise-241868.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/homemade-mayonnaise-241868.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/jambalaya-230294.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/jambalaya-230294.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/lean-lasagna-230145.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/lean-lasagna-230145.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/lentil-veggie-burgers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/lentil-veggie-burgers.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/macaroni-and-cheese-51218810.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/macaroni-and-cheese-51218810.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/mai-tai-51172000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/mai-tai-51172000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/manhattan-238166.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/manhattan-238166.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/meatloaf-241512.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/meatloaf-241512.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/michelada-242665.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/michelada-242665.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/mulligatawny-soup-232690.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/mulligatawny-soup-232690.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/naan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/naan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/old-fashioned-350766.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/old-fashioned-350766.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/panzanella-353151.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/panzanella-353151.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/pickled-red-onions-51196620.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/pickled-red-onions-51196620.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/pisco-sour-351595.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/pisco-sour-351595.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/quick-paella-354351.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/quick-paella-354351.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/ramos-gin-fizz-351596.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/ramos-gin-fizz-351596.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/raspberry-pops-365730.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/raspberry-pops-365730.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/raspberry-sorbet-51113440.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/raspberry-sorbet-51113440.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/ratatouille-350730.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/ratatouille-350730.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/roast-chicken-394676.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/roast-chicken-394676.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/rosemary-pork-chops-56389503.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/rosemary-pork-chops-56389503.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/rouille-238412.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/rouille-238412.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/rum-swizzle-56389925.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/rum-swizzle-56389925.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/salmon-blt-350286.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/salmon-blt-350286.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/sazerac-237263.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/sazerac-237263.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/shrimp-creole-14653.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/shrimp-creole-14653.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/shrimp-scampi-51262170.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/shrimp-scampi-51262170.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/sidecar-350783.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/sidecar-350783.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/singapore-sling-200060.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/singapore-sling-200060.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/slow-baked-salmon-with-lemon-and-thyme-365151.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/slow-baked-salmon-with-lemon-and-thyme-365151.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/thai-beef-salad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/thai-beef-salad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/turkey-soup-232958.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/turkey-soup-232958.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/turkey-tetrazzini-13377.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/turkey-tetrazzini-13377.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/tzatziki-greek-cucumber-yogurt-sauce.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/tzatziki-greek-cucumber-yogurt-sauce.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/vasilopita-361412.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/vasilopita-361412.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/vegan-chili-51216410.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/vegan-chili-51216410.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/vegan-chocolate-cheesecake-355990.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/vegan-chocolate-cheesecake-355990.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/vegan-mayonnaise-366490.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/vegan-mayonnaise-366490.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/vegan-pumpkin-pie-56390152.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/vegan-pumpkin-pie-56390152.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/recipes/wine-spritzer-51193900.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/recipes/wine-spritzer-51193900.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/scrambled-eggs.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/scrambled-eggs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/smart-recs.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/smart-recs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/temp.md" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/temp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/unsplash_6AUHONBTYjI.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/unsplash_6AUHONBTYjI.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/unsplash_TN09yTRftZ8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/unsplash_TN09yTRftZ8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/unsplash_a9rxefN9vgY.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/unsplash_a9rxefN9vgY.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/welcome-screen-shape.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/welcome-screen-shape.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/media/unsplash_6AUHONBTYjI.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/salad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smart_Diet_Planner/media/unsplash_TN09yTRftZ8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Smart_Diet_Planner/media/watermelon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +43,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Maarij-Aqeel/SmartDietPlanner.git",
-    "accountId": "611c4ad6-cddc-4659-bc77-76abcbc40c09"
+    "accountId": "e57bfe6f-94b3-40e1-bf9e-f95cea6f2735"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -170,26 +54,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.Final_A.iProject.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "Django__website",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Final_A.iProject.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Django__website&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rudha\PycharmProjects\SmartDietPlanner\Smart_Diet_Planner" />
@@ -226,7 +110,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -250,6 +135,7 @@
       <workItem from="1733574812006" duration="16975000" />
       <workItem from="1733638717733" duration="7456000" />
       <workItem from="1733899992956" duration="5101000" />
+      <workItem from="1739431951313" duration="2241000" />
     </task>
     <servers />
   </component>

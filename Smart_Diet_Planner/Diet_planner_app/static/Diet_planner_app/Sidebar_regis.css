@@ -33,7 +33,12 @@
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     z-index: 1100;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, right 0.6s ease-in-out;
+}
+
+/* Move toggle button when panel is open */
+.toggle-button.move {
+    right: 440px; /* Adjust based on sidebar width */
 }
 
 .toggle-button:hover {
