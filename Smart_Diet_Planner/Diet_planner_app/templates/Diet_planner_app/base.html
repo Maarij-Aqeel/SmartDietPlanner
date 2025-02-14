@@ -67,11 +67,8 @@
     </header>
 
     <!--AI sidebar chatbot -->
-{% if user.is_authenticated %}
-{% include 'Diet_planner_app/Sidebar_regis.html' %}
-{% else %}
-{% include 'Diet_planner_app/Sidebar_regis.html' %}
-{% endif %}  <!--   Sidebar display on every page-->
+{% include 'Diet_planner_app/final_sidebar.html' %}<!--   Sidebar display on every page-->
+
     <main>
         {% block content %}
         <!-- This is where child template content will be inserted -->

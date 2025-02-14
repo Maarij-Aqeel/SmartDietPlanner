@@ -1,0 +1,323 @@
+/* General Panel & Sidebar Styles */
+.panel, .sidebar {
+    position: fixed;
+    top: 0;
+    right: -420px;
+    width: 420px;
+    height: 100vh;
+    background-color: #F3EDDD;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1);
+    transition: right 0.6s ease-in-out;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.panel.open, .sidebar.open {
+    right: 0;
+}
+
+/* Header Section */
+.sidebar-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.sidebar-header img {
+  width: 70px;
+  height: 70px;
+}
+
+.sidebar-header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+.sidebar-header p {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0 0;
+  font-weight: normal;
+}
+
+/* Toggle Button */
+.toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #A7C957;
+    border: none;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1100;
+    transition: transform 0.3s ease, right 0.6s ease-in-out;
+}
+
+.toggle-button.move {
+    right: 440px; /* Adjust based on sidebar width */
+}
+
+.toggle-button:hover {
+    transform: rotate(90deg);
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: var(--light-bg);
+    color: #000;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.welcome-section h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, opacity 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 8px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Hydration Section */
+.hydrate-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.hydrate-section > div { flex: 4; }
+.hydrate-section > div > p { font-size: smaller; }
+.hydrate-section .icon { font-size: 40px; flex: 1; }
+
+/* Progress Bar */
+.progress-section .progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--light-bg);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: var(--secondary-dark);
+}
+
+/* Chart */
+.chart-container {
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.total-calories-div {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: end;
+    font-family: 'Inter';
+}
+
+.total-calories {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.kcal {
+    padding-left: 5px;
+    color: var(--secondary-dark);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Nutrient Legend */
+.nutrient-legend {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+.prompts {
+  margin-top: 40px;
+}
+
+.prompts h2 {
+  font-size: 22px;
+  font-weight: lighter;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.prompt-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.prompt-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.prompt-card img {
+  width: 30px;
+  height: 30px;
+}
+
+.prompt-card p {
+  font-size: 17px;
+  color: #000000;
+}
+
+
+.nutrient-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.nutrient-legend-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+/* Suggestions Section */
+.suggestions-section .suggestion-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--light-bg);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.suggestion-item h4 { font-size: 17px; }
+.suggestion-item p { font-size: smaller; }
+
+.suggestions-section .suggestion-item:hover {
+    transform: scale(1.02);
+}
+
+.suggestions-section img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Ask Section */
+.ask-section {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-bg);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.ask-section input {
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.ask-section button {
+    background-color: var(--secondary-dark);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ask-section button:hover {
+    background-color: #A7C957;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 480px) {
+    .panel, .sidebar {
+        width: 100%;
+        right: -100%;
+        padding: 20px;
+    }
+
+    .toggle-button {
+        top: 10px;
+        right: 10px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .chart-container {
+        flex-direction: column;
+    }
+
+    .nutrient-legend {
+        grid-template-columns: 1fr;
+    }
+}
