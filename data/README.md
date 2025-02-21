@@ -7,8 +7,15 @@
 * **finetuning_data_v1:** \
      Contains the original dataset for model tuning. It contains about 8000 rows and was initially used to tune the model
 * **dataset-expanded:** \
-     Contains the augmented datasets, all of them containing only the 'query' and 'response' columns: \
-      \
+     Contains the augmented datasets, all of them containing only the 'query' and 'response' columns: 
+      
+* **Final_dataset:** \
+     Contains the recipes dataset i downloaded from online sources/databases.
+  
 	&rarr; diet_conversations.csv: Contains the augmented diets data. \
 	&rarr; recipe_conversations.csv: Contains the augmented recipes data. \
-	&rarr; finetuning_data_v2.csv: Contains the augmented dataset with around 22000 rows used for model finetuning
+	&rarr; finetuning_data_v2.csv: Contains the augmented dataset with around 22000 rows used for model finetuning \
+	&rarr; Final_data: Contains the dataset on which the model was trained \
+	&rarr; recipeitems-latest/2017_recipes_database: contains information about different dishes/recipes
+
+* **Final_dataset** was made by using both  recipeitems-latest and 2017_recipes_database files 
