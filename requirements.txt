@@ -156,3 +156,10 @@ urllib3==2.2.3
     #   requests
 pandas>=2.2.3
     # used for importing csv in model
+langchain==0.3.23
+langchain-community==0.3.21
+langchain-core==0.3.51
+langchain-google-genai==2.1.2
+langchain-text-splitters==0.3.8
+langsmith==0.3.28
+faiss-cpu==1.10.0
