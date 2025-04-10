@@ -179,8 +179,7 @@ li {
     }
 }
 
-.carousel-container {
-    overflow-x: scroll; 
+.carousel-container { 
     margin: 20px auto; 
     white-space: nowrap;
     padding: 24px;
@@ -207,6 +206,7 @@ li {
 
 .recipe-image {
     width: 100%; 
+    height: 80%;
     border-top-left-radius: 8px; 
     border-top-right-radius: 8px; 
     object-fit: cover;

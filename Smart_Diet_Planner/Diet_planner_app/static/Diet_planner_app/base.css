@@ -22,6 +22,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 /* Header */
 #nav-header{
   position: sticky;
@@ -396,11 +400,11 @@ footer {
   font-weight: normal; 
 }
 
-.display-small {
+.display-small-b {
   font-family: 'Clash Display', sans-serif; 
   font-size: 64px; 
   line-height: 120%; 
-  font-weight: bold; 
+  font-weight: medium; 
 }
 
 /* Heading 1 style */
