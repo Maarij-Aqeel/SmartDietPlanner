@@ -27,12 +27,12 @@
             <div style="display: flex; gap: 8%;">
                 <div class="form-group" id="age_group" style="width: 50%;">
                     <label for="age">Age</label>
-                    <input type="number" id="age" min="0" max="120" style="height: 25px;">
+                    <input type="number" name="age" id="age" min="0" max="120" style="height: 25px;">
                 </div>
                 <div class="form-group" id="height_group">
                     <label for="height">Height</label>
                     <div style="display: flex; gap: 0.5rem;">
-                        <input type="number" id="height" style="flex: 1">
+                        <input type="number" name="height" id="height" style="flex: 1">
                         <div class="toggle-group">
                             <button type="button" class="toggle-button active" data-unit="cm">cm</button>
                             <button type="button" class="toggle-button" data-unit="in">in</button>
@@ -50,7 +50,7 @@
             <div class="form-group">
                 <label>Current Weight</label>
                 <div style="display: flex; gap: 0.5rem;">
-                    <input type="number" style="flex: 1">
+                    <input type="number" id="current_weight" name="current_weight" style="flex: 1">
                     <div class="toggle-group">
                         <button type="button" class="toggle-button active" data-unit="kg">kg</button>
                         <button type="button" class="toggle-button" data-unit="lb">lb</button>
@@ -60,7 +60,7 @@
             <div class="form-group">
                 <label>Target Weight</label>
                 <div style="display: flex; gap: 0.5rem;">
-                    <input type="number" style="flex: 1">
+                    <input type="number" id="target_weight" name="target_weight" style="flex: 1">
                     <div class="toggle-group">
                         <button type="button" class="toggle-button active" data-unit="kg">kg</button>
                         <button type="button" class="toggle-button" data-unit="lb">lb</button>
@@ -150,7 +150,7 @@
         <div class="step" id="step4">
             <div class="form-group">
                 <label>Additional Information</label>
-                <textarea rows="4" placeholder="Enter any additional information..."></textarea>
+                <textarea id="additional_info" name="additional_info" rows="4" placeholder="Enter any additional information..."></textarea>
             </div>
         </div>
 
@@ -162,16 +162,7 @@
     </div>
 
     <script src="{% static 'Diet_planner_app/form.js' %}"></script>
-    <script>
-    nextBtn.addEventListener('click', () => {
-        if (currentStep < steps.length - 1) {
-            currentStep++;
-            updateSteps();
-        } else {
-            window.location.href = "{% url 'home' %}"; // Django template tag
-        }
-    });
-    </script>
+    <script> const HOME_URL = "{% url 'home' %}";</script>
 </body>
 
 </html>
