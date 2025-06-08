@@ -17,11 +17,12 @@
             
             <!-- Sign-Up Form -->
             <div class="form-container sign-up-container">
-                <form action="{% url 'welcome' %}" method="POST">
+                <form action="{% url 'login' %}" method="POST">
                     {% csrf_token %}
                     <!-- Hidden method that will help to differentiate actions in view.py-->
                     <input type="hidden" name="form_type" value="signup">
                     <input type="hidden" name="signup_method" value="manual">
+                    <input type="hidden" name="next" value="{% url 'welcome' %}">
 
                     <h1>Create Account</h1>
                     <div class="social-container">
@@ -43,12 +44,12 @@
 
             <!-- Sign-In Form -->
             <div class="form-container sign-in-container">
-                <form action="{% url 'home' %}" method="POST">
+                <form action="{% url 'login' %}" method="POST">
                     {% csrf_token %}
                     
                     <!-- Hidden method that will help to differentiate actions in view.py-->
-                    <input type="hidden" name="form_type" value="signup">
-                    <input type="hidden" name="signup_method" value="manual">
+                    <input type="hidden" name="form_type" value="signin">
+                    <input type="hidden" name="auth_method" value="manual">
 
                     <h1>Sign in</h1>
                     <div class="social-container">

@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login as auth_login
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
@@ -15,62 +15,76 @@ def home(request):
 
 def login(request):
     if request.method == 'POST':
-        form_type = request.POST.get('form_type')  # Get form type (signup or signin)
-        auth_method = request.POST.get('auth_method')  # Get auth method (manual or social)
+        
 
-        # Handling Manual Sign-Up (Email/Password)
-        if form_type == 'signup' and auth_method == 'manual':
+        form_type = request.POST.get('form_type')
+        auth_method = request.POST.get('auth_method', 'manual')
+        
+        if auth_method != 'manual':
+            messages.error(request, "Invalid authentication method.")
+            return render(request, 'Diet_planner_app/login.html')
+        
+        email = request.POST.get('email')
+        password = request.POST.get('password')
+        
+        # Validate email and password
+        if not all([email, password]):
+            messages.error(request, "Email and password are required!")
+            return render(request, 'Diet_planner_app/login.html')
+        
+        if form_type == 'signup':
+
+            # Handle Sign-Up
             name = request.POST.get('name')
-            email = request.POST.get('email')
-            password = request.POST.get('password')
-
+            if not name:
+                messages.error(request, "Name is required for registration!")
+                return render(request, 'Diet_planner_app/login.html')
+            
             # Check if email already exists
             if User.objects.filter(email=email).exists():
                 messages.error(request, "Email already registered!")
-                print("Email already registered")
-                return redirect('sign_up')  # Redirect back to the sign-up page
-
-            # Create a new user manually
-            user = User.objects.create_user(username=email, email=email, password=password, first_name=name)
-            user.save()
-
-
-            # Log the user in after successful sign-up
-            user = authenticate(request, username=email, password=password)
-            if user is not None:
-                login(request)
-                messages.success(request, "Account created successfully! You are now logged in.")
-                return redirect('home')  # Redirect to home or dashboard page
-            else:
-                messages.error(request, "Error logging in after sign-up.")
-                return redirect('sign_up')  # Redirect back to sign-up page
-
+                return render(request, 'Diet_planner_app/login.html')
+            
+            try:
+                # Create new user
+                user = User.objects.create_user(
+                    username=email, 
+                    email=email, 
+                    password=password, 
+                    first_name=name
+                )
+                
+                # Login the new user
+                user = authenticate(request, username=email, password=password)
+                if user:
+                    auth_login(request, user)
+                    messages.success(request, "Account created successfully! Welcome!")
+                    return redirect('welcome')
+                
+            except Exception as e:
+                messages.error(request, "Error creating account. Please try again.")
+                return render(request, 'Diet_planner_app/login.html')
         
-        # Handling Manual Sign-In (Email/Password)
-        elif form_type == 'signin' and auth_method == 'manual':
-            email = request.POST.get('email')
-            password = request.POST.get('password')
+        elif form_type == 'signin':
+            # Handle Sign-In
 
-
-            # Authenticate the user with the provided email and password
             user = authenticate(request, username=email, password=password)
-
-            if user is not None:
-                login(request, user)
-                messages.success(request, "You are logged in successfully!")
-                return redirect('home')  # Redirect to home or dashboard page
+            if user:
+                auth_login(request, user)
+                messages.success(request, "Welcome back!")
+                return redirect('home')
             else:
                 messages.error(request, "Invalid email or password!")
-                return redirect('sign_in')  # Redirect back to sign-in page
-
-
-    else:
-        form = AuthenticationForm()  # If GET request, render an empty login form
-
+                return render(request, 'Diet_planner_app/login.html')
+        
+        else:
+            messages.error(request, "Invalid form type.")
+    
+    # GET request
+    form = AuthenticationForm()
     return render(request, 'Diet_planner_app/login.html', {'form': form})
 
 
-@login_required
 def save_profile(request):
     if request.method == "POST":
         data = json.loads(request.body)
