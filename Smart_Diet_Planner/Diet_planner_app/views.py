@@ -2,11 +2,11 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login as auth_login
 from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.contrib.auth.models import User
 from django.contrib.auth import logout
 from .models import UserProfile
+from recipes.models import Recipe
 import json
 from recipes.rag import process_query
 
@@ -142,7 +142,9 @@ def roadmap(request):
     return render(request, 'Diet_planner_app/roadmap.html')
 
 def features(request):
-    return render(request, 'Diet_planner_app/featured_recipes.html')
+    recipes=Recipe.objects.all()
+    
+    return render(request, 'Diet_planner_app/featured_recipes.html',{'recipes':recipes})
 
 def recipe_query(request):
 

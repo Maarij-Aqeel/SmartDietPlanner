@@ -3,6 +3,8 @@ import numpy as np
 from recipes.models import Recipe
 from django.core.management.base import BaseCommand
 from django.core.exceptions import ValidationError
+from django.conf import settings
+VALID_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.webp']
 import os
 
 
@@ -25,31 +27,33 @@ class Command(BaseCommand):
             self.stdout.write(self.style.ERROR(f"CSV file not found at {csv_file_path}"))
             return
 
-        # Load data with pandas
         df = pd.read_csv(csv_file_path)
 
         for index, row in df.iterrows():
-            existing_recipe = Recipe.objects.filter(recipe_name=row.get('recipe_name')).first()
-
-            if existing_recipe:
-                self.stdout.write(
-                    self.style.WARNING(f"[{index + 1}] Recipe '{row.get('recipe_name')}' already exists. Skipping."))
+            recipe_name = row.get('recipe_name')
+            if Recipe.objects.filter(recipe_name=recipe_name).exists():
+                self.stdout.write(self.style.WARNING(f"[{index + 1}] '{recipe_name}' exists. Skipping."))
                 continue
 
             try:
-                # Handle cook_time specifically for null values
-                cook_time_value = row.get('cook_time')
-                cook_time = None if pd.isna(cook_time_value) else str(cook_time_value)
+                # Handle times
+                cook_time = None if pd.isna(row.get('cook_time')) else str(row.get('cook_time'))
+                prep_time = None if pd.isna(row.get('prep_time')) else str(row.get('prep_time'))
+                total_time = None if pd.isna(row.get('total_time')) else str(row.get('total_time'))
 
-                # Handle prep_time and total_time similarly
-                prep_time_value = row.get('prep_time')
-                prep_time = None if pd.isna(prep_time_value) else str(prep_time_value)
+                # Fix image path
+                image_base = row.get('image')
+                fixed_image_path = None
 
-                total_time_value = row.get('total_time')
-                total_time = None if pd.isna(total_time_value) else str(total_time_value)
+                if image_base:
+                    for ext in VALID_EXTENSIONS:
+                        test_path = os.path.join(settings.MEDIA_ROOT, 'recipes', image_base + ext)
+                        if os.path.exists(test_path):
+                            fixed_image_path = f"recipes/{image_base}{ext}"
+                            break
 
                 recipe = Recipe(
-                    recipe_name=row.get('recipe_name'),
+                    recipe_name=recipe_name,
                     cook_time=cook_time,
                     prep_time=prep_time,
                     total_time=total_time,
@@ -66,12 +70,14 @@ class Command(BaseCommand):
                     instructions=row.get('instructions'),
                     type=row.get('type'),
                     cuisine=row.get('cuisine'),
-                    image=row.get('image'),
+                    image=fixed_image_path,
                 )
+
                 recipe.full_clean()
                 recipe.save()
                 self.stdout.write(self.style.SUCCESS(f"[{index + 1}] Saved: {recipe.recipe_name}"))
+
             except ValidationError as e:
                 self.stdout.write(self.style.WARNING(f"[{index + 1}] Validation Error: {e}"))
             except Exception as e:
-                self.stdout.write(self.style.ERROR(f"[{index + 1}] Unexpected Error: {e}"))
+                self.stdout.write(self.style.ERROR(f"[{index + 1}]  Error: {e}"))

@@ -1,4 +1,5 @@
 from django.db import models
+import ast
 
 class Recipe(models.Model):
     recipe_name = models.CharField(max_length=255, null=False, blank=False)
@@ -18,7 +19,18 @@ class Recipe(models.Model):
     instructions = models.TextField(null=True, blank=True)
     type = models.CharField(max_length=50, null=True, blank=True)
     cuisine = models.CharField(max_length=100, null=True, blank=True)
-    image = models.CharField(max_length=255, blank=True, null=True)
+    image = models.ImageField(upload_to='recipes/', blank=True, null=True)
+
+
+    
+    def get_instructions_list(self):
+        try:
+            if self.instructions.startswith("c("):  # R-style vector
+                cleaned = self.instructions.replace('c(', '').rstrip(')').strip()
+                return [i.strip('" ').strip() for i in cleaned.split('",')]
+            return ast.literal_eval(self.instructions)  # Python-style list string
+        except Exception:
+            return [self.instructions] if self.instructions else []
 
     def __str__(self):
         return self.recipe_name
