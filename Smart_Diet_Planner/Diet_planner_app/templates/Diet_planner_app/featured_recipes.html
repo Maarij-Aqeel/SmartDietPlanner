@@ -71,13 +71,35 @@ Featured Plans
                 <span class="review-count">{{ recipe.calories|default:"0" }} kcal</span>
             </div>
             
-            <a href="#" class="view-details-btn">View Details</a>
+            <a href="{% url 'recipe_detail' recipe.pk%}" class="view-details-btn">View Details</a>
         </div>
     </div>
     {% empty %}
         <div class="no-results">No recipes found.</div>
     {% endfor %}
 </div>
+
+<!-- Pagination Controls -->
+<div class="pagination">
+    {% if page_obj.has_previous %}
+        <a href="?page={{ page_obj.previous_page_number }}">&laquo; Prev</a>
+    {% endif %}
+
+    {% for num in page_obj.paginator.page_range %}
+        {% if page_obj.number == num %}
+            <span class="current-page">{{ num }}</span>
+        {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+            <a href="?page={{ num }}">{{ num }}</a>
+        {% endif %}
+    {% endfor %}
+
+    {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}">Next &raquo;</a>
+    {% endif %}
+</div>
+
+
+
 
 
 {% endblock content %}

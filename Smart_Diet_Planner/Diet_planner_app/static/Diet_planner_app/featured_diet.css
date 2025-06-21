@@ -249,3 +249,26 @@
     font-size: 16px;
   }
 }
+
+.pagination {
+  text-align: center;
+  margin-top: 2rem;
+}
+.pagination a,
+.pagination span {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+}
+.pagination .current-page {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+.pagination a:hover {
+  background-color: #eee;
+}

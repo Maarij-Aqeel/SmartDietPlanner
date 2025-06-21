@@ -28,9 +28,22 @@ class Recipe(models.Model):
             if self.instructions.startswith("c("):  # R-style vector
                 cleaned = self.instructions.replace('c(', '').rstrip(')').strip()
                 return [i.strip('" ').strip() for i in cleaned.split('",')]
-            return ast.literal_eval(self.instructions)  # Python-style list string
+            return ast.literal_eval(self.instructions)  
         except Exception:
             return [self.instructions] if self.instructions else []
 
+
+    def get_ingredients_list(self):
+        if not self.ingredients:
+            return []
+        try:
+            # converting to list
+            cleaned = self.ingredients.strip()
+            if cleaned.startswith("c("):
+                cleaned = cleaned[2:-1]
+            items = ast.literal_eval(f"[{cleaned}]")
+            return [item.capitalize() for item in items]
+        except Exception:
+            return [self.ingredients]  
     def __str__(self):
         return self.recipe_name

@@ -17,7 +17,7 @@ Recipe Page
         <div class="circle circle-3"></div>
     </div>
     <div class="heading">
-        <h1>Mediterranean Grilled Salmon</h1>
+        <h1>{{recipe.recipe_name}}</h1>
     </div>
     <div class="columns">
         <div class="column column-left">
@@ -40,17 +40,22 @@ Recipe Page
                     </span>
                 </div>
             </div>
-
-            <img src="/media/med-salmon.png" alt="Mediterranean Grilled Salmon" class="responsive-image">
+<!-- Tags -->
+            <img src="{{recipe.image.url}}" alt="Mediterranean Grilled Salmon" class="responsive-image">
             <div class="tags-container">
-                <div class="text-wrapper">Tags</div>
+                <div class="text-wrapper"><strong>Tags</strong></div>
                 <div class="tags">
-                    <div class="tag tagline">Keto</div>
-                    <div class="tag tagline">Gluten-free</div>
-                    <div class="tag tagline highlighted ">High-protein</div>
+                    {% if recipe.type %}
+                        <div class="tag tagline">{{ recipe.type|title }}</div>
+                    {% endif %}
+                    {% if recipe.cuisine %}
+                        <div class="tag tagline highlighted">{{ recipe.cuisine|title }}</div>
+                    {% endif %}
+                   
                 </div>
             </div>
 
+<!-- Description -->
             <div class="description text-container">
                 <p class="h5-bold">Description</p>
                 <hr>
@@ -61,68 +66,39 @@ Recipe Page
                 </p>
             </div>
 
-            <div class="ingredients text-container">
+            <!-- Ingredients -->
+            <div class="text-container">
                 <p class="h5-bold">Ingredients</p>
                 <hr>
-                For Dish
                 <ul class="body list">
-                    <li>4 salmon fillets (about 6 oz each)</li>
-                    <li>3 tbsp olive oil</li>
-                    <li>2 cloves garlic, minced</li>
-                    <li>1 tsp smoked paprika</li>
-                    <li>1 tsp dried oregano</li>
-                    <li>1 tsp ground cumin</li>
-                    <li>Salt and pepper, to taste</li>
-                </ul>
-                For Garnish:
-                <ul class="body list">
-                    <li>1/2 cup cherry tomatoes, halved</li>
-                    <li>1/4 cup Kalamata olives, sliced</li>
-                    <li>2 tbsp fresh parsley, chopped</li>
-                    <li>1 lemon, sliced into wedges</li>
+                    {% for item in recipe.get_ingredients_list %}
+                        <li>{{ item }}</li>
+                    {% empty %}
+                        <li>No ingredients provided.</li>
+                    {% endfor %}
                 </ul>
             </div>
 
             <div class="steps text-container">
                 <p class="h5-bold">Steps</p>
                 <hr>
-                <ol class="body">
+                <ol class="body list">
+                    {% for step in recipe.get_instructions_list %}
                     <li>
-                        <strong class="body-reg-b">Prepare the Marinade:</strong><br>
-                        <p>In a small bowl, whisk together olive oil, garlic, smoked paprika, oregano, cumin, salt, and
-                            pepper.</p>
+                        <strong class="body-reg-b">Step {{ forloop.counter }}:</strong><br>
+                        <p>{{ step }}</p>
                     </li>
-                    <li>
-                        <strong class="body-reg-b">Marinate the Salmon:</strong><br>
-                        <p>Brush the marinade generously over the salmon fillets and let them sit for 15-20 minutes.</p>
-                    </li>
-                    <li>
-                        <strong class="body-reg-b">Preheat the Grill:</strong><br>
-                        <p>Heat your grill (or grill pan) to medium-high and lightly oil the grates.</p>
-                    </li>
-                    <li>
-                        <strong class="body-reg-b">Grill the Salmon:</strong><br>
-                        <p>Place the salmon fillets skin-side down on the grill. Cook for 4-5 minutes per side or until
-                            the internal temperature reaches 145°F (62°C).</p>
-                    </li>
-                    <li>
-                        <strong class="body-reg-b">Prepare the Garnish:</strong><br>
-                        <p>In a small bowl, mix cherry tomatoes, olives, parsley, and a squeeze of fresh lemon juice.
-                        </p>
-                    </li>
-                    <li>
-                        <strong class="body-reg-b">Serve and Enjoy!</strong><br>
-                        <p>Plate the grilled salmon and top it with the garnish. Serve with lemon wedges on the side.
-                        </p>
-                    </li>
-
+                    {% empty %}
+                    <li>No steps provided for this recipe.</li>
+                    {% endfor %}
                 </ol>
             </div>
+
         </div>
         <div class="column column-right">
             <table class="nutritional-overview">
                 <tr colspan="2">
-                    <p class="body-large-b">Nutritional Overview</p>
+                   <strong class="h5-bold" >Nutritional Overview</strong>
                 </tr>
                 <thead>
                     <tr>
@@ -131,20 +107,24 @@ Recipe Page
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Recipe Id</td>
+                        <td><strong>Recipe Id</strong></td>
                         <td>32190</td>
                     </tr>
                     <tr>
-                        <td>Diet Type</td>
-                        <td>Mediterranean</td>
+                        <td><strong>Diet Type</strong></td>
+                        <td>{{recipe.type}}</td>
                     </tr>
                     <tr>
-                        <td>Cuisine Type</td>
-                        <td>Seafood</td>
+                        <td><strong>Cuisine Type</strong></td>
+                        <td>{{recipe.cuisine}}</td>
                     </tr>
                     <tr>
-                        <td>Cook Time</td>
-                        <td>30-40 min</td>
+                        <td><strong>Prep Time</strong></td>
+                        <td>{{ recipe.prep_time|stringformat:"s"|slice:":-3" }}  minutes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cook Time</strong></td>
+                        <td>{{ recipe.cook_time|stringformat:"s"|slice:":-3" }} minutes</td>
                     </tr>
                 </tbody>
                 <thead>
@@ -154,24 +134,32 @@ Recipe Page
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Calories per Serving</td>
-                        <td>350 kcal</td>
+                        <td><strong>Calories per Serving</strong></td>
+                        <td>{{ recipe.calories }} kcal</td>
                     </tr>
                     <tr>
-                        <td>Protein</td>
-                        <td>200 g</td>
+                        <td><strong>Protein</strong></td>
+                        <td>{{ recipe.protein }} g</td>
                     </tr>
                     <tr>
-                        <td>Carbs</td>
-                        <td>25 g</td>
+                        <td><strong>Carbs</strong></td>
+                        <td>{{ recipe.carbohydrate }} g</td>
                     </tr>
                     <tr>
-                        <td>Fats</td>
-                        <td>15 g</td>
+                        <td><strong>Fats</strong></td>
+                        <td>{{ recipe.fat }} g</td>
                     </tr>
                     <tr>
-                        <td>Omega-3s</td>
-                        <td>10 mg</td>
+                        <td><strong>Cholesterol</strong></td>
+                        <td>{{ recipe.cholesterol }} mg</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sodium</strong></td>
+                        <td>{{ recipe.sodium }} mg</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sugar</strong></td>
+                        <td>{{ recipe.sugar }} g</td>
                     </tr>
                 </tbody>
             </table>

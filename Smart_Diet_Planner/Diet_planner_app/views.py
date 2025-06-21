@@ -1,6 +1,7 @@
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login as auth_login
+from django.core.paginator import Paginator
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib import messages
 from django.contrib.auth.models import User
@@ -143,8 +144,13 @@ def roadmap(request):
 
 def features(request):
     recipes=Recipe.objects.all()
-    
-    return render(request, 'Diet_planner_app/featured_recipes.html',{'recipes':recipes})
+    paginator=Paginator(recipes,9)
+    page_no=request.GET.get("page")
+
+    page_obj=paginator.get_page(page_no)
+
+
+    return render(request, 'Diet_planner_app/featured_recipes.html',{'recipes':page_obj,'page_obj':page_obj})
 
 def recipe_query(request):
 
