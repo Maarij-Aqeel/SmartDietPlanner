@@ -1,0 +1,120 @@
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Coach Sidebar</title>
+
+  <link rel="stylesheet" href="{% static 'Diet_planner_app/final_sidebar.css' %}">
+
+</head>
+<body>
+  <button class="toggle-button" onclick="toggleSidebar()" title="Toggle Sidebar">
+    <img alt="AI Icon" src="/media/icons/Ai_icon.png" style="width: 55px; height: 55px;">
+  </button>
+
+  {% if user.is_authenticated %}
+    <div class="panel" id="panel">
+      <div class="welcome-section">
+        <h1>Welcome back, {{ user.first_name }} </h1>
+        <p>Your wellness journey continues today</p>
+      </div>
+
+      <div class="card hydrate-section">
+        <div>
+          <h3>Time to Hydrate!</h3>
+          <p>Stay refreshed and energized</p>
+        </div>
+        <div class="icon">💧</div>
+      </div>
+
+      <div class="progress-section card">
+        <div class="progress-header">
+          <span>Week 7 Progress</span>
+          <span>1200/1800 kcal</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-bar-fill" style="width: 65%"></div>
+        </div>
+        <div class="chart-container">
+          <canvas aria-label="Nutritional chart" id="pieChart" role="img"></canvas>
+          <div class="total-calories-div">
+            <h3 class="total-calories" id="totalCalories">1300</h3> <span class="kcal"> kcal </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="suggestions-section">
+        <h2>Today's Suggestions</h2>
+        <div class="suggestion-item">
+          <img src="/media/food-img-2.png" alt="Salad" >
+          <div>
+            <h4>White Bean & Spinach Salad</h4>
+            <p>Nutritious and delicious lunch option</p>
+          </div>
+        </div>
+        <div class="suggestion-item">
+          <img alt="Broccoli Dish" src="/media/salad.png">
+          <div>
+            <h4>Grilled Broccoli with Rice</h4>
+            <p>Healthy and filling dinner choice</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-history" id="chat-history">
+    <!-- Conversation history will appear here -->
+      </div>
+
+  <div class="ask-section">
+    <input id="questionInput" placeholder="Ask a wellness question..." type="text">
+    <button id="sendButton" title="Send">
+      <i class="bi bi-send"></i>
+    </button>
+  </div>
+    </div>
+  {% else %}
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <img src="/media/icons/Ai_icon.png" alt="User Icon">
+        <div>
+          <h1 style="margin-top: 10px;">Hello There!</h1>
+          <p>Explore the AI coach</p>
+        </div>
+      </div>
+
+      <div class="prompts" id="prompts">
+        <h2>Popular Prompts</h2>
+        <div class="prompt-card" onclick="addPromptToInput('How do I track my progress?')">
+          <img src="/media/icons/timer.svg" alt="Progress Icon">
+          <p>How do I track my progress?</p>
+        </div>
+        <div class="prompt-card" onclick="addPromptToInput('Show popular meal plans')">
+          <img src="/media/icons/carrot.svg" alt="Meal planner">
+          <p>Show popular meal plans</p>
+        </div>
+        <div class="prompt-card" onclick="addPromptToInput('How can I switch between different diets?')">
+          <img src="/media/icons/goal.svg" alt="Diet Icon">
+          <p>How can I switch between different diets?</p>
+        </div>
+      </div>
+
+      <div class="chat-history" id="chat-history">
+    <!-- Conversation history will appear here -->
+      </div>
+
+  <div class="ask-section">
+    <input id="questionInput" placeholder="Ask a wellness question..." type="text">
+    <button id="sendButton" title="Send">
+      <i class="bi bi-send"></i>
+    </button>
+  </div>
+    </div>
+  {% endif %}
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="{% static 'Diet_planner_app/final_sidebar.js' %}"></script>
+</body>
+</html>

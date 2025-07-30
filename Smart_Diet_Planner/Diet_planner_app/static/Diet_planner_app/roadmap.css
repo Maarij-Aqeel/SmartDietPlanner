@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #303040;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.roadmap-header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 40px 20px;
+    background-color: #D5DCB3;
+    border-radius: 15px;
+}
+
+.roadmap-header h1 {
+    color: #708B05;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.roadmap-header p {
+    color: #303040;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline {
+    position: relative;
+    padding: 40px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #D5DCB3;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.milestone {
+    padding: 20px;
+    width: calc(50% - 30px);
+    position: relative;
+    margin-bottom: 40px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.milestone:nth-child(odd) {
+    margin-left: auto;
+    padding-left: 40px;
+}
+
+.milestone:nth-child(even) {
+    padding-right: 40px;
+}
+
+.milestone::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #708B05;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.milestone:nth-child(odd)::before {
+    left: -10px;
+}
+
+.milestone:nth-child(even)::before {
+    right: -10px;
+}
+
+.milestone-content {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.milestone-content:hover {
+    transform: translateY(-5px);
+}
+
+.milestone-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.milestone-date {
+    background-color: #F3EDDD;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #708B05;
+}
+
+.milestone-status {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.status-completed {
+    background-color: #D5DCB3;
+    color: #708B05;
+}
+
+.status-in-progress {
+    background-color: #FFE5D9;
+    color: #FF7D4F;
+}
+
+.status-planned {
+    background-color: #E5E7EB;
+    color: #6B7280;
+}
+
+.milestone h3 {
+    color: #708B05;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.feature-list {
+    margin-top: 15px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.feature-item::before {
+    content: '•';
+    color: #708B05;
+    margin-right: 10px;
+}
+
+.feedback-section {
+    background-color: #F3EDDD;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.feedback-section h2 {
+    color: #708B05;
+    margin-bottom: 20px;
+}
+
+.feedback-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #708B05;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-button:hover {
+    background-color: #5a7004;
+}
+
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 20px;
+    }
+
+    .milestone {
+        width: calc(100% - 50px);
+        margin-left: 50px !important;
+        padding-left: 20px !important;
+        padding-right: 0 !important;
+    }
+
+    .milestone::before {
+        left: -40px !important;
+    }
+
+    .roadmap-header h1 {
+        font-size: 2rem;
+    }
+}

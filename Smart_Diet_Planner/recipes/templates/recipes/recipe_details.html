@@ -1,0 +1,223 @@
+{% extends 'Diet_planner_app/base.html' %}
+
+{% block header %}
+Recipe Page
+{% endblock %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'recipes/css/recipe_details.css' %}">
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="background">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+    </div>
+    <div class="heading">
+        <h1>{{recipe.recipe_name}}</h1>
+    </div>
+    <div class="columns">
+        <div class="column column-left">
+            <div class="info-container">
+                <!-- Last Updated Field -->
+                <div class="last-updated">
+                    <span>
+                        <p class="body"><strong>Last Updated: </strong> December 8, 2024</p> <!-- Example content -->
+                    </span>
+                </div>
+                <!-- Ratings Field -->
+                <div class="ratings">
+                    <span>
+                        <strong class="body-reg-b">Ratings:</strong>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star">☆</span>
+                        <span class="star">☆</span>
+                    </span>
+                </div>
+            </div>
+<!-- Tags -->
+            <img src="{{recipe.image.url}}" alt="Mediterranean Grilled Salmon" class="responsive-image">
+            <div class="tags-container">
+                <div class="text-wrapper"><strong>Tags</strong></div>
+                <div class="tags">
+                    {% if recipe.type %}
+                        <div class="tag tagline">{{ recipe.type|title }}</div>
+                    {% endif %}
+                    {% if recipe.cuisine %}
+                        <div class="tag tagline highlighted">{{ recipe.cuisine|title }}</div>
+                    {% endif %}
+                   
+                </div>
+            </div>
+
+<!-- Description -->
+            <div class="description text-container">
+                <p class="h5-bold">Description</p>
+                <hr>
+                <p class="body">
+                    A simple yet flavorful salmon recipe infused with Mediterranean spices, perfect for a healthy dinner
+                    or meal
+                    prep.
+                </p>
+            </div>
+
+            <!-- Ingredients -->
+            <div class="text-container">
+                <p class="h5-bold">Ingredients</p>
+                <hr>
+                <ul class="body list">
+                    {% for item in recipe.get_ingredients_list %}
+                        <li>{{ item }}</li>
+                    {% empty %}
+                        <li>No ingredients provided.</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="steps text-container">
+                <p class="h5-bold">Steps</p>
+                <hr>
+                <ol class="body list">
+                    {% for step in recipe.get_instructions_list %}
+                    <li>
+                        <strong class="body-reg-b">Step {{ forloop.counter }}:</strong><br>
+                        <p>{{ step }}</p>
+                    </li>
+                    {% empty %}
+                    <li>No steps provided for this recipe.</li>
+                    {% endfor %}
+                </ol>
+            </div>
+
+        </div>
+        <div class="column column-right">
+            <table class="nutritional-overview">
+                <tr colspan="2">
+                   <strong class="h5-bold" >Nutritional Overview</strong>
+                </tr>
+                <thead>
+                    <tr>
+                        <th colspan="2">About Recipe</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Recipe Id</strong></td>
+                        <td>32190</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Diet Type</strong></td>
+                        <td>{{recipe.type}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cuisine Type</strong></td>
+                        <td>{{recipe.cuisine}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Prep Time</strong></td>
+                        <td>{{ recipe.prep_time|stringformat:"s"|slice:":-3" }}  minutes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cook Time</strong></td>
+                        <td>{{ recipe.cook_time|stringformat:"s"|slice:":-3" }} minutes</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th colspan="2">Nutrients</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Calories per Serving</strong></td>
+                        <td>{{ recipe.calories }} kcal</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Protein</strong></td>
+                        <td>{{ recipe.protein }} g</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Carbs</strong></td>
+                        <td>{{ recipe.carbohydrate }} g</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fats</strong></td>
+                        <td>{{ recipe.fat }} g</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cholesterol</strong></td>
+                        <td>{{ recipe.cholesterol }} mg</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sodium</strong></td>
+                        <td>{{ recipe.sodium }} mg</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sugar</strong></td>
+                        <td>{{ recipe.sugar }} g</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- PIE CHART -->
+            <div id="chart_div" style="width: 100%; height: 400px;"></div>
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+                google.charts.load('current', { 'packages': ['corechart'] });
+                google.charts.setOnLoadCallback(drawChart);
+
+                function drawChart() {
+                    var data = google.visualization.arrayToDataTable([
+                        ['Nutrient', 'Amount'],
+                        ['Fats', 12],
+                        ['Omega-3', 2],
+                        ['Fiber', 1],
+                        ['Cholesterol', 60],
+                        ['Protein', 22]
+                    ]);
+
+                    var options = {
+                        title: 'Nutrition Information in Mediterranean Grilled Salmon',
+                        titleTextStyle: {
+                            color: '#666',
+                            fontSize: 16,
+                            bold: false,
+                            // alignment: 'center'
+                        },
+                        pieHole: 0.7,
+                        pieSliceText: 'none',
+                        legend: {
+                            position: 'right',
+                            alignment: 'center',
+                            textStyle: {
+                                color: '#666',
+                                fontSize: 14,
+                                cursor: 'pointer'
+                            }
+                        },
+                        colors: ['#708B06', '#D1D976', '#D5DCB3', '#D5DCB3', '#313040'],
+                        tooltip: {
+                            text: 'value',
+                            showColorCode: true
+                        },
+                        chartArea: {
+                            width: '80%',
+                            height: '80%'
+                        },
+                        height: 400,
+                        backgroundColor: 'transparent'
+                    };
+                    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+                    chart.draw(data, options);
+                }
+            </script>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

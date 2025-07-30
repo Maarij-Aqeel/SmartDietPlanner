@@ -1,0 +1,212 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .body-reg-b {
+  font-weight: bold;
+}
+
+  
+  /* Circle decorations */
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--secondary-bg);
+    opacity: 0.7;
+  }
+  
+  .circle-1 {
+    width: 800px;
+    height: 800px;
+    top: 20%;
+    left: -10%;
+  }
+  
+  .circle-2 {
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 40%;
+  }
+  
+  .circle-3 {
+    width: 800px;
+    height: 800px;
+    top: 80%;
+    left: 60%;
+  }
+  
+  /* Main content layout */
+  section {
+    position: relative;
+    width: 100%;
+    padding: 64px;
+  }
+  
+  .columns {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-content: stretch;
+    margin: 0;
+  }
+  
+  .column {
+    padding: 20px 0;
+  }
+  
+  .column-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .column-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 24px;
+    padding-left: 32px;
+    justify-content: flex-start;
+  }
+  
+  /* Header styles */
+  .heading {
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--dark-color);
+  }
+  
+  /* Info container and ratings */
+  .info-container {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 20px;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
+  /* Image styles */
+  .responsive-image {
+    width: 80%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 
+      rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  /* Tags */
+  .tags-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .tag {
+    padding: 8px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color: #dddddd;
+  }
+  
+  .highlighted {
+    background-color: var(--primary-light);
+  }
+  
+  /* Content containers */
+  .text-container {
+    padding: 40px;
+    max-width: 80%;
+    margin: 24px 0;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 
+      rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  
+  /* Lists */
+  .list {
+    list-style-type: disc;
+  }
+  
+  .steps li {
+    margin-top: 16px;
+  }
+  
+  /* Table styles */
+  .nutritional-overview {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .nutritional-overview th,
+  .nutritional-overview td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .nutritional-overview th {
+    background-color: var(--primary-light);
+  }
+  
+  /* Chart */
+  #chart_div {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .columns {
+      grid-template-columns: 1fr;
+    }
+  
+    .column-left {
+      border-right: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  
+    .column-right {
+      padding-left: 0;
+    }
+  
+    .text-container {
+      max-width: 100%;
+      padding: 20px;
+    }
+  
+    section {
+      padding: 32px;
+    }
+  
+    .responsive-image {
+      width: 100%;
+    }
+  }

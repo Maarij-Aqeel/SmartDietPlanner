@@ -1,0 +1,117 @@
+{% extends 'Diet_planner_app/base.html' %}
+
+{% block header %}
+Contact Us
+{% endblock %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="{% static 'Diet_planner_app/contact.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="hero-section" style="margin-top: 70px">
+    <div class="world-map"></div>
+    <div class="hero-content">
+        <h1>Contact Us</h1>
+        <p>Feel free to get in touch with us...</p>
+    </div>
+</section>
+
+<div class="container">
+    <div class="contact-cards">
+        <div class="contact-card">
+            <div class="icon-wrapper">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Main Office</h3>
+            <p>8415 Spring Garden Rd.</p>
+            <br>
+            <p>Halifax, NS, D3A-0D1</p>
+            <br>
+            <p>+1 902 403 8933</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon-wrapper">
+                <i class="fas fa-building"></i>
+            </div>
+            <h3>Branch Office</h3>
+            <p>317 S 6th St.</p>
+            <br>
+            <p>Las Vegas, NV 89101</p>
+            <br>
+            <p>+1 702 808 0087</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon-wrapper">
+                <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>General Contacts</h3>
+            <p>Inquiries: help@zora.io</p>
+            <br>
+            <p>Careers: hr@zora.io</p>
+            <br>
+            <p>Support: help@zora.io</p>
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<section class="message-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>We'd Love to Hear From You</h2>
+            <p>Share your thoughts with us</p>
+        </div>
+        <div class="message-form">
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="container">
+    <div class="section-title">
+        <h2>Our Support Hours</h2>
+        <p>We're here to help you</p>
+    </div>
+    <div style="text-align: center; margin-bottom: 60px;">
+        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+        <br>
+        <p>Saturday: 10:00 AM - 4:00 PM</p>
+        <br>
+        <p>Sunday: Closed</p>
+    </div>
+</section>
+{% endblock %}

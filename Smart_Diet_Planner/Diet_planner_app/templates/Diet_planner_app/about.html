@@ -1,0 +1,199 @@
+{% extends 'Diet_planner_app/base.html' %}
+
+{% block header %}
+About Us
+{% endblock %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'Diet_planner_app/about.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container" style="margin-top: 70px">
+    <!-- About Us Section -->
+    <section class="section">
+        <h2 class="section-title">About Us</h2>
+        <div class="section-content">
+            <p>Welcome to Diet Planner, your trusted partner in achieving optimal health and wellness through
+                personalized nutrition planning. We believe that every individual deserves a unique approach to their
+                dietary needs.</p>
+            <br>
+            <p>Founded in 2020, our platform has grown to become a leading resource for personalized diet planning,
+                combining expert nutritional knowledge with innovative technology.</p>
+            <br>
+            <p>Our team of certified nutritionists, wellness coaches, and health experts works tirelessly to provide you
+                with the most effective and sustainable diet solutions.</p>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Our Goals Section -->
+    <section class="section">
+        <h2 class="section-title">Our Goals</h2>
+        <div class="goals-grid">
+            <div class="goal-card">
+                <h3>Personalized Nutrition</h3>
+                <p>Develop customized meal plans that align with your individual health goals, dietary preferences, and
+                    lifestyle requirements.</p>
+            </div>
+            <div class="goal-card">
+                <h3>Health Education</h3>
+                <p>Empower our users with comprehensive knowledge about nutrition, helping them make informed decisions
+                    about their dietary choices.</p>
+            </div>
+            <div class="goal-card">
+                <h3>Sustainable Results</h3>
+                <p>Focus on creating lasting lifestyle changes rather than temporary solutions, ensuring long-term
+                    success in health goals.</p>
+            </div>
+            <div class="goal-card">
+                <h3>Community Support</h3>
+                <p>Build a supportive community where members can share experiences, celebrate victories, and motivate
+                    each other.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section class="section">
+        <h2 class="section-title">Meet the Team</h2>
+
+        <!-- Mentor Section -->
+        <div class="mentor">
+            <div class="team-member">
+                <div class="member-image"></div>
+                <h3>Dr. Anwar Shah</h3>
+                <p>Team Mentor</p>
+            </div>
+        </div>
+
+        <!-- Team Members Section -->
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-image"></div>
+                <h3>Aimen Malik</h3>
+                <p>Lead Designer</p>
+            </div>
+            <div class="team-member">
+                <div class="member-image"></div>
+                <h3>Shaaf Imran</h3>
+                <p>Font-End Master</p>
+            </div>
+            <div class="team-member">
+                <div class="member-image"></div>
+                <h3>Abdullah Ali</h3>
+                <p>Lead Developer</p>
+            </div>
+            <div class="team-member">
+                <div class="member-image"></div>
+                <h3>Muhammad Huzaifa</h3>
+                <p>Lead Developer</p>
+            </div>
+            <div class="team-member">
+                <div class="member-image"></div>
+                <h3>Maarij Aqeel</h3>
+                <p>Backend Developer</p>
+            </div>
+            <div class="team-member">
+                <div class="member-image"></div>
+                <h3>Rudhan Lodhi</h3>
+                <p>Backend Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"The personalized meal plans have completely transformed my relationship with food. I've lost 20
+                        pounds and feel better than ever!"</p>
+                    <br>
+                    <strong>Sarah M.</strong>
+                    <p>Member since 2022</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"As an athlete, I needed specific nutrition guidance. The team here provided exactly what I
+                        needed to improve my performance."</p>
+                    <br>
+                    <strong>Mark R.</strong>
+                    <p>Member since 2023</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The educational resources and continuous support made my wellness journey so much easier. Highly
+                        recommended!"</p>
+                    <br>
+                    <strong>Linda K.</strong>
+                    <p>Member since 2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach Section -->
+    <section class="section">
+        <h2 class="section-title">Our Approach</h2>
+        <p class="section-content">We believe in a holistic approach to nutrition and wellness, combining scientific
+            research with practical implementation.</p>
+        <div class="approach-grid">
+            <div class="approach-card">
+                <div class="approach-icon">1</div>
+                <h3>Assessment</h3>
+                <p>Comprehensive evaluation of your current health status, goals, and lifestyle factors</p>
+            </div>
+            <div class="approach-card">
+                <div class="approach-icon">2</div>
+                <h3>Planning</h3>
+                <p>Development of personalized nutrition strategies and meal plans</p>
+            </div>
+            <div class="approach-card">
+                <div class="approach-icon">3</div>
+                <h3>Support</h3>
+                <p>Ongoing guidance, adjustments, and motivation to ensure success</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards and Recognition Section -->
+    <section class="section">
+        <h2 class="section-title">Awards & Recognition</h2>
+        <div class="goals-grid">
+            <div class="goal-card">
+                <h3>Best Nutrition Platform 2023</h3>
+                <p>Awarded by Health & Wellness Association</p>
+            </div>
+            <div class="goal-card">
+                <h3>Innovation in Diet Planning</h3>
+                <p>Digital Health Awards 2023</p>
+            </div>
+            <div class="goal-card">
+                <h3>Customer Satisfaction Excellence</h3>
+                <p>Consumer Choice Awards 2023</p>
+            </div>
+            <div class="goal-card">
+                <h3>Top Wellness Platform</h3>
+                <p>Health Tech Awards 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center;">Start Your Wellness Journey Today</h2>
+            <p class="section-content" style="text-align: center; max-width: 700px; margin: 0 auto;">
+                Join thousands of satisfied members who have transformed their lives through our personalized nutrition
+                planning.
+            </p>
+            <a href="{% url 'login' %}" class="cta-button">Get Started Now</a>
+        </div>
+    </section>
+</div>
+{% endblock %}

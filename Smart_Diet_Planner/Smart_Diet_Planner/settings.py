@@ -9,9 +9,9 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
-
+import os
 from pathlib import Path
-
+from decouple import config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -30,6 +30,8 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+SITE_ID = 2
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,7 +39,23 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Diet_planner_app.apps.DietPlannerAppConfig',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+    'diet_plan.apps.DietPlanConfig',
+    'recipes.apps.RecipesConfig',
 ]
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': 
+    {
+        'SCOPE': ['email','profile'],
+    'AUTH_PARAMS':{'access_type': 'online'},
+    }
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -47,6 +65,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
+
 ]
 
 ROOT_URLCONF = 'Smart_Diet_Planner.urls'
@@ -54,7 +74,7 @@ ROOT_URLCONF = 'Smart_Diet_Planner.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS':  [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -62,6 +82,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -115,9 +137,39 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+# Static files (CSS, JavaScript, etc.)
+STATIC_URL = '/static/'  # Ensure there's a trailing slash
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'diet_plan/static/diet_plan'),
+    os.path.join(BASE_DIR, 'recipes/static/recipes'),
+]
+
+# Directory to collect all static files in production
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Media files (images, icons, etc.)
+MEDIA_URL = '/media/'  # Ensure there's a trailing slash
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#Authentication Backends
+AUTHENTICATION_BACKENDS =(
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+    'social_core.backends.facebook.FacebookOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+                          )
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+SOCIALACCOUNT_LOGIN_ON_GET = True
+SOCIAL_AUTH_FACEBOOK_KEY =config('SOCIAL_AUTH_FACEBOOK_KEY')
+SOCIAL_AUTH_FACEBOOK_SECRET=config('SOCIAL_AUTH_FACEBOOK_SECRET')
+GOOGLE_OAUTH_CLIENT_ID=config('GOOGLE_OAUTH_CLIENT_ID')
+GOOGLE_CLIENT_SECRET=config('GOOGLE_CLIENT_SECRET')
+SOCIALACCOUNT_AUTO_SIGNUP = True
+

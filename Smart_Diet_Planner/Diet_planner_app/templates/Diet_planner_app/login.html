@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    {% load static %}
+    <link href="https://fonts.cdnfonts.com/css/clash-display-variable" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'Diet_planner_app/login.css' %}">
+</head>
+
+<body>
+    {% load socialaccount %}
+    <div class="login_page">
+        <div class="container" id="container">
+            
+            <!-- Sign-Up Form -->
+            <div class="form-container sign-up-container">
+                <form action="{% url 'login' %}" method="POST">
+                    {% csrf_token %}
+                    <!-- Hidden method that will help to differentiate actions in view.py-->
+                    <input type="hidden" name="form_type" value="signup">
+                    <input type="hidden" name="signup_method" value="manual">
+                    <input type="hidden" name="next" value="{% url 'welcome' %}">
+
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><img src="/media/icons/apple.svg" alt="Apple"></a>
+                        <a href="{% url 'social:begin' 'facebook' %}?next={% url 'welcome' %}" class="social">
+                            <img src="/media/icons/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="{% provider_login_url 'google' %}?next={% url 'welcome' %}" class="social">
+                            <img src="/media/icons/google.svg" alt="Google">
+                        </a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text" name="name" placeholder="Name" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+
+            <!-- Sign-In Form -->
+            <div class="form-container sign-in-container">
+                <form action="{% url 'login' %}" method="POST">
+                    {% csrf_token %}
+                    
+                    <!-- Hidden method that will help to differentiate actions in view.py-->
+                    <input type="hidden" name="form_type" value="signin">
+                    <input type="hidden" name="auth_method" value="manual">
+
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><img src="/media/icons/apple.svg" alt="Apple"></a>
+                        <a href="{% url 'social:begin' 'facebook' %}?next={% url 'welcome' %}" class="social">
+                            <img src="/media/icons/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="{% provider_login_url 'google' %}?next={% url 'welcome' %}" class="social">
+                            <img src="/media/icons/google.svg" alt="Google">
+                        </a>
+                    </div>
+                    <span>or use your account</span>
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <a href="#">Forgot your password?</a>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+
+            <!-- Overlay for UI Animation -->
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Hello, Friend!</h1>
+                        <p>Enter your personal details and start your journey with us</p>
+                        <p class="question">Already have an account?</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Welcome Back!</h1>
+                        <p>To keep connected with us, please login with your personal info</p>
+                        <p class="question">Don't have an account?</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="{% static 'Diet_planner_app/login.js' %}"></script>
+</body>
+
+</html>
